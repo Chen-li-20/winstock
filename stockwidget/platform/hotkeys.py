@@ -1,0 +1,753 @@
+# -*- coding: utf-8 -*-
+"""
+跨平台全局快捷键管理器
+
+- Windows: 基于官方 RegisterHotKey API + QAbstractNativeEventFilter 监听 WM_HOTKEY。
+           相比第三方 keyboard 库,零额外依赖、更稳定、不易被杀毒软件误报。
+           注册失败时可区分"被其他程序占用"(ERROR_HOTKEY_ALREADY_REGISTERED),
+           冲突时 RegisterHotKey 不会抢占,不会影响其他应用。
+- macOS:   基于官方 Carbon RegisterEventHotKey API(通过 ctypes 调用,零额外依赖)。
+           这是系统推荐的"注册式"全局快捷键方案:把组合键直接注册给系统,
+           按键事件经 InstallEventHandler 安装的 Carbon 处理器回传,在主线程回调。
+           相比"监听式"CGEventTap,无需"辅助功能/输入监控"授权,也不会在终端
+           打印 TSM AdjustCapsLockLED... 之类的输入监听日志。
+- 其他:    静默返回不支持(unsupported),不影响程序运行。
+- 保护:    `register()` 前先经 `is_reserved()` 黑名单拦截系统/通用快捷键
+           (如 Ctrl+C/V/A、Alt+Tab、Ctrl+Alt+Del、Win 组合等),返回
+           reason='reserved',避免注册后影响其他应用正常使用。
+
+用法示例:
+    mgr = GlobalHotkeyManager(parent)
+    result = mgr.register("Ctrl+Alt+F", callback)   # 返回 HotkeyResult
+    if not result:
+        print(result.reason)                         # 'conflict' / 'invalid' / ...
+    mgr.unregister_all()                             # 注销全部已注册热键
+"""
+
+import ctypes
+import struct
+import sys
+
+# 先判断系统类型,再按需 import 平台相关模块
+if sys.platform == "win32":
+    from ctypes import wintypes
+else:
+    wintypes = None
+
+from PySide6.QtCore import QAbstractNativeEventFilter, QCoreApplication, QObject
+from stockwidget.platform.capabilities import session_type
+
+# ---------------------------------------------------------------------------
+# 通用结果类型
+# ---------------------------------------------------------------------------
+
+class HotkeyResult:
+    """快捷键注册结果。`ok` 为是否成功,`reason` 为失败原因:
+    - 'conflict'    : 已被其他程序占用(热键冲突)
+    - 'invalid'     : 快捷键无法解析(缺修饰键 / 键不支持)
+    - 'reserved'    : 系统/通用快捷键,为避免影响其他应用而禁止注册
+    - 'unsupported' : 当前平台暂未实现
+    - 'failed'      : 其他系统错误
+    """
+
+    __slots__ = ("ok", "reason")
+
+    def __init__(self, ok: bool, reason: str = ""):
+        self.ok = bool(ok)
+        self.reason = reason
+
+    def __bool__(self) -> bool:
+        return self.ok
+
+    def __repr__(self) -> str:
+        return f"HotkeyResult(ok={self.ok}, reason={self.reason!r})"
+
+
+# ---------------------------------------------------------------------------
+# Windows: RegisterHotKey
+# ---------------------------------------------------------------------------
+
+WM_HOTKEY = 0x0312
+ERROR_HOTKEY_ALREADY_REGISTERED = 1409
+
+MOD_ALT = 0x0001
+MOD_CONTROL = 0x0002
+MOD_SHIFT = 0x0004
+MOD_WIN = 0x0008
+MOD_NOREPEAT = 0x4000  # Vista+ 有效:按住组合键时不因自动重复而反复触发
+
+# 常用虚拟键码(VK)映射
+_VK_MAP = {
+    "f1": 0x70, "f2": 0x71, "f3": 0x72, "f4": 0x73, "f5": 0x74, "f6": 0x75,
+    "f7": 0x76, "f8": 0x77, "f9": 0x78, "f10": 0x79, "f11": 0x7A, "f12": 0x7B,
+    "space": 0x20, "return": 0x0D, "enter": 0x0D, "tab": 0x09,
+    "esc": 0x1B, "escape": 0x1B, "backspace": 0x08,
+    "del": 0x2E, "delete": 0x2E, "insert": 0x2D, "home": 0x24, "end": 0x23,
+    "pageup": 0x21, "pagedown": 0x22,
+    "left": 0x25, "up": 0x26, "right": 0x27, "down": 0x28,
+    "minus": 0xBD, "-": 0xBD, "plus": 0xBB, "=": 0xBB,
+    "comma": 0xBC, ",": 0xBC, "period": 0xBE, ".": 0xBE,
+    "slash": 0xBF, "/": 0xBF,
+}
+
+# ---------------------------------------------------------------------------
+# macOS: Carbon RegisterEventHotKey（系统推荐的"注册式"全局快捷键）
+# ---------------------------------------------------------------------------
+
+# Carbon 修饰键掩码（Events.h）
+CARBON_CMD_KEY = 0x0100          # Command(⌘)
+CARBON_SHIFT_KEY = 0x0200        # Shift(⇧)
+CARBON_OPTION_KEY = 0x0800       # Option(⌥)
+CARBON_CONTROL_KEY = 0x1000      # Control(⌃)
+
+
+def _fourcc(s: str) -> int:
+    """四字符码（OSType）→ 整数（大端）。"""
+    return (ord(s[0]) << 24) | (ord(s[1]) << 16) | (ord(s[2]) << 8) | ord(s[3])
+
+
+# Carbon Events 常量（与系统 Events.h 一致）
+_K_EVENT_CLASS_KEYBOARD = _fourcc("keyb")        # kEventClassKeyboard
+_K_EVENT_HOTKEY_PRESSED = 5                       # kEventHotKeyPressed
+_K_EVENT_PARAM_DIRECT_OBJECT = _fourcc("----")    # kEventParamDirectObject
+_TYPE_EVENT_HOTKEY_ID = _fourcc("hkid")           # typeEventHotKeyID
+_MAC_HOTKEY_SIGNATURE = _fourcc("SWgt")           # 自定义热键签名
+_NO_ERR = 0
+_EVENT_HOTKEY_EXISTS_ERR = -9878                  # 组合键已被占用
+_EVENT_HOTKEY_INVALID_ERR = -9879                 # 无效组合键
+
+
+# EventHotKeyID / EventTypeSpec（Carbon 结构体）
+class _EventHotKeyID(ctypes.Structure):
+    _fields_ = [("signature", ctypes.c_uint32), ("id", ctypes.c_uint32)]
+
+
+class _EventTypeSpec(ctypes.Structure):
+    _fields_ = [("eventClass", ctypes.c_uint32), ("eventKind", ctypes.c_uint32)]
+
+
+# 事件处理器回调类型：OSStatus (*)(EventHandlerCallRef, EventRef, void*)
+_EVENT_HANDLER_CALLBACK = ctypes.CFUNCTYPE(
+    ctypes.c_int32, ctypes.c_void_p, ctypes.c_void_p, ctypes.c_void_p,
+)
+
+# macOS 硬件键码(keycode,US 布局)
+_MAC_KEYCODES = {
+    "a": 0, "s": 1, "d": 2, "f": 3, "h": 4, "g": 5, "z": 6, "x": 7, "c": 8, "v": 9,
+    "b": 11, "q": 12, "w": 13, "e": 14, "r": 15, "y": 16, "t": 17, "1": 18, "2": 19,
+    "3": 20, "4": 21, "6": 22, "5": 23, "=": 24, "9": 25, "7": 26, "-": 27, "8": 28,
+    "0": 29, "]": 30, "o": 31, "u": 32, "[": 33, "i": 34, "p": 35, "return": 36,
+    "l": 37, "j": 38, "'": 39, "k": 40, ";": 41, "\\": 42, ",": 43, "/": 44, "n": 45,
+    "m": 46, ".": 47, "tab": 48, "space": 49, "`": 50,
+    "delete": 51, "backspace": 51, "esc": 53, "escape": 53,
+    "del": 117, "forwarddelete": 117, "insert": 114,
+    "home": 115, "end": 119, "pageup": 116, "pagedown": 121,
+    "up": 126, "down": 125, "left": 123, "right": 124,
+    "f1": 122, "f2": 120, "f3": 99, "f4": 118, "f5": 96, "f6": 97, "f7": 98,
+    "f8": 100, "f9": 101, "f10": 109, "f11": 103, "f12": 111,
+}
+
+
+def _load_carbon():
+    """加载 Carbon 框架并设置函数签名（仅 macOS）。"""
+    if sys.platform != "darwin":
+        return None
+    try:
+        carbon = ctypes.cdll.LoadLibrary(
+            "/System/Library/Frameworks/Carbon.framework/Carbon")
+        carbon.GetApplicationEventTarget.restype = ctypes.c_void_p
+        carbon.GetApplicationEventTarget.argtypes = []
+
+        carbon.RegisterEventHotKey.restype = ctypes.c_int32
+        carbon.RegisterEventHotKey.argtypes = [
+            ctypes.c_uint32, ctypes.c_uint32, _EventHotKeyID,
+            ctypes.c_void_p, ctypes.c_uint32, ctypes.POINTER(ctypes.c_void_p),
+        ]
+        carbon.UnregisterEventHotKey.restype = ctypes.c_int32
+        carbon.UnregisterEventHotKey.argtypes = [ctypes.c_void_p]
+
+        carbon.InstallEventHandler.restype = ctypes.c_int32
+        carbon.InstallEventHandler.argtypes = [
+            ctypes.c_void_p, _EVENT_HANDLER_CALLBACK, ctypes.c_uint64,
+            ctypes.POINTER(_EventTypeSpec), ctypes.c_void_p, ctypes.POINTER(ctypes.c_void_p),
+        ]
+
+        carbon.GetEventParameter.restype = ctypes.c_int32
+        carbon.GetEventParameter.argtypes = [
+            ctypes.c_void_p, ctypes.c_uint32, ctypes.c_uint32,
+            ctypes.POINTER(ctypes.c_uint32), ctypes.c_uint64,
+            ctypes.POINTER(ctypes.c_uint64), ctypes.c_void_p,
+        ]
+        return carbon
+    except Exception:
+        return None
+
+
+# 模块级持有：Carbon 框架句柄、当前 manager（事件回调经此分发）
+_carbon = _load_carbon()
+_mac_manager = None
+
+if sys.platform == "darwin":
+    @_EVENT_HANDLER_CALLBACK
+    def _mac_hotkey_handler(handler_ref, event, user_data):
+        """Carbon 热键事件回调：读取 EventHotKeyID 并按 id 分发（主线程执行）。"""
+        try:
+            hid = _EventHotKeyID()
+            _carbon.GetEventParameter(
+                event, _K_EVENT_PARAM_DIRECT_OBJECT, _TYPE_EVENT_HOTKEY_ID,
+                None, ctypes.sizeof(_EventHotKeyID), None, ctypes.byref(hid),
+            )
+            mgr = _mac_manager
+            if mgr is not None:
+                mgr._dispatch(int(hid.id))
+        except Exception:
+            pass
+        return _NO_ERR
+else:
+    _mac_hotkey_handler = None
+
+
+# ---------------------------------------------------------------------------
+# 快捷键字符串解析(两种平台共享拆分逻辑)
+# ---------------------------------------------------------------------------
+
+def _split_hotkey(hotkey: str):
+    """把 'Ctrl+Alt+F' 解析为 (修饰键集合, 主键名);无法解析返回 None。
+
+    修饰键集合元素为规范化名字: ctrl / alt / shift / meta。
+    RegisterHotKey / RegisterEventHotKey 都要求至少一个修饰键,否则视为无效。
+    """
+    if not hotkey:
+        return None
+    mods = set()
+    key = None
+    for part in hotkey.lower().split("+"):
+        part = part.strip()
+        if not part:
+            continue
+        if part in ("ctrl", "control"):
+            mods.add("ctrl")
+        elif part == "alt":
+            mods.add("alt")
+        elif part == "shift":
+            mods.add("shift")
+        elif part in ("meta", "win", "super"):
+            mods.add("meta")
+        else:
+            if key is not None:
+                return None  # 出现多个主键,视为无效
+            key = part
+    if key is None or not mods:
+        return None
+    return mods, key
+
+
+def _mods_windows(mods: set) -> int:
+    value = 0
+    if "ctrl" in mods:
+        value |= MOD_CONTROL
+    if "alt" in mods:
+        value |= MOD_ALT
+    if "shift" in mods:
+        value |= MOD_SHIFT
+    if "meta" in mods:
+        value |= MOD_WIN
+    return value
+
+
+def _vk_windows(key: str):
+    vk = _VK_MAP.get(key)
+    if vk is None and len(key) == 1 and key.isalnum():
+        vk = ord(key.upper())
+    return vk
+
+
+def _parse_hotkey(hotkey: str):
+    """Windows 用解析:返回 (modifiers, vk);无效返回 None。"""
+    parts = _split_hotkey(hotkey)
+    if parts is None:
+        return None
+    mods, key = parts
+    vk = _vk_windows(key)
+    if vk is None:
+        return None
+    return _mods_windows(mods), vk
+
+
+def _mods_macos(mods: set) -> int:
+    """Qt 修饰键名 → Carbon 修饰键掩码。
+
+    Qt 在 macOS 的键盘映射:
+        "ctrl" → Command 键(⌘)   -> cmdKey
+        "alt"  → Option 键(⌥)    -> optionKey
+        "shift"→ Shift 键(⇧)     -> shiftKey
+        "meta" → Control 键(⌃)   -> controlKey
+    """
+    value = 0
+    if "ctrl" in mods:
+        value |= CARBON_CMD_KEY
+    if "alt" in mods:
+        value |= CARBON_OPTION_KEY
+    if "shift" in mods:
+        value |= CARBON_SHIFT_KEY
+    if "meta" in mods:
+        value |= CARBON_CONTROL_KEY
+    return value
+
+
+def _parse_hotkey_macos(hotkey: str):
+    """macOS 用解析:返回 (carbon_modmask, keycode);无效返回 None。"""
+    parts = _split_hotkey(hotkey)
+    if parts is None:
+        return None
+    mods, key = parts
+    keycode = _MAC_KEYCODES.get(key)
+    if keycode is None:
+        return None
+    return _mods_macos(mods), keycode
+
+
+# ---------------------------------------------------------------------------
+# 保留组合黑名单(避免影响其他应用)
+# ---------------------------------------------------------------------------
+
+# 系统硬保留/特殊组合(无论是否有程序占用都禁止注册)
+# 以 (修饰键集合, 主键) 元组匹配,确保 Alt+F4 与 Ctrl+Esc 等精确定位
+_RESERVED_EXACT = {
+    (frozenset({"ctrl", "alt"}), "del"),    # Ctrl+Alt+Del 安全注意序列
+    (frozenset({"alt"}), "tab"),            # 切换窗口
+    (frozenset({"alt"}), "esc"),            # 切换窗口
+    (frozenset({"alt"}), "space"),          # 窗口系统菜单
+    (frozenset({"alt"}), "f4"),             # 关闭窗口
+    (frozenset({"ctrl"}), "esc"),           # 开始菜单
+    (frozenset({"ctrl", "shift"}), "esc"),  # 任务管理器
+}
+
+
+def _is_generic_key(key: str) -> bool:
+    """是否为通用快捷键常用的主键:单字母 / 数字 / 空格。"""
+    return (len(key) == 1 and (key.isalpha() or key.isdigit())) or key == "space"
+
+
+def is_reserved(hotkey: str) -> bool:
+    """判断该快捷键是否为"系统保留/通用快捷键",为避免影响其他应用应禁止注册。
+
+    规则(跨平台,在 Windows 与 macOS 上均生效):
+    - 含 Win/Meta 键的组合(系统级,且多为系统保留)
+    - 系统硬保留组合(Ctrl+Alt+Del、Alt+Tab、Alt+F4、Ctrl+Esc、Ctrl+Shift+Esc 等)
+    - 恰好一个修饰键(Ctrl 或 Alt)+ 通用主键(单字母/数字/空格):
+      如 Ctrl+C/V/X/A/S、Ctrl+Space(输入法切换)、Alt+F4 等
+    - Ctrl+Shift + 通用主键:如 Ctrl+Shift+S/T/Z(另存为/恢复标签/撤销)
+    - Ctrl+Alt + 主键:放行(这类组合应用很少占用,是安全的自定义空间)
+    """
+    parts = _split_hotkey(hotkey)
+    if parts is None:
+        return False
+    mods, key = parts
+    if "meta" in mods:
+        return True
+    if (frozenset(mods), key) in _RESERVED_EXACT:
+        return True
+    if len(mods) == 1 and ("ctrl" in mods or "alt" in mods):
+        return _is_generic_key(key)
+    if mods == {"ctrl", "shift"}:
+        return _is_generic_key(key)
+    return False
+
+
+# ---------------------------------------------------------------------------
+# Windows 事件过滤器
+# ---------------------------------------------------------------------------
+
+class _WindowsHotkeyEventFilter(QAbstractNativeEventFilter):
+    """监听 WM_HOTKEY 消息,按热键 id 分发回调。"""
+
+    def __init__(self, owner):
+        super().__init__()
+        self._owner = owner
+
+    def nativeEventFilter(self, eventType, message):
+        if bytes(eventType) == b"windows_generic_MSG":
+            msg = wintypes.MSG.from_address(int(message))
+            if msg.message == WM_HOTKEY:
+                handled = self._owner._dispatch(int(msg.wParam))
+                return handled, 0
+        return False, 0
+
+
+# ---------------------------------------------------------------------------
+# Linux/X11: XGrabKey
+# ---------------------------------------------------------------------------
+
+# X11 修饰键掩码
+X11_SHIFT_MASK = 1 << 0
+X11_LOCK_MASK = 1 << 1
+X11_CONTROL_MASK = 1 << 2
+X11_MOD1_MASK = 1 << 3   # Alt
+X11_MOD2_MASK = 1 << 4   # NumLock 所在位
+X11_MOD3_MASK = 1 << 5
+X11_MOD4_MASK = 1 << 6   # Super/Meta
+X11_MOD5_MASK = 1 << 7   # ScrollLock 所在位
+
+# 大小写锁/数字锁等"锁键"修饰位,匹配事件状态时忽略
+X11_IGNORE_MASK = X11_LOCK_MASK | X11_MOD2_MASK | X11_MOD5_MASK
+
+XCB_KEY_PRESS = 2        # xcb_key_press_event_t 的 response_type
+GrabModeAsync = 1
+BadAccess = 10           # 其他程序已抓取同一组合时 XGrabKey 产生的错误码
+
+
+def _mods_x11(mods: set) -> int:
+    value = 0
+    if "ctrl" in mods:
+        value |= X11_CONTROL_MASK
+    if "alt" in mods:
+        value |= X11_MOD1_MASK
+    if "shift" in mods:
+        value |= X11_SHIFT_MASK
+    if "meta" in mods:
+        value |= X11_MOD4_MASK
+    return value
+
+
+# 主键 -> XStringToKeysym 的规范名称(区分大小写;F 键需大写)
+_X11_KEYSYM_NAMES = {
+    "space": "space",
+    "return": "Return", "enter": "Return",
+    "tab": "Tab",
+    "esc": "Escape", "escape": "Escape",
+    "backspace": "BackSpace",
+    "del": "Delete", "delete": "Delete",
+    "insert": "Insert",
+    "home": "Home", "end": "End",
+    "pageup": "Page_Up", "pagedown": "Page_Down",
+    "left": "Left", "up": "Up", "right": "Right", "down": "Down",
+    "minus": "minus", "-": "minus",
+    "plus": "equal", "=": "equal",
+    "comma": "comma", ",": "comma",
+    "period": "period", ".": "period",
+    "slash": "slash", "/": "slash",
+    "f1": "F1", "f2": "F2", "f3": "F3", "f4": "F4",
+    "f5": "F5", "f6": "F6", "f7": "F7", "f8": "F8",
+    "f9": "F9", "f10": "F10", "f11": "F11", "f12": "F12",
+}
+
+
+def _keysym_name(key: str) -> str:
+    return _X11_KEYSYM_NAMES.get(key, key)
+
+
+class _X11HotkeyEventFilter(QAbstractNativeEventFilter):
+    """监听 X11 键盘事件,命中已抓取的全局快捷键时分发回调。"""
+
+    def __init__(self, owner):
+        super().__init__()
+        self._owner = owner
+
+    def nativeEventFilter(self, eventType, message):
+        try:
+            if bytes(eventType) != b"xcb_generic_event_t":
+                return False, 0
+            ptr = int(message)
+            if ptr == 0:
+                return False, 0
+            data = ctypes.string_at(ptr, 32)
+            if data[0] == XCB_KEY_PRESS:
+                keycode = data[1]
+                state = struct.unpack_from("<H", data, 28)[0]
+                if self._owner._dispatch_x11(keycode, state):
+                    return True, 0
+        except Exception:
+            pass
+        return False, 0
+
+
+# ---------------------------------------------------------------------------
+# 全局快捷键管理器
+# ---------------------------------------------------------------------------
+
+class GlobalHotkeyManager(QObject):
+    """跨平台全局快捷键管理器。
+
+    - Windows: 官方 RegisterHotKey,热键回调直接进入 Qt 事件循环(主线程)。
+    - macOS:   Carbon RegisterEventHotKey,事件经 InstallEventHandler 安装的处理器
+               在应用主运行循环(NSApplication)中派发,回调在主线程执行。
+    - Linux/X11: XGrabKey 抓取全局组合键,经 X11 事件过滤器分发。
+    - 其他(如 Wayland): register 返回 'unsupported',不影响程序运行。
+    """
+
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self._callbacks = {}      # 热键 id -> callback
+        self._next_id = 1
+        self._filter = None
+        # macOS 专用状态（Carbon RegisterEventHotKey）
+        self._mac_refs = {}           # hotkey_id -> EventHotKeyRef
+        self._mac_handler_ref = None  # EventHandlerRef（首次注册时安装，进程内复用）
+        self._mac_handler_installed = False
+        # Linux/X11 专用状态
+        self._x11_lib = None
+        self._x11_display = None
+        self._x11_root = 0
+        self._x11_grabs = {}      # keycode -> [(core_modmask, callback, [modmask,...])]
+        self._x11_filter = None
+
+    # ----- 公共接口 -----
+    def register(self, hotkey: str, callback) -> HotkeyResult:
+        """注册全局快捷键。返回 HotkeyResult,冲突/无效/保留/不支持时 ok=False。"""
+        # 先拦截系统/通用快捷键,避免注册后影响其他应用正常使用
+        if is_reserved(hotkey):
+            return HotkeyResult(False, "reserved")
+        system = sys.platform
+        if system == "win32":
+            return self._register_windows(hotkey, callback)
+        if system == "darwin":
+            return self._register_macos(hotkey, callback)
+        if system == "linux":
+            if session_type() == "x11":
+                return self._register_x11(hotkey, callback)
+            return HotkeyResult(False, "unsupported")
+        return HotkeyResult(False, "unsupported")
+
+    def unregister_all(self):
+        """注销全部已注册的全局快捷键。"""
+        system = sys.platform
+        if system == "win32":
+            self._unregister_all_windows()
+        elif system == "darwin":
+            self._unregister_all_macos()
+        elif system == "linux" and session_type() == "x11":
+            self._unregister_all_x11()
+        self._callbacks.clear()
+        self._next_id = 1
+
+    # ----- Windows 实现 -----
+    def _register_windows(self, hotkey: str, callback) -> HotkeyResult:
+        parsed = _parse_hotkey(hotkey)
+        if parsed is None:
+            return HotkeyResult(False, "invalid")
+        mods, vk = parsed
+        try:
+            user32 = ctypes.WinDLL("user32", use_last_error=True)
+            if self._filter is None:
+                self._filter = _WindowsHotkeyEventFilter(self)
+                app = QCoreApplication.instance()
+                if app is not None:
+                    app.installNativeEventFilter(self._filter)
+            hotkey_id = self._next_id
+            # hwnd 传 NULL:注册到当前线程,WM_HOTKEY 进入 Qt 事件循环
+            ok = user32.RegisterHotKey(None, hotkey_id, mods | MOD_NOREPEAT, vk)
+            if not ok:
+                if ctypes.get_last_error() == ERROR_HOTKEY_ALREADY_REGISTERED:
+                    return HotkeyResult(False, "conflict")
+                return HotkeyResult(False, "failed")
+            self._callbacks[hotkey_id] = callback
+            self._next_id += 1
+            return HotkeyResult(True)
+        except Exception:
+            return HotkeyResult(False, "failed")
+
+    def _unregister_all_windows(self):
+        try:
+            user32 = ctypes.WinDLL("user32", use_last_error=True)
+            for hotkey_id in self._callbacks:
+                user32.UnregisterHotKey(None, hotkey_id)
+        except Exception:
+            pass
+
+    # ----- Linux/X11 实现 -----
+    def _ensure_x11(self):
+        """打开 X11 显示并初始化函数签名(只做一次)。失败返回 None。"""
+        if self._x11_lib is not None:
+            return self._x11_lib
+        try:
+            lib = ctypes.CDLL("libX11.so.6")
+            lib.XOpenDisplay.restype = ctypes.c_void_p
+            lib.XOpenDisplay.argtypes = [ctypes.c_char_p]
+            dpy = lib.XOpenDisplay(None)  # 使用 $DISPLAY
+            if not dpy:
+                return None
+            lib.XDefaultRootWindow.restype = ctypes.c_ulong
+            lib.XDefaultRootWindow.argtypes = [ctypes.c_void_p]
+            root = lib.XDefaultRootWindow(dpy)
+            lib.XKeysymToKeycode.argtypes = [ctypes.c_void_p, ctypes.c_ulong]
+            lib.XKeysymToKeycode.restype = ctypes.c_ubyte
+            lib.XStringToKeysym.argtypes = [ctypes.c_char_p]
+            lib.XStringToKeysym.restype = ctypes.c_ulong
+            lib.XGrabKey.argtypes = [ctypes.c_void_p, ctypes.c_int, ctypes.c_uint,
+                                     ctypes.c_ulong, ctypes.c_int, ctypes.c_int, ctypes.c_int]
+            lib.XGrabKey.restype = ctypes.c_int
+            lib.XUngrabKey.argtypes = [ctypes.c_void_p, ctypes.c_int, ctypes.c_uint, ctypes.c_ulong]
+            lib.XSync.argtypes = [ctypes.c_void_p, ctypes.c_int]
+
+            # 安装空错误处理器,吞掉 BadAccess(组合键已被其他程序占用)等错误,
+            # 避免 X 默认错误处理器终止整个进程。
+            XErrorHandler = ctypes.CFUNCTYPE(
+                ctypes.c_int, ctypes.c_void_p, ctypes.c_void_p)
+
+            @XErrorHandler
+            def _err_handler(display, event):
+                return 0
+
+            self._x11_error_handler_cb = _err_handler
+            lib.XSetErrorHandler.argtypes = [XErrorHandler]
+            lib.XSetErrorHandler.restype = XErrorHandler
+            self._x11_error_handler = lib.XSetErrorHandler(_err_handler)
+
+            self._x11_lib = lib
+            self._x11_display = dpy
+            self._x11_root = root
+            return lib
+        except Exception:
+            return None
+
+    def _register_x11(self, hotkey: str, callback) -> HotkeyResult:
+        parsed = _split_hotkey(hotkey)
+        if parsed is None:
+            return HotkeyResult(False, "invalid")
+        mods, key = parsed
+        modmask = _mods_x11(mods)
+        if modmask == 0:
+            return HotkeyResult(False, "invalid")
+        try:
+            lib = self._ensure_x11()
+            if lib is None:
+                return HotkeyResult(False, "unsupported")
+            keysym = lib.XStringToKeysym(_keysym_name(key).encode())
+            if keysym == 0:
+                return HotkeyResult(False, "invalid")
+            keycode = lib.XKeysymToKeycode(self._x11_display, keysym)
+            if keycode == 0:
+                return HotkeyResult(False, "invalid")
+
+            # 一次抓取"核心修饰 + 大小写锁/数字锁/滚动锁"的 8 种组合,
+            # 保证在 CapsLock/NumLock 等锁定状态下也能触发。
+            combos = []
+            lock_bits = (X11_LOCK_MASK, X11_MOD2_MASK, X11_MOD5_MASK)
+            for i in range(1 << len(lock_bits)):
+                extra = 0
+                for j, bit in enumerate(lock_bits):
+                    if i & (1 << j):
+                        extra |= bit
+                m = modmask | extra
+                if lib.XGrabKey(self._x11_display, keycode, m, self._x11_root,
+                                True, GrabModeAsync, GrabModeAsync) != 0:
+                    return HotkeyResult(False, "conflict")
+                combos.append(m)
+            lib.XSync(self._x11_display, False)
+
+            if self._x11_filter is None:
+                self._x11_filter = _X11HotkeyEventFilter(self)
+                app = QCoreApplication.instance()
+                if app is not None:
+                    app.installNativeEventFilter(self._x11_filter)
+            self._x11_grabs.setdefault(keycode, []).append((modmask, callback, combos))
+            return HotkeyResult(True)
+        except Exception:
+            return HotkeyResult(False, "failed")
+
+    def _unregister_all_x11(self):
+        try:
+            if self._x11_display is None:
+                return
+            for keycode, entries in self._x11_grabs.items():
+                for _core, _callback, combos in entries:
+                    for m in combos:
+                        self._x11_lib.XUngrabKey(self._x11_display, keycode, m, self._x11_root)
+            self._x11_grabs.clear()
+            self._x11_lib.XSync(self._x11_display, False)
+        except Exception:
+            pass
+
+    def _dispatch_x11(self, keycode: int, state: int) -> bool:
+        """X11 按键分发:命中已抓取组合时调用回调。返回是否已处理。"""
+        entries = self._x11_grabs.get(keycode)
+        if not entries:
+            return False
+        core = state & ~X11_IGNORE_MASK
+        matched = False
+        for modmask, callback, _combos in entries:
+            if core == modmask:
+                callback()
+                matched = True
+        return matched
+
+    # ----- macOS 实现(Carbon RegisterEventHotKey)-----
+    def _register_macos(self, hotkey: str, callback) -> HotkeyResult:
+        parsed = _parse_hotkey_macos(hotkey)
+        if parsed is None:
+            return HotkeyResult(False, "invalid")
+        modmask, keycode = parsed
+        if _carbon is None:
+            return HotkeyResult(False, "failed")
+        try:
+            if not self._mac_handler_installed and not self._install_mac_handler():
+                return HotkeyResult(False, "failed")
+
+            global _mac_manager
+            _mac_manager = self
+
+            hotkey_id = self._next_id
+            hkid = _EventHotKeyID(_MAC_HOTKEY_SIGNATURE, hotkey_id)
+            ref = ctypes.c_void_p()
+            status = _carbon.RegisterEventHotKey(
+                keycode, modmask, hkid,
+                _carbon.GetApplicationEventTarget(), 0, ctypes.byref(ref),
+            )
+            if status != _NO_ERR:
+                if status == _EVENT_HOTKEY_EXISTS_ERR:
+                    return HotkeyResult(False, "conflict")
+                if status == _EVENT_HOTKEY_INVALID_ERR:
+                    return HotkeyResult(False, "invalid")
+                return HotkeyResult(False, "failed")
+            if not ref.value:
+                return HotkeyResult(False, "failed")
+
+            self._mac_refs[hotkey_id] = ref.value
+            self._callbacks[hotkey_id] = callback
+            self._next_id += 1
+            return HotkeyResult(True)
+        except Exception:
+            return HotkeyResult(False, "failed")
+
+    def _install_mac_handler(self) -> bool:
+        """安装应用级 Carbon 键盘事件处理器（首次注册时执行一次）。"""
+        global _mac_manager
+        _mac_manager = self
+        try:
+            spec = _EventTypeSpec(_K_EVENT_CLASS_KEYBOARD, _K_EVENT_HOTKEY_PRESSED)
+            handler_ref = ctypes.c_void_p()
+            status = _carbon.InstallEventHandler(
+                _carbon.GetApplicationEventTarget(),
+                _mac_hotkey_handler,
+                1,
+                ctypes.byref(spec),
+                None,
+                ctypes.byref(handler_ref),
+            )
+            if status != _NO_ERR or not handler_ref.value:
+                return False
+            self._mac_handler_ref = handler_ref.value
+            self._mac_handler_installed = True
+            return True
+        except Exception:
+            return False
+
+    def _unregister_all_macos(self):
+        global _mac_manager
+        if _mac_manager is self:
+            _mac_manager = None
+        for ref in self._mac_refs.values():
+            try:
+                _carbon.UnregisterEventHotKey(ref)
+            except Exception:
+                pass
+        self._mac_refs.clear()
+
+    # ----- 分发 -----
+    def _dispatch(self, hotkey_id: int) -> bool:
+        callback = self._callbacks.get(hotkey_id)
+        if callback is None:
+            return False
+        callback()
+        return True

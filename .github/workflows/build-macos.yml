@@ -1,0 +1,43 @@
+name: Build macOS
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+jobs:
+  build-macos:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Build with PyInstaller
+        run: |
+          pyinstaller --clean --noconfirm StockWidget.spec
+
+      - name: Ad-hoc codesign (Apple Silicon)
+        run: |
+          codesign --force --deep -s - dist/StockWidget.app
+
+      - name: Create zip
+        run: |
+          ditto -c -k --sequesterRsrc --keepParent dist/StockWidget.app StockWidget-macos.zip
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: StockWidget-MacOS
+          path: StockWidget-macos.zip
