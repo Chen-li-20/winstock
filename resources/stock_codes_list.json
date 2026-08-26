@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-08-25",
+  "last_update": "2026-08-26",
   "codes": {
     "sh605599": {
       "code": "605599",
@@ -2853,9 +2853,9 @@
       "code": "603558",
       "type": "沪",
       "market": "sh",
-      "name": "XD健盛集",
-      "py": "xdjianshengji",
-      "abbr": "xdjsj"
+      "name": "健盛集团",
+      "py": "jianshengjituan",
+      "abbr": "jsjt"
     },
     "sh603557": {
       "code": "603557",
@@ -3237,9 +3237,9 @@
       "code": "603406",
       "type": "沪",
       "market": "sh",
-      "name": "天富龙",
-      "py": "tianfulong",
-      "abbr": "tfl"
+      "name": "XD天富龙",
+      "py": "xdtianfulong",
+      "abbr": "xdtfl"
     },
     "sh603402": {
       "code": "603402",
@@ -5909,9 +5909,9 @@
       "code": "601991",
       "type": "沪",
       "market": "sh",
-      "name": "大唐发电",
-      "py": "datangfadian",
-      "abbr": "dtfd"
+      "name": "XD大唐发",
+      "py": "xddatangfa",
+      "abbr": "xddtf"
     },
     "sh601990": {
       "code": "601990",
@@ -6125,9 +6125,9 @@
       "code": "601898",
       "type": "沪",
       "market": "sh",
-      "name": "中煤能源",
-      "py": "zhongmeinengyuan",
-      "abbr": "zmny"
+      "name": "XD中煤能",
+      "py": "xdzhongmeineng",
+      "abbr": "xdzmn"
     },
     "sh601890": {
       "code": "601890",
@@ -6677,9 +6677,9 @@
       "code": "601595",
       "type": "沪",
       "market": "sh",
-      "name": "上海电影",
-      "py": "shanghaidianying",
-      "abbr": "shdy"
+      "name": "XD上海电",
+      "py": "xdshanghaidian",
+      "abbr": "xdshd"
     },
     "sh601588": {
       "code": "601588",
@@ -10285,9 +10285,9 @@
       "code": "600620",
       "type": "沪",
       "market": "sh",
-      "name": "XD天宸股",
-      "py": "xdtianchengu",
-      "abbr": "xdtcg"
+      "name": "天宸股份",
+      "py": "tianchengufen",
+      "abbr": "tcgf"
     },
     "sh600619": {
       "code": "600619",
@@ -10949,9 +10949,9 @@
       "code": "600525",
       "type": "沪",
       "market": "sh",
-      "name": "ST长园",
-      "py": "stzhangyuan",
-      "abbr": "stzy"
+      "name": "长园集团",
+      "py": "zhangyuanjituan",
+      "abbr": "zyjt"
     },
     "sh600523": {
       "code": "600523",
@@ -12661,9 +12661,9 @@
       "code": "600249",
       "type": "沪",
       "market": "sh",
-      "name": "两面针",
-      "py": "liangmianzhen",
-      "abbr": "lmz"
+      "name": "XD两面针",
+      "py": "xdliangmianzhen",
+      "abbr": "xdlmz"
     },
     "sh600248": {
       "code": "600248",
@@ -13213,9 +13213,9 @@
       "code": "600165",
       "type": "沪",
       "market": "sh",
-      "name": "ST宁科",
-      "py": "stningke",
-      "abbr": "stnk"
+      "name": "宁科生物",
+      "py": "ningkeshengwu",
+      "abbr": "nksw"
     },
     "sh600163": {
       "code": "600163",
@@ -14713,21 +14713,29 @@
       "py": "zhongxinguoji",
       "abbr": "zxgj"
     },
+    "sh688837": {
+      "code": "688837",
+      "type": "科",
+      "market": "sh",
+      "name": "信诺维",
+      "py": "xinnuowei",
+      "abbr": "xnw"
+    },
     "sh688836": {
       "code": "688836",
       "type": "科",
       "market": "sh",
-      "name": "C宇树-W",
-      "py": "cyushu-w",
-      "abbr": "cys-w"
+      "name": "宇树科技-W",
+      "py": "yushukeji-w",
+      "abbr": "yskj-w"
     },
     "sh688835": {
       "code": "688835",
       "type": "科",
       "market": "sh",
-      "name": "N高凯",
-      "py": "ngaokai",
-      "abbr": "ngk"
+      "name": "C高凯",
+      "py": "cgaokai",
+      "abbr": "cgk"
     },
     "sh688828": {
       "code": "688828",
@@ -48189,9 +48197,9 @@
       "code": "588890",
       "type": "基",
       "market": "sh",
-      "name": "科创芯片ETF南方",
-      "py": "kechuangxinpianetfnanfang",
-      "abbr": "kcxpetfnf"
+      "name": "UC科创芯片ETF南方",
+      "py": "uckechuangxinpianetfnanfang",
+      "abbr": "uckcxpetfnf"
     },
     "sh588880": {
       "code": "588880",
@@ -48797,9 +48805,9 @@
       "code": "563980",
       "type": "基",
       "market": "sh",
-      "name": "XD800红利低波ETF鑫元",
-      "py": "xd800honglidiboetfxinyuan",
-      "abbr": "xd800hldbetfxy"
+      "name": "800红利低波ETF鑫元",
+      "py": "800honglidiboetfxinyuan",
+      "abbr": "800hldbetfxy"
     },
     "sh563960": {
       "code": "563960",
@@ -52973,9 +52981,9 @@
       "code": "513820",
       "type": "基",
       "market": "sh",
-      "name": "港股通红利ETF汇添富",
-      "py": "ganggutonghonglietfhuitianfu",
-      "abbr": "ggthletfhtf"
+      "name": "XD港股通红利ETF汇添富",
+      "py": "xdganggutonghonglietfhuitianfu",
+      "abbr": "xdggthletfhtf"
     },
     "sh513810": {
       "code": "513810",
@@ -60297,6 +60305,14 @@
       "py": "ganggutongyiliaoetfjiashi",
       "abbr": "ggtyletfjs"
     },
+    "sh158000": {
+      "code": "158000",
+      "type": "基",
+      "market": "sh",
+      "name": "港股通金融ETF鹏华",
+      "py": "ganggutongjinrongetfpenghua",
+      "abbr": "ggtjretfph"
+    },
     "sh551900": {
       "code": "551900",
       "type": "基",
@@ -63917,9 +63933,9 @@
       "code": "508097",
       "type": "基",
       "market": "sh",
-      "name": "XD华泰南京建邺REIT",
-      "py": "xdhuatainanjingjianyereit",
-      "abbr": "xdhtnjjyreit"
+      "name": "华泰南京建邺REIT",
+      "py": "huatainanjingjianyereit",
+      "abbr": "htnjjyreit"
     },
     "sh508096": {
       "code": "508096",
@@ -63941,17 +63957,17 @@
       "code": "508092",
       "type": "基",
       "market": "sh",
-      "name": "XD华夏金隅智造工场REIT",
-      "py": "xdhuaxiajinyuzhizaogongchangreit",
-      "abbr": "xdhxjyzzgcreit"
+      "name": "华夏金隅智造工场REIT",
+      "py": "huaxiajinyuzhizaogongchangreit",
+      "abbr": "hxjyzzgcreit"
     },
     "sh508091": {
       "code": "508091",
       "type": "基",
       "market": "sh",
-      "name": "华夏凯德消费REIT",
-      "py": "huaxiakaidexiaofeireit",
-      "abbr": "hxkdxfreit"
+      "name": "XD华夏凯德消费REIT",
+      "py": "xdhuaxiakaidexiaofeireit",
+      "abbr": "xdhxkdxfreit"
     },
     "sh508090": {
       "code": "508090",
@@ -63997,9 +64013,9 @@
       "code": "508085",
       "type": "基",
       "market": "sh",
-      "name": "XD华泰苏州恒泰租赁住房REIT",
-      "py": "xdhuataisuzhouhengtaizulinzhufangreit",
-      "abbr": "xdhtszhtzlzfreit"
+      "name": "华泰苏州恒泰租赁住房REIT",
+      "py": "huataisuzhouhengtaizulinzhufangreit",
+      "abbr": "htszhtzlzfreit"
     },
     "sh508084": {
       "code": "508084",
@@ -64061,9 +64077,9 @@
       "code": "508066",
       "type": "基",
       "market": "sh",
-      "name": "XD华泰江苏交控REIT",
-      "py": "xdhuataijiangsujiaokongreit",
-      "abbr": "xdhtjsjkreit"
+      "name": "华泰江苏交控REIT",
+      "py": "huataijiangsujiaokongreit",
+      "abbr": "htjsjkreit"
     },
     "sh508060": {
       "code": "508060",
@@ -64197,9 +64213,9 @@
       "code": "508022",
       "type": "基",
       "market": "sh",
-      "name": "博时津开产园REIT",
-      "py": "boshijinkaichanyuanreit",
-      "abbr": "bsjkcyreit"
+      "name": "XD博时津开产园REIT",
+      "py": "xdboshijinkaichanyuanreit",
+      "abbr": "xdbsjkcyreit"
     },
     "sh508021": {
       "code": "508021",
@@ -64317,9 +64333,9 @@
       "code": "508005",
       "type": "基",
       "market": "sh",
-      "name": "华夏首创奥莱REIT",
-      "py": "huaxiashouchuangaolaireit",
-      "abbr": "hxscalreit"
+      "name": "XD华夏首创奥莱REIT",
+      "py": "xdhuaxiashouchuangaolaireit",
+      "abbr": "xdhxscalreit"
     },
     "sh508003": {
       "code": "508003",
@@ -92057,15 +92073,6 @@
       "abbr": "zggj-ew",
       "engname": "CN CULTURE-20K"
     },
-    "hk02907": {
-      "code": "02907",
-      "type": "港",
-      "market": "hk",
-      "name": "中木国际股权",
-      "py": "zhongmuguojiguquan",
-      "abbr": "zmgjgq",
-      "engname": "CH WOOD INT RTS"
-    },
     "hk02908": {
       "code": "02908",
       "type": "港",
@@ -98865,10 +98872,10 @@
       "code": "09963",
       "type": "港",
       "market": "hk",
-      "name": "高科桥",
-      "py": "gaokeqiao",
-      "abbr": "gkq",
-      "engname": "TRANSTECH"
+      "name": "高科桥光导",
+      "py": "gaokeqiaoguangdao",
+      "abbr": "gkqgd",
+      "engname": "TRANSTECH OPTEL"
     },
     "hk09966": {
       "code": "09966",
