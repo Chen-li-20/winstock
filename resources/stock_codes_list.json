@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-08-28",
+  "last_update": "2026-08-31",
   "codes": {
     "sh605599": {
       "code": "605599",
@@ -581,9 +581,9 @@
       "code": "605136",
       "type": "沪",
       "market": "sh",
-      "name": "丽人丽妆",
-      "py": "lirenlizhuang",
-      "abbr": "lrlz"
+      "name": "XD丽人丽",
+      "py": "xdlirenli",
+      "abbr": "xdlrl"
     },
     "sh605133": {
       "code": "605133",
@@ -6365,9 +6365,9 @@
       "code": "601788",
       "type": "沪",
       "market": "sh",
-      "name": "XD光大证",
-      "py": "xdguangdazheng",
-      "abbr": "xdgdz"
+      "name": "光大证券",
+      "py": "guangdazhengquan",
+      "abbr": "gdzq"
     },
     "sh601778": {
       "code": "601778",
@@ -8829,9 +8829,9 @@
       "code": "600817",
       "type": "沪",
       "market": "sh",
-      "name": "XD宇通重",
-      "py": "xdyutongzhong",
-      "abbr": "xdytz"
+      "name": "宇通重工",
+      "py": "yutongzhonggong",
+      "abbr": "ytzg"
     },
     "sh600816": {
       "code": "600816",
@@ -19381,9 +19381,9 @@
       "code": "688036",
       "type": "科",
       "market": "sh",
-      "name": "传音控股",
-      "py": "chuanyinkonggu",
-      "abbr": "cykg"
+      "name": "XD传音控",
+      "py": "xdchuanyinkong",
+      "abbr": "xdcyk"
     },
     "sh688035": {
       "code": "688035",
@@ -23093,9 +23093,9 @@
       "code": "002586",
       "type": "深",
       "market": "",
-      "name": "ST围海",
-      "py": "stweihai",
-      "abbr": "stwh"
+      "name": "围海股份",
+      "py": "weihaigufen",
+      "abbr": "whgf"
     },
     "002585": {
       "code": "002585",
@@ -30437,9 +30437,9 @@
       "code": "000711",
       "type": "深",
       "market": "",
-      "name": "ST京蓝",
-      "py": "stjinglan",
-      "abbr": "stjl"
+      "name": "京蓝科技",
+      "py": "jinglankeji",
+      "abbr": "jlkj"
     },
     "000710": {
       "code": "000710",
@@ -46205,9 +46205,9 @@
       "code": "920288",
       "type": "京",
       "market": "bj",
-      "name": "N华大",
-      "py": "nhuada",
-      "abbr": "nhd"
+      "name": "华大海天",
+      "py": "huadahaitian",
+      "abbr": "hdht"
     },
     "bj920284": {
       "code": "920284",
@@ -49757,9 +49757,9 @@
       "code": "561730",
       "type": "基",
       "market": "sh",
-      "name": "NA股ETF华夏",
-      "py": "naguetfhuaxia",
-      "abbr": "nagetfhx"
+      "name": "A股ETF华夏",
+      "py": "aguetfhuaxia",
+      "abbr": "agetfhx"
     },
     "sh561700": {
       "code": "561700",
@@ -61501,9 +61501,9 @@
       "code": "501029",
       "type": "基",
       "market": "sh",
-      "name": "XD红利基金LOF",
-      "py": "xdhonglijijinlof",
-      "abbr": "xdhljjlof"
+      "name": "红利基金LOF",
+      "py": "honglijijinlof",
+      "abbr": "hljjlof"
     },
     "sh501028": {
       "code": "501028",
