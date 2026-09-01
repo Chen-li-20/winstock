@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-08-31",
+  "last_update": "2026-09-01",
   "codes": {
     "sh605599": {
       "code": "605599",
@@ -581,9 +581,9 @@
       "code": "605136",
       "type": "沪",
       "market": "sh",
-      "name": "XD丽人丽",
-      "py": "xdlirenli",
-      "abbr": "xdlrl"
+      "name": "丽人丽妆",
+      "py": "lirenlizhuang",
+      "abbr": "lrlz"
     },
     "sh605133": {
       "code": "605133",
@@ -7301,9 +7301,9 @@
       "code": "601123",
       "type": "沪",
       "market": "sh",
-      "name": "马矿股份",
-      "py": "makuanggufen",
-      "abbr": "mkgf"
+      "name": "N马矿",
+      "py": "nmakuang",
+      "abbr": "nmk"
     },
     "sh601121": {
       "code": "601121",
@@ -7424,6 +7424,14 @@
       "name": "宏盛华源",
       "py": "hongshenghuayuan",
       "abbr": "hshy"
+    },
+    "sh601091": {
+      "code": "601091",
+      "type": "沪",
+      "market": "sh",
+      "name": "沈鼓集团",
+      "py": "shengujituan",
+      "abbr": "sgjt"
     },
     "sh601089": {
       "code": "601089",
@@ -7781,9 +7789,9 @@
       "code": "600989",
       "type": "沪",
       "market": "sh",
-      "name": "宝丰能源",
-      "py": "baofengnengyuan",
-      "abbr": "bfny"
+      "name": "XD宝丰能",
+      "py": "xdbaofengneng",
+      "abbr": "xdbfn"
     },
     "sh600988": {
       "code": "600988",
@@ -11973,9 +11981,9 @@
       "code": "600351",
       "type": "沪",
       "market": "sh",
-      "name": "亚宝药业",
-      "py": "yabaoyaoye",
-      "abbr": "ybyy"
+      "name": "XD亚宝药",
+      "py": "xdyabaoyao",
+      "abbr": "xdyby"
     },
     "sh600350": {
       "code": "600350",
@@ -14733,9 +14741,9 @@
       "code": "688835",
       "type": "科",
       "market": "sh",
-      "name": "C高凯",
-      "py": "cgaokai",
-      "abbr": "cgk"
+      "name": "高凯技术",
+      "py": "gaokaijishu",
+      "abbr": "gkjs"
     },
     "sh688828": {
       "code": "688828",
@@ -19381,9 +19389,9 @@
       "code": "688036",
       "type": "科",
       "market": "sh",
-      "name": "XD传音控",
-      "py": "xdchuanyinkong",
-      "abbr": "xdcyk"
+      "name": "传音控股",
+      "py": "chuanyinkonggu",
+      "abbr": "cykg"
     },
     "sh688035": {
       "code": "688035",
@@ -32797,9 +32805,9 @@
       "code": "301697",
       "type": "创",
       "market": "",
-      "name": "贝特利",
-      "py": "beiteli",
-      "abbr": "btl"
+      "name": "N贝特利",
+      "py": "nbeiteli",
+      "abbr": "nbtl"
     },
     "301696": {
       "code": "301696",
@@ -46193,6 +46201,14 @@
       "py": "cannengdianli",
       "abbr": "cndl"
     },
+    "bj920298": {
+      "code": "920298",
+      "type": "京",
+      "market": "bj",
+      "name": "腾信精密",
+      "py": "tengxinjingmi",
+      "abbr": "txjm"
+    },
     "bj920289": {
       "code": "920289",
       "type": "京",
@@ -49552,6 +49568,14 @@
       "name": "碳中和ETF银华",
       "py": "tanzhongheetfyinhua",
       "abbr": "tzhetfyh"
+    },
+    "sh562180": {
+      "code": "562180",
+      "type": "基",
+      "market": "sh",
+      "name": "NA500红利低波ETF招商",
+      "py": "na500honglidiboetfzhaoshang",
+      "abbr": "na500hldbetfzs"
     },
     "sh562080": {
       "code": "562080",
@@ -53637,9 +53661,9 @@
       "code": "512700",
       "type": "基",
       "market": "sh",
-      "name": "银行ETF南方",
-      "py": "yinhangetfnanfang",
-      "abbr": "yhetfnf"
+      "name": "XD银行ETF南方",
+      "py": "xdyinhangetfnanfang",
+      "abbr": "xdyhetfnf"
     },
     "sh512690": {
       "code": "512690",
@@ -78607,6 +78631,15 @@
       "abbr": "jqjtkg",
       "engname": "GOLDENBRIDGE GP"
     },
+    "hk00625": {
+      "code": "00625",
+      "type": "港",
+      "market": "hk",
+      "name": "希音-W",
+      "py": "xiyin-w",
+      "abbr": "xy-w",
+      "engname": "SHEIN-W"
+    },
     "hk00626": {
       "code": "00626",
       "type": "港",
@@ -98281,6 +98314,15 @@
       "abbr": "lqkj",
       "engname": "LONGCHEER"
     },
+    "hk09615": {
+      "code": "09615",
+      "type": "港",
+      "market": "hk",
+      "name": "梅卡曼德机器人",
+      "py": "meikamandejiqiren",
+      "abbr": "mkmdjqr",
+      "engname": "MECH-MIND ROBOT"
+    },
     "hk09616": {
       "code": "09616",
       "type": "港",
@@ -98663,10 +98705,10 @@
       "code": "09888",
       "type": "港",
       "market": "hk",
-      "name": "百度集团-SW",
-      "py": "baidujituan-sw",
-      "abbr": "bdjt-sw",
-      "engname": "BIDU-SW"
+      "name": "百度集团-W",
+      "py": "baidujituan-w",
+      "abbr": "bdjt-w",
+      "engname": "BIDU-W"
     },
     "hk09889": {
       "code": "09889",
@@ -99392,10 +99434,10 @@
       "code": "89888",
       "type": "港",
       "market": "hk",
-      "name": "百度集团-SWR",
-      "py": "baidujituan-swr",
-      "abbr": "bdjt-swr",
-      "engname": "BIDU-SWR"
+      "name": "百度集团-WR",
+      "py": "baidujituan-wr",
+      "abbr": "bdjt-wr",
+      "engname": "BIDU-WR"
     },
     "hk89988": {
       "code": "89988",
