@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-09-02",
+  "last_update": "2026-09-03",
   "codes": {
     "sh605599": {
       "code": "605599",
@@ -16053,9 +16053,9 @@
       "code": "688578",
       "type": "科",
       "market": "sh",
-      "name": "XD艾力斯",
-      "py": "xdailisi",
-      "abbr": "xdals"
+      "name": "艾力斯",
+      "py": "ailisi",
+      "abbr": "als"
     },
     "sh688577": {
       "code": "688577",
@@ -16237,9 +16237,9 @@
       "code": "688550",
       "type": "科",
       "market": "sh",
-      "name": "瑞联新材",
-      "py": "ruilianxincai",
-      "abbr": "rlxc"
+      "name": "XD瑞联新",
+      "py": "xdruilianxin",
+      "abbr": "xdrlx"
     },
     "sh688549": {
       "code": "688549",
@@ -17701,9 +17701,9 @@
       "code": "688281",
       "type": "科",
       "market": "sh",
-      "name": "华秦科技",
-      "py": "huaqinkeji",
-      "abbr": "hqkj"
+      "name": "XD华秦科",
+      "py": "xdhuaqinke",
+      "abbr": "xdhqk"
     },
     "sh688280": {
       "code": "688280",
@@ -32829,9 +32829,9 @@
       "code": "301688",
       "type": "创",
       "market": "",
-      "name": "N格林",
-      "py": "ngelin",
-      "abbr": "ngl"
+      "name": "C格林",
+      "py": "cgelin",
+      "abbr": "cgl"
     },
     "301687": {
       "code": "301687",
@@ -40613,9 +40613,9 @@
       "code": "300472",
       "type": "创",
       "market": "",
-      "name": "*ST新元",
-      "py": "*stxinyuan",
-      "abbr": "*stxy"
+      "name": "ST新元",
+      "py": "stxinyuan",
+      "abbr": "stxy"
     },
     "300471": {
       "code": "300471",
@@ -47205,9 +47205,9 @@
       "code": "920071",
       "type": "京",
       "market": "bj",
-      "name": "金钛股份",
-      "py": "jintaigufen",
-      "abbr": "jtgf"
+      "name": "N金钛",
+      "py": "njintai",
+      "abbr": "njt"
     },
     "bj920069": {
       "code": "920069",
@@ -49733,9 +49733,9 @@
       "code": "561830",
       "type": "基",
       "market": "sh",
-      "name": "N有色ETF国泰海通",
-      "py": "nyouseetfguotaihaitong",
-      "abbr": "nysetfgtht"
+      "name": "有色ETF国泰海通",
+      "py": "youseetfguotaihaitong",
+      "abbr": "ysetfgtht"
     },
     "sh561810": {
       "code": "561810",
@@ -49888,6 +49888,14 @@
       "name": "中证500增强ETF华泰柏瑞",
       "py": "zhongzheng500zengqiangetfhuataibairui",
       "abbr": "zz500zqetfhtbr"
+    },
+    "sh561530": {
+      "code": "561530",
+      "type": "基",
+      "market": "sh",
+      "name": "N银行ETF银华",
+      "py": "nyinhangetfyinhua",
+      "abbr": "nyhetfyh"
     },
     "sh561510": {
       "code": "561510",
@@ -64149,9 +64157,9 @@
       "code": "508080",
       "type": "基",
       "market": "sh",
-      "name": "XD中金亦庄产业园REIT",
-      "py": "xdzhongjinyizhuangchanyeyuanreit",
-      "abbr": "xdzjyzcyyreit"
+      "name": "中金亦庄产业园REIT",
+      "py": "zhongjinyizhuangchanyeyuanreit",
+      "abbr": "zjyzcyyreit"
     },
     "sh508078": {
       "code": "508078",
@@ -64213,9 +64221,9 @@
       "code": "508058",
       "type": "基",
       "market": "sh",
-      "name": "XD中金厦门安居REIT",
-      "py": "xdzhongjinxiamenanjureit",
-      "abbr": "xdzjxmajreit"
+      "name": "中金厦门安居REIT",
+      "py": "zhongjinxiamenanjureit",
+      "abbr": "zjxmajreit"
     },
     "sh508056": {
       "code": "508056",
@@ -64413,9 +64421,9 @@
       "code": "508010",
       "type": "基",
       "market": "sh",
-      "name": "XD中金重庆两江REIT",
-      "py": "xdzhongjinchongqingliangjiangreit",
-      "abbr": "xdzjcqljreit"
+      "name": "中金重庆两江REIT",
+      "py": "zhongjinchongqingliangjiangreit",
+      "abbr": "zjcqljreit"
     },
     "sh508009": {
       "code": "508009",
@@ -64493,9 +64501,9 @@
       "code": "181001",
       "type": "基",
       "market": "sh",
-      "name": "创金合信北京国资公...",
-      "py": "chuangjinhexinbeijingguozigong...",
-      "abbr": "cjhxbjgzg..."
+      "name": "创金合信北京国资公司REIT",
+      "py": "chuangjinhexinbeijingguozigongsireit",
+      "abbr": "cjhxbjgzgsreit"
     },
     "sh180901": {
       "code": "180901",
@@ -88132,15 +88140,6 @@
       "abbr": "k2f&b",
       "engname": "K2 F&B"
     },
-    "hk02110": {
-      "code": "02110",
-      "type": "港",
-      "market": "hk",
-      "name": "天成控股",
-      "py": "tianchengkonggu",
-      "abbr": "tckg",
-      "engname": "TIAN CHENG HLDG"
-    },
     "hk02111": {
       "code": "02111",
       "type": "港",
@@ -92235,6 +92234,15 @@
       "py": "yongyiguoji",
       "abbr": "yygj",
       "engname": "EASYKNIT INT'L"
+    },
+    "hk02913": {
+      "code": "02913",
+      "type": "港",
+      "market": "hk",
+      "name": "天成控股",
+      "py": "tianchengkonggu",
+      "abbr": "tckg",
+      "engname": "TIAN CHENG HLDG"
     },
     "hk02914": {
       "code": "02914",

@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-09-02",
+  "last_update": "2026-09-03",
   "codes": {
     "fu0": {
       "code": "fu0",
@@ -209,21 +209,13 @@
       "py": "shanghaiyuanyou2803",
       "abbr": "shyy2803"
     },
-    "sc2809": {
-      "code": "sc2809",
+    "sc2709": {
+      "code": "sc2709",
       "type": "期",
       "market": "",
-      "name": "上海原油2809",
-      "py": "shanghaiyuanyou2809",
-      "abbr": "shyy2809"
-    },
-    "sc2812": {
-      "code": "sc2812",
-      "type": "期",
-      "market": "",
-      "name": "上海原油2812",
-      "py": "shanghaiyuanyou2812",
-      "abbr": "shyy2812"
+      "name": "上海原油2709",
+      "py": "shanghaiyuanyou2709",
+      "abbr": "shyy2709"
     },
     "sc2906": {
       "code": "sc2906",
@@ -233,21 +225,13 @@
       "py": "shanghaiyuanyou2906",
       "abbr": "shyy2906"
     },
-    "sc2709": {
-      "code": "sc2709",
+    "sc2707": {
+      "code": "sc2707",
       "type": "期",
       "market": "",
-      "name": "上海原油2709",
-      "py": "shanghaiyuanyou2709",
-      "abbr": "shyy2709"
-    },
-    "sc2806": {
-      "code": "sc2806",
-      "type": "期",
-      "market": "",
-      "name": "上海原油2806",
-      "py": "shanghaiyuanyou2806",
-      "abbr": "shyy2806"
+      "name": "上海原油2707",
+      "py": "shanghaiyuanyou2707",
+      "abbr": "shyy2707"
     },
     "sc2708": {
       "code": "sc2708",
@@ -256,14 +240,6 @@
       "name": "上海原油2708",
       "py": "shanghaiyuanyou2708",
       "abbr": "shyy2708"
-    },
-    "sc2707": {
-      "code": "sc2707",
-      "type": "期",
-      "market": "",
-      "name": "上海原油2707",
-      "py": "shanghaiyuanyou2707",
-      "abbr": "shyy2707"
     },
     "sc2909": {
       "code": "sc2909",
@@ -305,14 +281,6 @@
       "py": "lv2612",
       "abbr": "l2612"
     },
-    "al2609": {
-      "code": "al2609",
-      "type": "期",
-      "market": "",
-      "name": "铝2609",
-      "py": "lv2609",
-      "abbr": "l2609"
-    },
     "al2701": {
       "code": "al2701",
       "type": "期",
@@ -320,6 +288,14 @@
       "name": "铝2701",
       "py": "lv2701",
       "abbr": "l2701"
+    },
+    "al2609": {
+      "code": "al2609",
+      "type": "期",
+      "market": "",
+      "name": "铝2609",
+      "py": "lv2609",
+      "abbr": "l2609"
     },
     "al2702": {
       "code": "al2702",
@@ -857,21 +833,13 @@
       "py": "xiancai2701",
       "abbr": "xc2701"
     },
-    "wr2611": {
-      "code": "wr2611",
+    "wr2703": {
+      "code": "wr2703",
       "type": "期",
       "market": "",
-      "name": "线材2611",
-      "py": "xiancai2611",
-      "abbr": "xc2611"
-    },
-    "wr2610": {
-      "code": "wr2610",
-      "type": "期",
-      "market": "",
-      "name": "线材连续",
-      "py": "xiancailianxu",
-      "abbr": "xclx"
+      "name": "线材2703",
+      "py": "xiancai2703",
+      "abbr": "xc2703"
     },
     "pb0": {
       "code": "pb0",
@@ -921,6 +889,14 @@
       "py": "qian2701",
       "abbr": "q2701"
     },
+    "pb2706": {
+      "code": "pb2706",
+      "type": "期",
+      "market": "",
+      "name": "铅2706",
+      "py": "qian2706",
+      "abbr": "q2706"
+    },
     "pb2705": {
       "code": "pb2705",
       "type": "期",
@@ -936,14 +912,6 @@
       "name": "铅2704",
       "py": "qian2704",
       "abbr": "q2704"
-    },
-    "pb2702": {
-      "code": "pb2702",
-      "type": "期",
-      "market": "",
-      "name": "铅2702",
-      "py": "qian2702",
-      "abbr": "q2702"
     },
     "ag0": {
       "code": "ag0",
@@ -1049,6 +1017,14 @@
       "py": "baiyin2708",
       "abbr": "by2708"
     },
+    "bu2611": {
+      "code": "bu2611",
+      "type": "期",
+      "market": "",
+      "name": "沥青2611",
+      "py": "liqing2611",
+      "abbr": "lq2611"
+    },
     "bu0": {
       "code": "bu0",
       "type": "期",
@@ -1064,14 +1040,6 @@
       "name": "沥青连续",
       "py": "liqinglianxu",
       "abbr": "lqlx"
-    },
-    "bu2611": {
-      "code": "bu2611",
-      "type": "期",
-      "market": "",
-      "name": "沥青2611",
-      "py": "liqing2611",
-      "abbr": "lq2611"
     },
     "bu2612": {
       "code": "bu2612",
@@ -1137,14 +1105,6 @@
       "py": "liqing2704",
       "abbr": "lq2704"
     },
-    "bu2705": {
-      "code": "bu2705",
-      "type": "期",
-      "market": "",
-      "name": "沥青2705",
-      "py": "liqing2705",
-      "abbr": "lq2705"
-    },
     "bu2709": {
       "code": "bu2709",
       "type": "期",
@@ -1152,6 +1112,14 @@
       "name": "沥青2709",
       "py": "liqing2709",
       "abbr": "lq2709"
+    },
+    "bu2705": {
+      "code": "bu2705",
+      "type": "期",
+      "market": "",
+      "name": "沥青2705",
+      "py": "liqing2705",
+      "abbr": "lq2705"
     },
     "bu2806": {
       "code": "bu2806",
@@ -1249,14 +1217,6 @@
       "py": "reyajuanban2612",
       "abbr": "ryjb2612"
     },
-    "hc2702": {
-      "code": "hc2702",
-      "type": "期",
-      "market": "",
-      "name": "热轧卷板2702",
-      "py": "reyajuanban2702",
-      "abbr": "ryjb2702"
-    },
     "hc2704": {
       "code": "hc2704",
       "type": "期",
@@ -1264,6 +1224,14 @@
       "name": "热轧卷板2704",
       "py": "reyajuanban2704",
       "abbr": "ryjb2704"
+    },
+    "hc2702": {
+      "code": "hc2702",
+      "type": "期",
+      "market": "",
+      "name": "热轧卷板2702",
+      "py": "reyajuanban2702",
+      "abbr": "ryjb2702"
     },
     "hc2708": {
       "code": "hc2708",
@@ -1280,14 +1248,6 @@
       "name": "热轧卷板2707",
       "py": "reyajuanban2707",
       "abbr": "ryjb2707"
-    },
-    "hc2706": {
-      "code": "hc2706",
-      "type": "期",
-      "market": "",
-      "name": "热轧卷板2706",
-      "py": "reyajuanban2706",
-      "abbr": "ryjb2706"
     },
     "sn0": {
       "code": "sn0",
@@ -1689,14 +1649,6 @@
       "py": "20haojiao2706",
       "abbr": "20hj2706"
     },
-    "nr2707": {
-      "code": "nr2707",
-      "type": "期",
-      "market": "",
-      "name": "20号胶2707",
-      "py": "20haojiao2707",
-      "abbr": "20hj2707"
-    },
     "nr2708": {
       "code": "nr2708",
       "type": "期",
@@ -1704,6 +1656,14 @@
       "name": "20号胶2708",
       "py": "20haojiao2708",
       "abbr": "20hj2708"
+    },
+    "nr2707": {
+      "code": "nr2707",
+      "type": "期",
+      "market": "",
+      "name": "20号胶2707",
+      "py": "20haojiao2707",
+      "abbr": "20hj2707"
     },
     "ss0": {
       "code": "ss0",
@@ -1825,14 +1785,6 @@
       "py": "diliuranliaoyou2611",
       "abbr": "dlrly2611"
     },
-    "lu2610": {
-      "code": "lu2610",
-      "type": "期",
-      "market": "",
-      "name": "低硫燃料油连续",
-      "py": "diliuranliaoyoulianxu",
-      "abbr": "dlrlylx"
-    },
     "lu2612": {
       "code": "lu2612",
       "type": "期",
@@ -1840,6 +1792,14 @@
       "name": "低硫燃料油2612",
       "py": "diliuranliaoyou2612",
       "abbr": "dlrly2612"
+    },
+    "lu2610": {
+      "code": "lu2610",
+      "type": "期",
+      "market": "",
+      "name": "低硫燃料油连续",
+      "py": "diliuranliaoyoulianxu",
+      "abbr": "dlrlylx"
     },
     "lu2701": {
       "code": "lu2701",
@@ -1873,13 +1833,21 @@
       "py": "diliuranliaoyou2705",
       "abbr": "dlrly2705"
     },
-    "lu2704": {
-      "code": "lu2704",
+    "lu2707": {
+      "code": "lu2707",
       "type": "期",
       "market": "",
-      "name": "低硫燃料油2704",
-      "py": "diliuranliaoyou2704",
-      "abbr": "dlrly2704"
+      "name": "低硫燃料油2707",
+      "py": "diliuranliaoyou2707",
+      "abbr": "dlrly2707"
+    },
+    "lu2708": {
+      "code": "lu2708",
+      "type": "期",
+      "market": "",
+      "name": "低硫燃料油2708",
+      "py": "diliuranliaoyou2708",
+      "abbr": "dlrly2708"
     },
     "lu2706": {
       "code": "lu2706",
@@ -1945,13 +1913,13 @@
       "py": "guojitong2701",
       "abbr": "gjt2701"
     },
-    "ao2701": {
-      "code": "ao2701",
+    "bc2702": {
+      "code": "bc2702",
       "type": "期",
       "market": "",
-      "name": "氧化铝2701",
-      "py": "yanghualv2701",
-      "abbr": "yhl2701"
+      "name": "国际铜2702",
+      "py": "guojitong2702",
+      "abbr": "gjt2702"
     },
     "ao0": {
       "code": "ao0",
@@ -1960,6 +1928,14 @@
       "name": "氧化铝连续",
       "py": "yanghualvlianxu",
       "abbr": "yhllx"
+    },
+    "ao2701": {
+      "code": "ao2701",
+      "type": "期",
+      "market": "",
+      "name": "氧化铝2701",
+      "py": "yanghualv2701",
+      "abbr": "yhl2701"
     },
     "ao2610": {
       "code": "ao2610",
@@ -2121,14 +2097,6 @@
       "py": "dingerxixiangjiao2706",
       "abbr": "dexxj2706"
     },
-    "br2703": {
-      "code": "br2703",
-      "type": "期",
-      "market": "",
-      "name": "丁二烯橡胶2703",
-      "py": "dingerxixiangjiao2703",
-      "abbr": "dexxj2703"
-    },
     "br2704": {
       "code": "br2704",
       "type": "期",
@@ -2136,6 +2104,14 @@
       "name": "丁二烯橡胶2704",
       "py": "dingerxixiangjiao2704",
       "abbr": "dexxj2704"
+    },
+    "br2703": {
+      "code": "br2703",
+      "type": "期",
+      "market": "",
+      "name": "丁二烯橡胶2703",
+      "py": "dingerxixiangjiao2703",
+      "abbr": "dexxj2703"
     },
     "br2707": {
       "code": "br2707",
@@ -2304,14 +2280,6 @@
       "name": "胶版印刷纸2701",
       "py": "jiaobanyinshuazhi2701",
       "abbr": "jbysz2701"
-    },
-    "op2609": {
-      "code": "op2609",
-      "type": "期",
-      "market": "",
-      "name": "胶版印刷纸2609",
-      "py": "jiaobanyinshuazhi2609",
-      "abbr": "jbysz2609"
     }
   }
 }
