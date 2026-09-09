@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-09-08",
+  "last_update": "2026-09-09",
   "codes": {
     "sh605599": {
       "code": "605599",
@@ -125,9 +125,9 @@
       "code": "605389",
       "type": "沪",
       "market": "sh",
-      "name": "XD长龄液",
-      "py": "xdzhanglingye",
-      "abbr": "xdzly"
+      "name": "长龄液压",
+      "py": "zhanglingyeya",
+      "abbr": "zlyy"
     },
     "sh605388": {
       "code": "605388",
@@ -149,9 +149,9 @@
       "code": "605377",
       "type": "沪",
       "market": "sh",
-      "name": "华旺科技",
-      "py": "huawangkeji",
-      "abbr": "hwkj"
+      "name": "XD华旺科",
+      "py": "xdhuawangke",
+      "abbr": "xdhwk"
     },
     "sh605376": {
       "code": "605376",
@@ -933,17 +933,17 @@
       "code": "603993",
       "type": "沪",
       "market": "sh",
-      "name": "洛阳钼业",
-      "py": "luoyangmuye",
-      "abbr": "lymy"
+      "name": "XD洛阳钼",
+      "py": "xdluoyangmu",
+      "abbr": "xdlym"
     },
     "sh603992": {
       "code": "603992",
       "type": "沪",
       "market": "sh",
-      "name": "松霖科技",
-      "py": "songlinkeji",
-      "abbr": "slkj"
+      "name": "XD松霖科",
+      "py": "xdsonglinke",
+      "abbr": "xdslk"
     },
     "sh603991": {
       "code": "603991",
@@ -4765,9 +4765,9 @@
       "code": "603165",
       "type": "沪",
       "market": "sh",
-      "name": "XD荣晟环",
-      "py": "xdrongchenghuan",
-      "abbr": "xdrch"
+      "name": "荣晟环保",
+      "py": "rongchenghuanbao",
+      "abbr": "rchb"
     },
     "sh603163": {
       "code": "603163",
@@ -5261,9 +5261,9 @@
       "code": "603083",
       "type": "沪",
       "market": "sh",
-      "name": "XD剑桥科",
-      "py": "xdjianqiaoke",
-      "abbr": "xdjqk"
+      "name": "剑桥科技",
+      "py": "jianqiaokeji",
+      "abbr": "jqkj"
     },
     "sh603082": {
       "code": "603082",
@@ -13549,9 +13549,9 @@
       "code": "600114",
       "type": "沪",
       "market": "sh",
-      "name": "东睦股份",
-      "py": "dongmugufen",
-      "abbr": "dmgf"
+      "name": "XD东睦股",
+      "py": "xddongmugu",
+      "abbr": "xddmg"
     },
     "sh600113": {
       "code": "600113",
@@ -17773,9 +17773,9 @@
       "code": "688271",
       "type": "科",
       "market": "sh",
-      "name": "联影医疗",
-      "py": "lianyingyiliao",
-      "abbr": "lyyl"
+      "name": "XD联影医",
+      "py": "xdlianyingyi",
+      "abbr": "xdlyy"
     },
     "sh688270": {
       "code": "688270",
@@ -18741,9 +18741,9 @@
       "code": "688128",
       "type": "科",
       "market": "sh",
-      "name": "中国电研",
-      "py": "zhongguodianyan",
-      "abbr": "zgdy"
+      "name": "XD中国电",
+      "py": "xdzhongguodian",
+      "abbr": "xdzgd"
     },
     "sh688127": {
       "code": "688127",
@@ -32805,9 +32805,9 @@
       "code": "301699",
       "type": "创",
       "market": "",
-      "name": "洛轴股份",
-      "py": "luozhougufen",
-      "abbr": "lzgf"
+      "name": "N洛轴",
+      "py": "nluozhou",
+      "abbr": "nlz"
     },
     "301697": {
       "code": "301697",
@@ -32837,9 +32837,9 @@
       "code": "301688",
       "type": "创",
       "market": "",
-      "name": "C格林",
-      "py": "cgelin",
-      "abbr": "cgl"
+      "name": "格林生物",
+      "py": "gelinshengwu",
+      "abbr": "glsw"
     },
     "301687": {
       "code": "301687",
@@ -39917,9 +39917,9 @@
       "code": "300562",
       "type": "创",
       "market": "",
-      "name": "乐心医疗",
-      "py": "lexinyiliao",
-      "abbr": "lxyl"
+      "name": "乐心股份",
+      "py": "lexingufen",
+      "abbr": "lxgf"
     },
     "300561": {
       "code": "300561",
@@ -46309,9 +46309,9 @@
       "code": "920268",
       "type": "京",
       "market": "bj",
-      "name": "百迈科",
-      "py": "baimaike",
-      "abbr": "bmk"
+      "name": "N百迈科",
+      "py": "nbaimaike",
+      "abbr": "nbmk"
     },
     "bj920267": {
       "code": "920267",
@@ -48325,9 +48325,9 @@
       "code": "588810",
       "type": "基",
       "market": "sh",
-      "name": "科创芯片ETF富国",
-      "py": "kechuangxinpianetffuguo",
-      "abbr": "kcxpetffg"
+      "name": "UC科创芯片ETF富国",
+      "py": "uckechuangxinpianetffuguo",
+      "abbr": "uckcxpetffg"
     },
     "sh588800": {
       "code": "588800",
@@ -50917,9 +50917,9 @@
       "code": "530880",
       "type": "基",
       "market": "sh",
-      "name": "红利国企ETF银河",
-      "py": "hongliguoqietfyinhe",
-      "abbr": "hlgqetfyh"
+      "name": "XD红利国企ETF银河",
+      "py": "xdhongliguoqietfyinhe",
+      "abbr": "xdhlgqetfyh"
     },
     "sh530800": {
       "code": "530800",
@@ -52685,9 +52685,9 @@
       "code": "515450",
       "type": "基",
       "market": "sh",
-      "name": "红利低波50ETF南方",
-      "py": "honglidibo50etfnanfang",
-      "abbr": "hldb50etfnf"
+      "name": "XD红利低波50ETF南方",
+      "py": "xdhonglidibo50etfnanfang",
+      "abbr": "xdhldb50etfnf"
     },
     "sh515400": {
       "code": "515400",
@@ -53925,9 +53925,9 @@
       "code": "512400",
       "type": "基",
       "market": "sh",
-      "name": "有色金属ETF南方",
-      "py": "yousejinshuetfnanfang",
-      "abbr": "ysjsetfnf"
+      "name": "XD有色金属ETF南方",
+      "py": "xdyousejinshuetfnanfang",
+      "abbr": "xdysjsetfnf"
     },
     "sh512390": {
       "code": "512390",
@@ -61133,9 +61133,9 @@
       "code": "501227",
       "type": "基",
       "market": "sh",
-      "name": "泓德红利优选LOF",
-      "py": "hongdehongliyouxuanlof",
-      "abbr": "hdhlyxlof"
+      "name": "XD泓德红利优选LOF",
+      "py": "xdhongdehongliyouxuanlof",
+      "abbr": "xdhdhlyxlof"
     },
     "sh501225": {
       "code": "501225",
@@ -64365,9 +64365,9 @@
       "code": "508033",
       "type": "基",
       "market": "sh",
-      "name": "XD易方达深高速REIT",
-      "py": "xdyifangdashengaosureit",
-      "abbr": "xdyfdsgsreit"
+      "name": "易方达深高速REIT",
+      "py": "yifangdashengaosureit",
+      "abbr": "yfdsgsreit"
     },
     "sh508031": {
       "code": "508031",
@@ -74439,15 +74439,6 @@
       "abbr": "dnsy",
       "engname": "POWER ASSETS"
     },
-    "hk00007": {
-      "code": "00007",
-      "type": "港",
-      "market": "hk",
-      "name": "智富资源投资",
-      "py": "zhifuziyuantouzi",
-      "abbr": "zfzytz",
-      "engname": "WISDOM WEALTH"
-    },
     "hk00008": {
       "code": "00008",
       "type": "港",
@@ -81616,10 +81607,10 @@
       "code": "01063",
       "type": "港",
       "market": "hk",
-      "name": "新确科技(新)",
-      "py": "xinquekeji(xin)",
-      "abbr": "xqkj(x)",
-      "engname": "SUNCORP TEC-NEW"
+      "name": "新确科技",
+      "py": "xinquekeji",
+      "abbr": "xqkj",
+      "engname": "SUNCORP TECH"
     },
     "hk01064": {
       "code": "01064",
@@ -83803,10 +83794,10 @@
       "code": "01396",
       "type": "港",
       "market": "hk",
-      "name": "粤港湾智算",
-      "py": "yuegangwanzhisuan",
-      "abbr": "ygwzs",
-      "engname": "GBA AI COMP"
+      "name": "粤港湾智算-五百",
+      "py": "yuegangwanzhisuan-wubai",
+      "abbr": "ygwzs-wb",
+      "engname": "GBA AI COMP-500"
     },
     "hk01397": {
       "code": "01397",
@@ -92304,15 +92295,6 @@
       "abbr": "hynkg(j)",
       "engname": "FANTASIA-OLD"
     },
-    "hk02903": {
-      "code": "02903",
-      "type": "港",
-      "market": "hk",
-      "name": "新确科技(旧)",
-      "py": "xinquekeji(jiu)",
-      "abbr": "xqkj(j)",
-      "engname": "SUNCORP TEC-OLD"
-    },
     "hk02908": {
       "code": "02908",
       "type": "港",
@@ -92376,6 +92358,15 @@
       "abbr": "zsnj(yw)",
       "engname": "AI ENERGY E-10K"
     },
+    "hk02919": {
+      "code": "02919",
+      "type": "港",
+      "market": "hk",
+      "name": "粤港湾智算-二千",
+      "py": "yuegangwanzhisuan-erqian",
+      "abbr": "ygwzs-eq",
+      "engname": "GBA AI COMP-2K"
+    },
     "hk03200": {
       "code": "03200",
       "type": "港",
@@ -92393,6 +92384,15 @@
       "py": "junzhenggufen",
       "abbr": "jzgf",
       "engname": "INGENIC"
+    },
+    "hk03231": {
+      "code": "03231",
+      "type": "港",
+      "market": "hk",
+      "name": "优地机器人",
+      "py": "youdijiqiren",
+      "abbr": "ydjqr",
+      "engname": "EXCELLAND ROBOT"
     },
     "hk03268": {
       "code": "03268",
