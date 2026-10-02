@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-10-01",
+  "last_update": "2026-10-02",
   "codes": {
     "sz181001": {
       "code": "181001",
@@ -8997,10 +8997,10 @@
       "code": "01218",
       "type": "港",
       "market": "hk",
-      "name": "永义国际(新)",
-      "py": "yongyiguoji(xin)",
-      "abbr": "yygj(x)",
-      "engname": "EASYKNIT-NEW"
+      "name": "永义国际",
+      "py": "yongyiguoji",
+      "abbr": "yygj",
+      "engname": "EASYKNIT INT'L"
     },
     "hk01220": {
       "code": "01220",
@@ -13830,10 +13830,10 @@
       "code": "01956",
       "type": "港",
       "market": "hk",
-      "name": "中科闻歌",
-      "py": "zhongkewenge",
-      "abbr": "zkwg",
-      "engname": "WENGE AI"
+      "name": "中科闻歌(五十)",
+      "py": "zhongkewenge(wushi)",
+      "abbr": "zkwg(ws)",
+      "engname": "WENGE AI-50"
     },
     "hk01957": {
       "code": "01957",
@@ -18704,6 +18704,15 @@
       "abbr": "yrjtgq",
       "engname": "YUK WING GP RTS"
     },
+    "hk02935": {
+      "code": "02935",
+      "type": "港",
+      "market": "hk",
+      "name": "中科闻歌(二百)",
+      "py": "zhongkewenge(erbai)",
+      "abbr": "zkwg(eb)",
+      "engname": "WENGE AI-200"
+    },
     "hk02938": {
       "code": "02938",
       "type": "港",
@@ -22133,15 +22142,6 @@
       "abbr": "kwj",
       "engname": "KWONG MAN KEE"
     },
-    "hk08026": {
-      "code": "08026",
-      "type": "港",
-      "market": "hk",
-      "name": "朗华国际集团",
-      "py": "langhuaguojijituan",
-      "abbr": "lhgjjt",
-      "engname": "CB GLOBAL"
-    },
     "hk08027": {
       "code": "08027",
       "type": "港",
@@ -24598,6 +24598,15 @@
       "py": "qingdadongfang(siqian)",
       "abbr": "qddf(sq)",
       "engname": "QINGDA ORI-4000"
+    },
+    "hk08583": {
+      "code": "08583",
+      "type": "港",
+      "market": "hk",
+      "name": "朗华国际集团",
+      "py": "langhuaguojijituan",
+      "abbr": "lhgjjt",
+      "engname": "CB GLOBAL"
     },
     "hk08601": {
       "code": "08601",
