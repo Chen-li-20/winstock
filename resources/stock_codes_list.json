@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-10-02",
+  "last_update": "2026-10-05",
   "codes": {
     "sz181001": {
       "code": "181001",
@@ -5379,10 +5379,10 @@
       "code": "00669",
       "type": "港",
       "market": "hk",
-      "name": "创科实业",
-      "py": "chuangkeshiye",
-      "abbr": "cksy",
-      "engname": "TECHTRONIC IND"
+      "name": "创科实业(一百)",
+      "py": "chuangkeshiye(yibai)",
+      "abbr": "cksy(yb)",
+      "engname": "TECHTRONIC-100"
     },
     "hk00670": {
       "code": "00670",
@@ -11701,15 +11701,6 @@
       "py": "yishidengkonggu",
       "abbr": "ysdkg",
       "engname": "ISDN HOLDINGS"
-    },
-    "hk01657": {
-      "code": "01657",
-      "type": "港",
-      "market": "hk",
-      "name": "桦欣控股",
-      "py": "huaxinkonggu",
-      "abbr": "hxkg",
-      "engname": "SG GROUP HLDGS"
     },
     "hk01658": {
       "code": "01658",
@@ -18632,6 +18623,15 @@
       "abbr": "yj",
       "engname": "YUNJI"
     },
+    "hk02916": {
+      "code": "02916",
+      "type": "港",
+      "market": "hk",
+      "name": "创科实业(五百)",
+      "py": "chuangkeshiye(wubai)",
+      "abbr": "cksy(wb)",
+      "engname": "TECHTRONIC-500"
+    },
     "hk02920": {
       "code": "02920",
       "type": "港",
@@ -18712,6 +18712,24 @@
       "py": "zhongkewenge(erbai)",
       "abbr": "zkwg(eb)",
       "engname": "WENGE AI-200"
+    },
+    "hk02936": {
+      "code": "02936",
+      "type": "港",
+      "market": "hk",
+      "name": "桦欣控股",
+      "py": "huaxinkonggu",
+      "abbr": "hxkg",
+      "engname": "SG GROUP HLDGS"
+    },
+    "hk02937": {
+      "code": "02937",
+      "type": "港",
+      "market": "hk",
+      "name": "LONG投资股权",
+      "py": "longtouziguquan",
+      "abbr": "longtzgq",
+      "engname": "LONG INV C RTS"
     },
     "hk02938": {
       "code": "02938",
