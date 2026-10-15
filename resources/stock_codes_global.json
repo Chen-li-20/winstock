@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-10-14",
+  "last_update": "2026-10-15",
   "codes": {
     "usnvda": {
       "code": "nvda",
@@ -91,21 +91,13 @@
       "py": "tesila",
       "abbr": "tsl"
     },
-    "usskhy": {
-      "code": "skhy",
+    "uslly": {
+      "code": "lly",
       "type": "美",
       "market": "us",
-      "name": "SK海力士",
-      "py": "skhailishi",
-      "abbr": "skhls"
-    },
-    "usbrk_b": {
-      "code": "brk_b",
-      "type": "美",
-      "market": "us",
-      "name": "伯克希尔哈撒韦-B",
-      "py": "bokexierhasawei-b",
-      "abbr": "bkxehsw-b"
+      "name": "礼来",
+      "py": "lilai",
+      "abbr": "ll"
     },
     "usbrk_a": {
       "code": "brk_a",
@@ -115,13 +107,21 @@
       "py": "bokexierhasawei-a",
       "abbr": "bkxehsw-a"
     },
-    "uslly": {
-      "code": "lly",
+    "usbrk_b": {
+      "code": "brk_b",
       "type": "美",
       "market": "us",
-      "name": "礼来",
-      "py": "lilai",
-      "abbr": "ll"
+      "name": "伯克希尔哈撒韦-B",
+      "py": "bokexierhasawei-b",
+      "abbr": "bkxehsw-b"
+    },
+    "usskhy": {
+      "code": "skhy",
+      "type": "美",
+      "market": "us",
+      "name": "SK海力士",
+      "py": "skhailishi",
+      "abbr": "skhls"
     },
     "usmu": {
       "code": "mu",
@@ -187,6 +187,14 @@
       "py": "qiangsheng",
       "abbr": "qs"
     },
+    "usma": {
+      "code": "ma",
+      "type": "美",
+      "market": "us",
+      "name": "万事达",
+      "py": "wanshida",
+      "abbr": "wsd"
+    },
     "usintc": {
       "code": "intc",
       "type": "美",
@@ -195,13 +203,13 @@
       "py": "yingteer",
       "abbr": "yte"
     },
-    "usma": {
-      "code": "ma",
+    "usabbv": {
+      "code": "abbv",
       "type": "美",
       "market": "us",
-      "name": "万事达",
-      "py": "wanshida",
-      "abbr": "wsd"
+      "name": "艾伯维",
+      "py": "aibowei",
+      "abbr": "abw"
     },
     "uspltr": {
       "code": "pltr",
@@ -212,14 +220,6 @@
       "abbr": "palantirtechnologiesinc-a",
       "engname": "Palantir Technologies Inc-A"
     },
-    "usabbv": {
-      "code": "abbv",
-      "type": "美",
-      "market": "us",
-      "name": "艾伯维",
-      "py": "aibowei",
-      "abbr": "abw"
-    },
     "uscsco": {
       "code": "csco",
       "type": "美",
@@ -227,14 +227,6 @@
       "name": "思科",
       "py": "sike",
       "abbr": "sk"
-    },
-    "usorcl": {
-      "code": "orcl",
-      "type": "美",
-      "market": "us",
-      "name": "甲骨文",
-      "py": "jiaguwen",
-      "abbr": "jgw"
     },
     "uscvx": {
       "code": "cvx",
@@ -252,6 +244,14 @@
       "py": "kaishike",
       "abbr": "ksk"
     },
+    "usorcl": {
+      "code": "orcl",
+      "type": "美",
+      "market": "us",
+      "name": "甲骨文",
+      "py": "jiaguwen",
+      "abbr": "jgw"
+    },
     "usko": {
       "code": "ko",
       "type": "美",
@@ -259,54 +259,6 @@
       "name": "可口可乐",
       "py": "kekoukele",
       "abbr": "kkkl"
-    },
-    "usbac": {
-      "code": "bac",
-      "type": "美",
-      "market": "us",
-      "name": "美国银行",
-      "py": "meiguoyinhang",
-      "abbr": "mgyh"
-    },
-    "uslrcx": {
-      "code": "lrcx",
-      "type": "美",
-      "market": "us",
-      "name": "拉姆研究",
-      "py": "lamuyanjiu",
-      "abbr": "lmyj"
-    },
-    "usamat": {
-      "code": "amat",
-      "type": "美",
-      "market": "us",
-      "name": "应用材料",
-      "py": "yingyongcailiao",
-      "abbr": "yycl"
-    },
-    "usdell": {
-      "code": "dell",
-      "type": "美",
-      "market": "us",
-      "name": "戴尔科技",
-      "py": "daierkeji",
-      "abbr": "dekj"
-    },
-    "uspg": {
-      "code": "pg",
-      "type": "美",
-      "market": "us",
-      "name": "宝洁",
-      "py": "baojie",
-      "abbr": "bj"
-    },
-    "uscat": {
-      "code": "cat",
-      "type": "美",
-      "market": "us",
-      "name": "卡特彼勒",
-      "py": "katebilei",
-      "abbr": "ktbl"
     },
     "usmrk": {
       "code": "mrk",
@@ -316,6 +268,30 @@
       "py": "moshadong",
       "abbr": "msd"
     },
+    "uspg": {
+      "code": "pg",
+      "type": "美",
+      "market": "us",
+      "name": "宝洁",
+      "py": "baojie",
+      "abbr": "bj"
+    },
+    "uslrcx": {
+      "code": "lrcx",
+      "type": "美",
+      "market": "us",
+      "name": "拉姆研究",
+      "py": "lamuyanjiu",
+      "abbr": "lmyj"
+    },
+    "usbac": {
+      "code": "bac",
+      "type": "美",
+      "market": "us",
+      "name": "美国银行",
+      "py": "meiguoyinhang",
+      "abbr": "mgyh"
+    },
     "usunh": {
       "code": "unh",
       "type": "美",
@@ -323,6 +299,30 @@
       "name": "联合健康",
       "py": "lianhejiankang",
       "abbr": "lhjk"
+    },
+    "usamat": {
+      "code": "amat",
+      "type": "美",
+      "market": "us",
+      "name": "应用材料",
+      "py": "yingyongcailiao",
+      "abbr": "yycl"
+    },
+    "uscat": {
+      "code": "cat",
+      "type": "美",
+      "market": "us",
+      "name": "卡特彼勒",
+      "py": "katebilei",
+      "abbr": "ktbl"
+    },
+    "usdell": {
+      "code": "dell",
+      "type": "美",
+      "market": "us",
+      "name": "戴尔科技",
+      "py": "daierkeji",
+      "abbr": "dekj"
     },
     "ushsbc": {
       "code": "hsbc",
@@ -332,13 +332,13 @@
       "py": "huifengkonggu",
       "abbr": "hfkg"
     },
-    "uspanw": {
-      "code": "panw",
+    "uspm": {
+      "code": "pm",
       "type": "美",
       "market": "us",
-      "name": "派拓网络",
-      "py": "paituowangluo",
-      "abbr": "ptwl"
+      "name": "菲利普莫里斯国际",
+      "py": "feilipumolisiguoji",
+      "abbr": "flpmlsgj"
     },
     "usge": {
       "code": "ge",
@@ -348,21 +348,13 @@
       "py": "gehangkonghangtian",
       "abbr": "gehkht"
     },
-    "uspm": {
-      "code": "pm",
+    "uspanw": {
+      "code": "panw",
       "type": "美",
       "market": "us",
-      "name": "菲利普莫里斯国际",
-      "py": "feilipumolisiguoji",
-      "abbr": "flpmlsgj"
-    },
-    "usnflx": {
-      "code": "nflx",
-      "type": "美",
-      "market": "us",
-      "name": "奈飞",
-      "py": "naifei",
-      "abbr": "nf"
+      "name": "派拓网络",
+      "py": "paituowangluo",
+      "abbr": "ptwl"
     },
     "ushd": {
       "code": "hd",
@@ -372,13 +364,13 @@
       "py": "jiadebao",
       "abbr": "jdb"
     },
-    "usms": {
-      "code": "ms",
+    "usnflx": {
+      "code": "nflx",
       "type": "美",
       "market": "us",
-      "name": "摩根士丹利",
-      "py": "mogenshidanli",
-      "abbr": "mgsdl"
+      "name": "奈飞",
+      "py": "naifei",
+      "abbr": "nf"
     },
     "usshel": {
       "code": "shel",
@@ -388,22 +380,13 @@
       "py": "kepai",
       "abbr": "kp"
     },
-    "usbaba": {
-      "code": "baba",
+    "usms": {
+      "code": "ms",
       "type": "美",
       "market": "us",
-      "name": "阿里巴巴",
-      "py": "alibaba",
-      "abbr": "albb"
-    },
-    "usarm": {
-      "code": "arm",
-      "type": "美",
-      "market": "us",
-      "name": "Arm Holdings plc ADR",
-      "py": "armholdingsplcadr",
-      "abbr": "armholdingsplcadr",
-      "engname": "Arm Holdings plc ADR"
+      "name": "摩根士丹利",
+      "py": "mogenshidanli",
+      "abbr": "mgsdl"
     },
     "usnvs": {
       "code": "nvs",
@@ -413,6 +396,14 @@
       "py": "nuohuazhiyao",
       "abbr": "nhzy"
     },
+    "usbaba": {
+      "code": "baba",
+      "type": "美",
+      "market": "us",
+      "name": "阿里巴巴",
+      "py": "alibaba",
+      "abbr": "albb"
+    },
     "usry": {
       "code": "ry",
       "type": "美",
@@ -420,32 +411,6 @@
       "name": "加拿大皇家银行",
       "py": "jianadahuangjiayinhang",
       "abbr": "jndhjyh"
-    },
-    "usdgp": {
-      "code": "dgp",
-      "type": "美",
-      "market": "us",
-      "name": "二倍做多黄金ETN-DB",
-      "py": "erbeizuoduohuangjinetn-db",
-      "abbr": "ebzdhjetn-db"
-    },
-    "uscrwd": {
-      "code": "crwd",
-      "type": "美",
-      "market": "us",
-      "name": "CrowdStrike Holdings Inc-A",
-      "py": "crowdstrikeholdingsinc-a",
-      "abbr": "crowdstrikeholdingsinc-a",
-      "engname": "CrowdStrike Holdings Inc-A"
-    },
-    "usgev": {
-      "code": "gev",
-      "type": "美",
-      "market": "us",
-      "name": "GE Vernova Inc",
-      "py": "gevernovainc",
-      "abbr": "gevernovainc",
-      "engname": "GE Vernova Inc"
     },
     "usmlpr": {
       "code": "mlpr",
@@ -472,14 +437,22 @@
       "py": "gaosheng",
       "abbr": "gs"
     },
-    "usanet": {
-      "code": "anet",
+    "uscrwd": {
+      "code": "crwd",
       "type": "美",
       "market": "us",
-      "name": "Arista Networks Inc",
-      "py": "aristanetworksinc",
-      "abbr": "aristanetworksinc",
-      "engname": "Arista Networks Inc"
+      "name": "CrowdStrike Holdings Inc-A",
+      "py": "crowdstrikeholdingsinc-a",
+      "abbr": "crowdstrikeholdingsinc-a",
+      "engname": "CrowdStrike Holdings Inc-A"
+    },
+    "usdgp": {
+      "code": "dgp",
+      "type": "美",
+      "market": "us",
+      "name": "二倍做多黄金ETN-DB",
+      "py": "erbeizuoduohuangjinetn-db",
+      "abbr": "ebzdhjetn-db"
     },
     "ussap": {
       "code": "sap",
@@ -489,37 +462,14 @@
       "py": "siaipu",
       "abbr": "sap"
     },
-    "usmufg": {
-      "code": "mufg",
+    "usarm": {
+      "code": "arm",
       "type": "美",
       "market": "us",
-      "name": "三菱日联金融",
-      "py": "sanlingrilianjinrong",
-      "abbr": "slrljr"
-    },
-    "usrtx": {
-      "code": "rtx",
-      "type": "美",
-      "market": "us",
-      "name": "雷神技术",
-      "py": "leishenjishu",
-      "abbr": "lsjs"
-    },
-    "ustmo": {
-      "code": "tmo",
-      "type": "美",
-      "market": "us",
-      "name": "赛默飞世尔科技",
-      "py": "saimofeishierkeji",
-      "abbr": "smfsekj"
-    },
-    "uswfc": {
-      "code": "wfc",
-      "type": "美",
-      "market": "us",
-      "name": "富国银行",
-      "py": "fuguoyinhang",
-      "abbr": "fgyh"
+      "name": "Arm Holdings plc ADR",
+      "py": "armholdingsplcadr",
+      "abbr": "armholdingsplcadr",
+      "engname": "Arm Holdings plc ADR"
     },
     "usazn": {
       "code": "azn",
@@ -529,6 +479,56 @@
       "py": "asilikang",
       "abbr": "aslk"
     },
+    "usrtx": {
+      "code": "rtx",
+      "type": "美",
+      "market": "us",
+      "name": "雷神技术",
+      "py": "leishenjishu",
+      "abbr": "lsjs"
+    },
+    "usgev": {
+      "code": "gev",
+      "type": "美",
+      "market": "us",
+      "name": "GE Vernova Inc",
+      "py": "gevernovainc",
+      "abbr": "gevernovainc",
+      "engname": "GE Vernova Inc"
+    },
+    "ustmo": {
+      "code": "tmo",
+      "type": "美",
+      "market": "us",
+      "name": "赛默飞世尔科技",
+      "py": "saimofeishierkeji",
+      "abbr": "smfsekj"
+    },
+    "usanet": {
+      "code": "anet",
+      "type": "美",
+      "market": "us",
+      "name": "Arista Networks Inc",
+      "py": "aristanetworksinc",
+      "abbr": "aristanetworksinc",
+      "engname": "Arista Networks Inc"
+    },
+    "usmufg": {
+      "code": "mufg",
+      "type": "美",
+      "market": "us",
+      "name": "三菱日联金融",
+      "py": "sanlingrilianjinrong",
+      "abbr": "slrljr"
+    },
+    "uswfc": {
+      "code": "wfc",
+      "type": "美",
+      "market": "us",
+      "name": "富国银行",
+      "py": "fuguoyinhang",
+      "abbr": "fgyh"
+    },
     "usklac": {
       "code": "klac",
       "type": "美",
@@ -537,22 +537,13 @@
       "py": "kelei",
       "abbr": "kl"
     },
-    "usmrvl": {
-      "code": "mrvl",
+    "usamgn": {
+      "code": "amgn",
       "type": "美",
       "market": "us",
-      "name": "迈威尔科技",
-      "py": "maiweierkeji",
-      "abbr": "mwekj"
-    },
-    "usshop": {
-      "code": "shop",
-      "type": "美",
-      "market": "us",
-      "name": "Shopify Inc-A",
-      "py": "shopifyinc-a",
-      "abbr": "shopifyinc-a",
-      "engname": "Shopify Inc-A"
+      "name": "安进",
+      "py": "anjin",
+      "abbr": "aj"
     },
     "uslin": {
       "code": "lin",
@@ -571,13 +562,22 @@
       "py": "fengtianqiche(adr)",
       "abbr": "ftqc(adr)"
     },
-    "usamgn": {
-      "code": "amgn",
+    "usshop": {
+      "code": "shop",
       "type": "美",
       "market": "us",
-      "name": "安进",
-      "py": "anjin",
-      "abbr": "aj"
+      "name": "Shopify Inc-A",
+      "py": "shopifyinc-a",
+      "abbr": "shopifyinc-a",
+      "engname": "Shopify Inc-A"
+    },
+    "usmrvl": {
+      "code": "mrvl",
+      "type": "美",
+      "market": "us",
+      "name": "迈威尔科技",
+      "py": "maiweierkeji",
+      "abbr": "mwekj"
     },
     "usibm": {
       "code": "ibm",
@@ -595,13 +595,13 @@
       "py": "bihebituo(adr)",
       "abbr": "bhbt(adr)"
     },
-    "ussndk": {
-      "code": "sndk",
+    "usaxp": {
+      "code": "axp",
       "type": "美",
       "market": "us",
-      "name": "闪迪",
-      "py": "shandi",
-      "abbr": "sd"
+      "name": "美国运通",
+      "py": "meiguoyuntong",
+      "abbr": "mgyt"
     },
     "usaph": {
       "code": "aph",
@@ -611,13 +611,13 @@
       "py": "anfeinuo",
       "abbr": "afn"
     },
-    "usaxp": {
-      "code": "axp",
+    "ussndk": {
+      "code": "sndk",
       "type": "美",
       "market": "us",
-      "name": "美国运通",
-      "py": "meiguoyuntong",
-      "abbr": "mgyt"
+      "name": "闪迪",
+      "py": "shandi",
+      "abbr": "sd"
     },
     "usc": {
       "code": "c",
@@ -627,14 +627,6 @@
       "py": "huaqijituan",
       "abbr": "hqjt"
     },
-    "usadi": {
-      "code": "adi",
-      "type": "美",
-      "market": "us",
-      "name": "亚德诺",
-      "py": "yadenuo",
-      "abbr": "ydn"
-    },
     "ustte": {
       "code": "tte",
       "type": "美",
@@ -643,6 +635,22 @@
       "py": "totalenergiesse",
       "abbr": "totalenergiesse",
       "engname": "TotalEnergies SE"
+    },
+    "uskof": {
+      "code": "kof",
+      "type": "美",
+      "market": "us",
+      "name": "可口可乐凡萨瓶装",
+      "py": "kekoukelefansapingzhuang",
+      "abbr": "kkklfspz"
+    },
+    "usadi": {
+      "code": "adi",
+      "type": "美",
+      "market": "us",
+      "name": "亚德诺",
+      "py": "yadenuo",
+      "abbr": "ydn"
     },
     "ussan": {
       "code": "san",
@@ -660,14 +668,6 @@
       "py": "saifushi",
       "abbr": "sfs"
     },
-    "uskof": {
-      "code": "kof",
-      "type": "美",
-      "market": "us",
-      "name": "可口可乐凡萨瓶装",
-      "py": "kekoukelefansapingzhuang",
-      "abbr": "kkklfspz"
-    },
     "ustd": {
       "code": "td",
       "type": "美",
@@ -675,22 +675,6 @@
       "name": "道明银行",
       "py": "daomingyinhang",
       "abbr": "dmyh"
-    },
-    "usqcom": {
-      "code": "qcom",
-      "type": "美",
-      "market": "us",
-      "name": "高通",
-      "py": "gaotong",
-      "abbr": "gt"
-    },
-    "usdis": {
-      "code": "dis",
-      "type": "美",
-      "market": "us",
-      "name": "迪士尼",
-      "py": "dishini",
-      "abbr": "dsn"
     },
     "usgild": {
       "code": "gild",
@@ -700,6 +684,14 @@
       "py": "jilidekexue",
       "abbr": "jldkx"
     },
+    "usdis": {
+      "code": "dis",
+      "type": "美",
+      "market": "us",
+      "name": "迪士尼",
+      "py": "dishini",
+      "abbr": "dsn"
+    },
     "usvz": {
       "code": "vz",
       "type": "美",
@@ -707,6 +699,22 @@
       "name": "威瑞森通讯(Verizon)",
       "py": "weiruisentongxun(verizon)",
       "abbr": "wrstx(verizon)"
+    },
+    "usqcom": {
+      "code": "qcom",
+      "type": "美",
+      "market": "us",
+      "name": "高通",
+      "py": "gaotong",
+      "abbr": "gt"
+    },
+    "usabt": {
+      "code": "abt",
+      "type": "美",
+      "market": "us",
+      "name": "雅培",
+      "py": "yapei",
+      "abbr": "yp"
     },
     "usifed": {
       "code": "ifed",
@@ -717,13 +725,13 @@
       "abbr": "etracsifedinvestwiththefed",
       "engname": "ETRACS IFED Invest with the Fed"
     },
-    "usabt": {
-      "code": "abt",
+    "uspep": {
+      "code": "pep",
       "type": "美",
       "market": "us",
-      "name": "雅培",
-      "py": "yapei",
-      "abbr": "yp"
+      "name": "百事",
+      "py": "baishi",
+      "abbr": "bs"
     },
     "usde": {
       "code": "de",
@@ -733,30 +741,6 @@
       "py": "dier",
       "abbr": "de"
     },
-    "usscco": {
-      "code": "scco",
-      "type": "美",
-      "market": "us",
-      "name": "南方铜业",
-      "py": "nanfangtongye",
-      "abbr": "nfty"
-    },
-    "uspep": {
-      "code": "pep",
-      "type": "美",
-      "market": "us",
-      "name": "百事",
-      "py": "baishi",
-      "abbr": "bs"
-    },
-    "usstx": {
-      "code": "stx",
-      "type": "美",
-      "market": "us",
-      "name": "希捷科技",
-      "py": "xijiekeji",
-      "abbr": "xjkj"
-    },
     "uscop": {
       "code": "cop",
       "type": "美",
@@ -764,14 +748,6 @@
       "name": "康菲石油",
       "py": "kangfeishiyou",
       "abbr": "kfsy"
-    },
-    "usnvo": {
-      "code": "nvo",
-      "type": "美",
-      "market": "us",
-      "name": "诺和诺德",
-      "py": "nuohenuode",
-      "abbr": "nhnd"
     },
     "usunp": {
       "code": "unp",
@@ -781,6 +757,23 @@
       "py": "lianhetaipingyang",
       "abbr": "lhtpy"
     },
+    "usscco": {
+      "code": "scco",
+      "type": "美",
+      "market": "us",
+      "name": "南方铜业",
+      "py": "nanfangtongye",
+      "abbr": "nfty"
+    },
+    "ustmus": {
+      "code": "tmus",
+      "type": "美",
+      "market": "us",
+      "name": "T-Mobile US Inc",
+      "py": "t-mobileusinc",
+      "abbr": "t-mobileusinc",
+      "engname": "T-Mobile US Inc"
+    },
     "usmcd": {
       "code": "mcd",
       "type": "美",
@@ -789,13 +782,13 @@
       "py": "maidanglao",
       "abbr": "mdl"
     },
-    "usetn": {
-      "code": "etn",
+    "usnvo": {
+      "code": "nvo",
       "type": "美",
       "market": "us",
-      "name": "伊顿",
-      "py": "yidun",
-      "abbr": "yd"
+      "name": "诺和诺德",
+      "py": "nuohenuode",
+      "abbr": "nhnd"
     },
     "usschw": {
       "code": "schw",
@@ -814,31 +807,6 @@
       "abbr": "welltowerinc",
       "engname": "Welltower Inc"
     },
-    "usblk": {
-      "code": "blk",
-      "type": "美",
-      "market": "us",
-      "name": "贝莱德",
-      "py": "beilaide",
-      "abbr": "bld"
-    },
-    "ustmus": {
-      "code": "tmus",
-      "type": "美",
-      "market": "us",
-      "name": "T-Mobile US Inc",
-      "py": "t-mobileusinc",
-      "abbr": "t-mobileusinc",
-      "engname": "T-Mobile US Inc"
-    },
-    "usnee": {
-      "code": "nee",
-      "type": "美",
-      "market": "us",
-      "name": "新纪元能源",
-      "py": "xinjiyuannengyuan",
-      "abbr": "xjyny"
-    },
     "uspfe": {
       "code": "pfe",
       "type": "美",
@@ -846,797 +814,6 @@
       "name": "辉瑞",
       "py": "huirui",
       "abbr": "hr"
-    },
-    "ussmfg": {
-      "code": "smfg",
-      "type": "美",
-      "market": "us",
-      "name": "三井住友金融",
-      "py": "sanjingzhuyoujinrong",
-      "abbr": "sjzyjr"
-    },
-    "usdhr": {
-      "code": "dhr",
-      "type": "美",
-      "market": "us",
-      "name": "丹纳赫",
-      "py": "dannahe",
-      "abbr": "dnh"
-    },
-    "ust": {
-      "code": "t",
-      "type": "美",
-      "market": "us",
-      "name": "美国电话电报(AT&T)",
-      "py": "meiguodianhuadianbao(at&t)",
-      "abbr": "mgdhdb(at&t)"
-    },
-    "ustjx": {
-      "code": "tjx",
-      "type": "美",
-      "market": "us",
-      "name": "The TJX Companies Inc",
-      "py": "thetjxcompaniesinc",
-      "abbr": "thetjxcompaniesinc",
-      "engname": "The TJX Companies Inc"
-    },
-    "usbud": {
-      "code": "bud",
-      "type": "美",
-      "market": "us",
-      "name": "百威英博",
-      "py": "baiweiyingbo",
-      "abbr": "bwyb"
-    },
-    "usisrg": {
-      "code": "isrg",
-      "type": "美",
-      "market": "us",
-      "name": "直觉外科",
-      "py": "zhijuewaike",
-      "abbr": "zjwk"
-    },
-    "usba": {
-      "code": "ba",
-      "type": "美",
-      "market": "us",
-      "name": "波音",
-      "py": "boyin",
-      "abbr": "by"
-    },
-    "usubs": {
-      "code": "ubs",
-      "type": "美",
-      "market": "us",
-      "name": "瑞银集团",
-      "py": "ruiyinjituan",
-      "abbr": "ryjt"
-    },
-    "usuber": {
-      "code": "uber",
-      "type": "美",
-      "market": "us",
-      "name": "优步",
-      "py": "youbu",
-      "abbr": "yb"
-    },
-    "usbbva": {
-      "code": "bbva",
-      "type": "美",
-      "market": "us",
-      "name": "西班牙毕尔巴鄂比斯开银行(ADR)",
-      "py": "xibanyabierbaebisikaiyinhang(adr)",
-      "abbr": "xbybebebskyh(adr)"
-    },
-    "usnow": {
-      "code": "now",
-      "type": "美",
-      "market": "us",
-      "name": "现在服务公司",
-      "py": "xianzaifuwugongsi",
-      "abbr": "xzfwgs"
-    },
-    "uswdc": {
-      "code": "wdc",
-      "type": "美",
-      "market": "us",
-      "name": "西部数据",
-      "py": "xibushuju",
-      "abbr": "xbsj"
-    },
-    "ussony": {
-      "code": "sony",
-      "type": "美",
-      "market": "us",
-      "name": "索尼",
-      "py": "suoni",
-      "abbr": "sn"
-    },
-    "usftnt": {
-      "code": "ftnt",
-      "type": "美",
-      "market": "us",
-      "name": "防特网",
-      "py": "fangtewang",
-      "abbr": "ftw"
-    },
-    "usul": {
-      "code": "ul",
-      "type": "美",
-      "market": "us",
-      "name": "联合利华(英国)",
-      "py": "lianhelihua(yingguo)",
-      "abbr": "lhlh(yg)"
-    },
-    "usucib": {
-      "code": "ucib",
-      "type": "美",
-      "market": "us",
-      "name": "ETRACS CMCI Total Return ETN Se",
-      "py": "etracscmcitotalreturnetnse",
-      "abbr": "etracscmcitotalreturnetnse",
-      "engname": "ETRACS CMCI Total Return ETN Se"
-    },
-    "usmpc": {
-      "code": "mpc",
-      "type": "美",
-      "market": "us",
-      "name": "马拉松原油",
-      "py": "malasongyuanyou",
-      "abbr": "mlsyy"
-    },
-    "uscb": {
-      "code": "cb",
-      "type": "美",
-      "market": "us",
-      "name": "安达保险",
-      "py": "andabaoxian",
-      "abbr": "adbx"
-    },
-    "usvlo": {
-      "code": "vlo",
-      "type": "美",
-      "market": "us",
-      "name": "瓦莱罗能源",
-      "py": "walailuonengyuan",
-      "abbr": "wllny"
-    },
-    "uspgr": {
-      "code": "pgr",
-      "type": "美",
-      "market": "us",
-      "name": "前进保险",
-      "py": "qianjinbaoxian",
-      "abbr": "qjbx"
-    },
-    "usmfg": {
-      "code": "mfg",
-      "type": "美",
-      "market": "us",
-      "name": "瑞穗金融",
-      "py": "ruisuijinrong",
-      "abbr": "rsjr"
-    },
-    "usglw": {
-      "code": "glw",
-      "type": "美",
-      "market": "us",
-      "name": "康宁",
-      "py": "kangning",
-      "abbr": "kn"
-    },
-    "usacn": {
-      "code": "acn",
-      "type": "美",
-      "market": "us",
-      "name": "埃森哲",
-      "py": "aisenzhe",
-      "abbr": "asz"
-    },
-    "usbp": {
-      "code": "bp",
-      "type": "美",
-      "market": "us",
-      "name": "英国石油",
-      "py": "yingguoshiyou",
-      "abbr": "ygsy"
-    },
-    "uspld": {
-      "code": "pld",
-      "type": "美",
-      "market": "us",
-      "name": "安博",
-      "py": "anbo",
-      "abbr": "ab"
-    },
-    "ussnow": {
-      "code": "snow",
-      "type": "美",
-      "market": "us",
-      "name": "Snowflake Inc",
-      "py": "snowflakeinc",
-      "abbr": "snowflakeinc",
-      "engname": "Snowflake Inc"
-    },
-    "usnet": {
-      "code": "net",
-      "type": "美",
-      "market": "us",
-      "name": "Cloudflare Inc-A",
-      "py": "cloudflareinc-a",
-      "abbr": "cloudflareinc-a",
-      "engname": "Cloudflare Inc-A"
-    },
-    "usvrtx": {
-      "code": "vrtx",
-      "type": "美",
-      "market": "us",
-      "name": "福泰制药",
-      "py": "futaizhiyao",
-      "abbr": "ftzy"
-    },
-    "usnem": {
-      "code": "nem",
-      "type": "美",
-      "market": "us",
-      "name": "纽蒙特",
-      "py": "niumengte",
-      "abbr": "nmt"
-    },
-    "uscof": {
-      "code": "cof",
-      "type": "美",
-      "market": "us",
-      "name": "第一资本金融",
-      "py": "diyizibenjinrong",
-      "abbr": "dyzbjr"
-    },
-    "usspgi": {
-      "code": "spgi",
-      "type": "美",
-      "market": "us",
-      "name": "标普全球",
-      "py": "biaopuquanqiu",
-      "abbr": "bpqq"
-    },
-    "usph": {
-      "code": "ph",
-      "type": "美",
-      "market": "us",
-      "name": "派克汉尼汾",
-      "py": "paikehannifen",
-      "abbr": "pkhnf"
-    },
-    "usbti": {
-      "code": "bti",
-      "type": "美",
-      "market": "us",
-      "name": "英美烟草",
-      "py": "yingmeiyancao",
-      "abbr": "ymyc"
-    },
-    "usmo": {
-      "code": "mo",
-      "type": "美",
-      "market": "us",
-      "name": "奥驰亚集团",
-      "py": "aochiyajituan",
-      "abbr": "acyjt"
-    },
-    "usmdt": {
-      "code": "mdt",
-      "type": "美",
-      "market": "us",
-      "name": "美敦力",
-      "py": "meidunli",
-      "abbr": "mdl"
-    },
-    "usbkng": {
-      "code": "bkng",
-      "type": "美",
-      "market": "us",
-      "name": "Booking Holdings",
-      "py": "bookingholdings",
-      "abbr": "bookingholdings",
-      "engname": "Booking Holdings"
-    },
-    "uspsx": {
-      "code": "psx",
-      "type": "美",
-      "market": "us",
-      "name": "Phillips 66",
-      "py": "phillips66",
-      "abbr": "phillips66",
-      "engname": "Phillips 66"
-    },
-    "usrio": {
-      "code": "rio",
-      "type": "美",
-      "market": "us",
-      "name": "力拓",
-      "py": "lituo",
-      "abbr": "lt"
-    },
-    "ushdb": {
-      "code": "hdb",
-      "type": "美",
-      "market": "us",
-      "name": "HDFC银行",
-      "py": "hdfcyinhang",
-      "abbr": "hdfcyh"
-    },
-    "uspdd": {
-      "code": "pdd",
-      "type": "美",
-      "market": "us",
-      "name": "拼多多",
-      "py": "pinduoduo",
-      "abbr": "pdd"
-    },
-    "uslmt": {
-      "code": "lmt",
-      "type": "美",
-      "market": "us",
-      "name": "洛克希德马丁",
-      "py": "luokexidemading",
-      "abbr": "lkxdmd"
-    },
-    "usbmy": {
-      "code": "bmy",
-      "type": "美",
-      "market": "us",
-      "name": "百时美施贵宝",
-      "py": "baishimeishiguibao",
-      "abbr": "bsmsgb"
-    },
-    "usbmo": {
-      "code": "bmo",
-      "type": "美",
-      "market": "us",
-      "name": "蒙特利尔银行",
-      "py": "mengtelieryinhang",
-      "abbr": "mtleyh"
-    },
-    "usfngo": {
-      "code": "fngo",
-      "type": "美",
-      "market": "us",
-      "name": "MicroSectors FANG Index 2X Leve",
-      "py": "microsectorsfangindex2xleve",
-      "abbr": "microsectorsfangindex2xleve",
-      "engname": "MicroSectors FANG Index 2X Leve"
-    },
-    "usmlpb": {
-      "code": "mlpb",
-      "type": "美",
-      "market": "us",
-      "name": "ETRACS Alerian MLP Infrastructu",
-      "py": "etracsalerianmlpinfrastructu",
-      "abbr": "etracsalerianmlpinfrastructu",
-      "engname": "ETRACS Alerian MLP Infrastructu"
-    },
-    "usmck": {
-      "code": "mck",
-      "type": "美",
-      "market": "us",
-      "name": "麦克森",
-      "py": "maikesen",
-      "abbr": "mks"
-    },
-    "uscvs": {
-      "code": "cvs",
-      "type": "美",
-      "market": "us",
-      "name": "西维斯健康",
-      "py": "xiweisijiankang",
-      "abbr": "xwsjk"
-    },
-    "usbns": {
-      "code": "bns",
-      "type": "美",
-      "market": "us",
-      "name": "加拿大丰业银行",
-      "py": "jianadafengyeyinhang",
-      "abbr": "jndfyyh"
-    },
-    "usadp": {
-      "code": "adp",
-      "type": "美",
-      "market": "us",
-      "name": "自动数据处理",
-      "py": "zidongshujuchuli",
-      "abbr": "zdsjcl"
-    },
-    "usspot": {
-      "code": "spot",
-      "type": "美",
-      "market": "us",
-      "name": "Spotify Technology SA",
-      "py": "spotifytechnologysa",
-      "abbr": "spotifytechnologysa",
-      "engname": "Spotify Technology SA"
-    },
-    "ussyk": {
-      "code": "syk",
-      "type": "美",
-      "market": "us",
-      "name": "史赛克",
-      "py": "shisaike",
-      "abbr": "ssk"
-    },
-    "useqnr": {
-      "code": "eqnr",
-      "type": "美",
-      "market": "us",
-      "name": "Equinor ASA ADR",
-      "py": "equinorasaadr",
-      "abbr": "equinorasaadr",
-      "engname": "Equinor ASA ADR"
-    },
-    "uscnq": {
-      "code": "cnq",
-      "type": "美",
-      "market": "us",
-      "name": "加拿大自然资源",
-      "py": "jianadaziranziyuan",
-      "abbr": "jndzrzy"
-    },
-    "usasx": {
-      "code": "asx",
-      "type": "美",
-      "market": "us",
-      "name": "日月光半导体",
-      "py": "riyueguangbandaoti",
-      "abbr": "rygbdt"
-    },
-    "uslow": {
-      "code": "low",
-      "type": "美",
-      "market": "us",
-      "name": "劳氏",
-      "py": "laoshi",
-      "abbr": "ls"
-    },
-    "usenb": {
-      "code": "enb",
-      "type": "美",
-      "market": "us",
-      "name": "恩桥",
-      "py": "enqiao",
-      "abbr": "eq"
-    },
-    "ustt": {
-      "code": "tt",
-      "type": "美",
-      "market": "us",
-      "name": "特灵科技",
-      "py": "telingkeji",
-      "abbr": "tlkj"
-    },
-    "ussbux": {
-      "code": "sbux",
-      "type": "美",
-      "market": "us",
-      "name": "星巴克",
-      "py": "xingbake",
-      "abbr": "xbk"
-    },
-    "usceg": {
-      "code": "ceg",
-      "type": "美",
-      "market": "us",
-      "name": "Constellation Energy Corp",
-      "py": "constellationenergycorp",
-      "abbr": "constellationenergycorp",
-      "engname": "Constellation Energy Corp"
-    },
-    "usfcx": {
-      "code": "fcx",
-      "type": "美",
-      "market": "us",
-      "name": "自由港麦克莫兰",
-      "py": "ziyougangmaikemolan",
-      "abbr": "zygmkml"
-    },
-    "usnee_s": {
-      "code": "nee_s",
-      "type": "美",
-      "market": "us",
-      "name": "NextEra Energy Inc Corporate Un",
-      "py": "nexteraenergyinccorporateun",
-      "abbr": "nexteraenergyinccorporateun",
-      "engname": "NextEra Energy Inc Corporate Un"
-    },
-    "uspwr": {
-      "code": "pwr",
-      "type": "美",
-      "market": "us",
-      "name": "广达服务",
-      "py": "guangdafuwu",
-      "abbr": "gdfw"
-    },
-    "usibn": {
-      "code": "ibn",
-      "type": "美",
-      "market": "us",
-      "name": "印度工业信贷投资银行",
-      "py": "yindugongyexindaitouziyinhang",
-      "abbr": "ydgyxdtzyh"
-    },
-    "usddog": {
-      "code": "ddog",
-      "type": "美",
-      "market": "us",
-      "name": "Datadog Inc-A",
-      "py": "datadoginc-a",
-      "abbr": "datadoginc-a",
-      "engname": "Datadog Inc-A"
-    },
-    "usso": {
-      "code": "so",
-      "type": "美",
-      "market": "us",
-      "name": "南方电力",
-      "py": "nanfangdianli",
-      "abbr": "nfdl"
-    },
-    "uscm": {
-      "code": "cm",
-      "type": "美",
-      "market": "us",
-      "name": "加拿大帝国商业银行",
-      "py": "jianadadiguoshangyeyinhang",
-      "abbr": "jnddgsyyh"
-    },
-    "useqix": {
-      "code": "eqix",
-      "type": "美",
-      "market": "us",
-      "name": "易昆尼克斯",
-      "py": "yikunnikesi",
-      "abbr": "yknks"
-    },
-    "uscme": {
-      "code": "cme",
-      "type": "美",
-      "market": "us",
-      "name": "芝加哥商业交易所",
-      "py": "zhijiageshangyejiaoyisuo",
-      "abbr": "zjgsyjys"
-    },
-    "ushca": {
-      "code": "hca",
-      "type": "美",
-      "market": "us",
-      "name": "HCA Healthcare Inc",
-      "py": "hcahealthcareinc",
-      "abbr": "hcahealthcareinc",
-      "engname": "HCA Healthcare Inc"
-    },
-    "ushood": {
-      "code": "hood",
-      "type": "美",
-      "market": "us",
-      "name": "Robinhood Markets Inc-A",
-      "py": "robinhoodmarketsinc-a",
-      "abbr": "robinhoodmarketsinc-a",
-      "engname": "Robinhood Markets Inc-A"
-    },
-    "usabnb": {
-      "code": "abnb",
-      "type": "美",
-      "market": "us",
-      "name": "爱彼迎",
-      "py": "aibiying",
-      "abbr": "aby"
-    },
-    "usnee_t": {
-      "code": "nee_t",
-      "type": "美",
-      "market": "us",
-      "name": "NextEra Energy Inc Corporate Un",
-      "py": "nexteraenergyinccorporateun",
-      "abbr": "nexteraenergyinccorporateun",
-      "engname": "NextEra Energy Inc Corporate Un"
-    },
-    "usmar": {
-      "code": "mar",
-      "type": "美",
-      "market": "us",
-      "name": "万豪国际",
-      "py": "wanhaoguoji",
-      "abbr": "whgj"
-    },
-    "using": {
-      "code": "ing",
-      "type": "美",
-      "market": "us",
-      "name": "荷兰国际",
-      "py": "helanguoji",
-      "abbr": "hlgj"
-    },
-    "usbny": {
-      "code": "bny",
-      "type": "美",
-      "market": "us",
-      "name": "纽约梅隆银行",
-      "py": "niuyuemeilongyinhang",
-      "abbr": "nymlyh"
-    },
-    "usmeli": {
-      "code": "meli",
-      "type": "美",
-      "market": "us",
-      "name": "MercadoLibre Inc",
-      "py": "mercadolibreinc",
-      "abbr": "mercadolibreinc",
-      "engname": "MercadoLibre Inc"
-    },
-    "ussny": {
-      "code": "sny",
-      "type": "美",
-      "market": "us",
-      "name": "赛诺菲",
-      "py": "sainuofei",
-      "abbr": "snf"
-    },
-    "uspbr": {
-      "code": "pbr",
-      "type": "美",
-      "market": "us",
-      "name": "巴西石油",
-      "py": "baxishiyou",
-      "abbr": "bxsy"
-    },
-    "usjci": {
-      "code": "jci",
-      "type": "美",
-      "market": "us",
-      "name": "江森自控",
-      "py": "jiangsenzikong",
-      "abbr": "jszk"
-    },
-    "ussnps": {
-      "code": "snps",
-      "type": "美",
-      "market": "us",
-      "name": "新思科技",
-      "py": "xinsikeji",
-      "abbr": "xskj"
-    },
-    "usaem": {
-      "code": "aem",
-      "type": "美",
-      "market": "us",
-      "name": "伊格尔矿业",
-      "py": "yigeerkuangye",
-      "abbr": "ygeky"
-    },
-    "usgsk": {
-      "code": "gsk",
-      "type": "美",
-      "market": "us",
-      "name": "葛兰素史克",
-      "py": "gelansushike",
-      "abbr": "glssk"
-    },
-    "usamjb": {
-      "code": "amjb",
-      "type": "美",
-      "market": "us",
-      "name": "Alerian MLP Index ETNs due Janu",
-      "py": "alerianmlpindexetnsduejanu",
-      "abbr": "alerianmlpindexetnsduejanu",
-      "engname": "Alerian MLP Index ETNs due Janu"
-    },
-    "uselv": {
-      "code": "elv",
-      "type": "美",
-      "market": "us",
-      "name": "Elevance Health Inc",
-      "py": "elevancehealthinc",
-      "abbr": "elevancehealthinc",
-      "engname": "Elevance Health Inc"
-    },
-    "usduk": {
-      "code": "duk",
-      "type": "美",
-      "market": "us",
-      "name": "杜克能源",
-      "py": "dukenengyuan",
-      "abbr": "dkny"
-    },
-    "uscdns": {
-      "code": "cdns",
-      "type": "美",
-      "market": "us",
-      "name": "铿腾电子",
-      "py": "kengtengdianzi",
-      "abbr": "ktdz"
-    },
-    "usadbe": {
-      "code": "adbe",
-      "type": "美",
-      "market": "us",
-      "name": "奥多比",
-      "py": "aoduobi",
-      "abbr": "adb"
-    },
-    "usnee_v": {
-      "code": "nee_v",
-      "type": "美",
-      "market": "us",
-      "name": "NextEra Energy Inc Corporate Un",
-      "py": "nexteraenergyinccorporateun",
-      "abbr": "nexteraenergyinccorporateun",
-      "engname": "NextEra Energy Inc Corporate Un"
-    },
-    "usvrt": {
-      "code": "vrt",
-      "type": "美",
-      "market": "us",
-      "name": "Vertiv Holdings Co-A",
-      "py": "vertivholdingsco-a",
-      "abbr": "vertivholdingsco-a",
-      "engname": "Vertiv Holdings Co-A"
-    },
-    "ushpe": {
-      "code": "hpe",
-      "type": "美",
-      "market": "us",
-      "name": "慧与",
-      "py": "huiyu",
-      "abbr": "hy"
-    },
-    "uswmb": {
-      "code": "wmb",
-      "type": "美",
-      "market": "us",
-      "name": "威廉姆斯",
-      "py": "weilianmusi",
-      "abbr": "wlms"
-    },
-    "usemr": {
-      "code": "emr",
-      "type": "美",
-      "market": "us",
-      "name": "艾默生电气",
-      "py": "aimoshengdianqi",
-      "abbr": "amsdq"
-    },
-    "usapp": {
-      "code": "app",
-      "type": "美",
-      "market": "us",
-      "name": "Applovin Corp-A",
-      "py": "applovincorp-a",
-      "abbr": "applovincorp-a",
-      "engname": "Applovin Corp-A"
-    },
-    "usrace": {
-      "code": "race",
-      "type": "美",
-      "market": "us",
-      "name": "法拉利",
-      "py": "falali",
-      "abbr": "fll"
-    },
-    "usgd": {
-      "code": "gd",
-      "type": "美",
-      "market": "us",
-      "name": "通用动力",
-      "py": "tongyongdongli",
-      "abbr": "tydl"
-    },
-    "uslite": {
-      "code": "lite",
-      "type": "美",
-      "market": "us",
-      "name": "Lumentum Holdings Inc",
-      "py": "lumentumholdingsinc",
-      "abbr": "lumentumholdingsinc",
-      "engname": "Lumentum Holdings Inc"
     },
     "gukx": {
       "code": "ukx",
