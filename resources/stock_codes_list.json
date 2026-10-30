@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-10-29",
+  "last_update": "2026-10-30",
   "codes": {
     "sh605599": {
       "code": "605599",
@@ -2517,9 +2517,9 @@
       "code": "603630",
       "type": "沪",
       "market": "sh",
-      "name": "拉芳家化",
-      "py": "lafangjiahua",
-      "abbr": "lfjh"
+      "name": "XD拉芳家",
+      "py": "xdlafangjia",
+      "abbr": "xdlfj"
     },
     "sh603629": {
       "code": "603629",
@@ -6181,9 +6181,9 @@
       "code": "601878",
       "type": "沪",
       "market": "sh",
-      "name": "浙商证券",
-      "py": "zheshangzhengquan",
-      "abbr": "zszq"
+      "name": "XD浙商证",
+      "py": "xdzheshangzheng",
+      "abbr": "xdzsz"
     },
     "sh601877": {
       "code": "601877",
@@ -16157,9 +16157,9 @@
       "code": "688563",
       "type": "科",
       "market": "sh",
-      "name": "XD航材股",
-      "py": "xdhangcaigu",
-      "abbr": "xdhcg"
+      "name": "航材股份",
+      "py": "hangcaigufen",
+      "abbr": "hcgf"
     },
     "sh688562": {
       "code": "688562",
@@ -16853,9 +16853,9 @@
       "code": "688409",
       "type": "科",
       "market": "sh",
-      "name": "富创精密",
-      "py": "fuchuangjingmi",
-      "abbr": "fcjm"
+      "name": "XD富创精",
+      "py": "xdfuchuangjing",
+      "abbr": "xdfcj"
     },
     "sh688408": {
       "code": "688408",
@@ -46237,9 +46237,9 @@
       "code": "920306",
       "type": "京",
       "market": "bj",
-      "name": "N天元",
-      "py": "ntianyuan",
-      "abbr": "nty"
+      "name": "天元重工",
+      "py": "tianyuanzhonggong",
+      "abbr": "tyzg"
     },
     "bj920305": {
       "code": "920305",
@@ -64629,9 +64629,9 @@
       "code": "508609",
       "type": "基",
       "market": "sh",
-      "name": "锦江REIT",
-      "py": "jinjiangreit",
-      "abbr": "jjreit"
+      "name": "N华安锦江商业REIT",
+      "py": "nhuaanjinjiangshangyereit",
+      "abbr": "nhajjsyreit"
     },
     "sh508607": {
       "code": "508607",
@@ -92552,10 +92552,10 @@
       "code": "02670",
       "type": "港",
       "market": "hk",
-      "name": "云迹(新)",
-      "py": "yunji(xin)",
-      "abbr": "yj(x)",
-      "engname": "YUNJI-NEW"
+      "name": "云迹",
+      "py": "yunji",
+      "abbr": "yj",
+      "engname": "YUNJI"
     },
     "hk02671": {
       "code": "02671",
@@ -93105,15 +93105,6 @@
       "py": "zijinkuangye",
       "abbr": "zjky",
       "engname": "ZIJIN MINING"
-    },
-    "hk02915": {
-      "code": "02915",
-      "type": "港",
-      "market": "hk",
-      "name": "云迹(旧)",
-      "py": "yunji(jiu)",
-      "abbr": "yj(j)",
-      "engname": "YUNJI-OLD"
     },
     "hk02934": {
       "code": "02934",
@@ -97300,6 +97291,15 @@
       "abbr": "zgzsyx",
       "engname": "CRMI"
     },
+    "hk08159": {
+      "code": "08159",
+      "type": "港",
+      "market": "hk",
+      "name": "新华联合投资-新",
+      "py": "xinhualianhetouzi-xin",
+      "abbr": "xhlhtz-x",
+      "engname": "CU VENTURE-NEW"
+    },
     "hk08160": {
       "code": "08160",
       "type": "港",
@@ -99059,10 +99059,19 @@
       "code": "08552",
       "type": "港",
       "market": "hk",
-      "name": "新华联合投资",
-      "py": "xinhualianhetouzi",
-      "abbr": "xhlhtz",
-      "engname": "CU VENTURE INV"
+      "name": "新华联合投资-旧",
+      "py": "xinhualianhetouzi-jiu",
+      "abbr": "xhlhtz-j",
+      "engname": "CU VENTURE-OLD"
+    },
+    "hk08555": {
+      "code": "08555",
+      "type": "港",
+      "market": "hk",
+      "name": "亚太金融投资股权",
+      "py": "yataijinrongtouziguquan",
+      "abbr": "ytjrtzgq",
+      "engname": "ASIAPAC FIN RTS"
     },
     "hk08556": {
       "code": "08556",
