@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-11-03",
+  "last_update": "2026-11-04",
   "codes": {
     "sh605599": {
       "code": "605599",
@@ -277,9 +277,9 @@
       "code": "605300",
       "type": "沪",
       "market": "sh",
-      "name": "XD佳禾食",
-      "py": "xdjiaheshi",
-      "abbr": "xdjhs"
+      "name": "佳禾食品",
+      "py": "jiaheshipin",
+      "abbr": "jhsp"
     },
     "sh605299": {
       "code": "605299",
@@ -485,9 +485,9 @@
       "code": "605179",
       "type": "沪",
       "market": "sh",
-      "name": "XD一鸣食",
-      "py": "xdyimingshi",
-      "abbr": "xdyms"
+      "name": "一鸣食品",
+      "py": "yimingshipin",
+      "abbr": "ymsp"
     },
     "sh605178": {
       "code": "605178",
@@ -13069,9 +13069,9 @@
       "code": "600186",
       "type": "沪",
       "market": "sh",
-      "name": "莲花控股",
-      "py": "lianhuakonggu",
-      "abbr": "lhkg"
+      "name": "XD莲花控",
+      "py": "xdlianhuakong",
+      "abbr": "xdlhk"
     },
     "sh600185": {
       "code": "600185",
@@ -18613,9 +18613,9 @@
       "code": "688151",
       "type": "科",
       "market": "sh",
-      "name": "华强科技",
-      "py": "huaqiangkeji",
-      "abbr": "hqkj"
+      "name": "XD华强科",
+      "py": "xdhuaqiangke",
+      "abbr": "xdhqk"
     },
     "sh688150": {
       "code": "688150",
@@ -27925,9 +27925,9 @@
       "code": "001381",
       "type": "深",
       "market": "",
-      "name": "N皇冠",
-      "py": "nhuangguan",
-      "abbr": "nhg"
+      "name": "C皇冠",
+      "py": "chuangguan",
+      "abbr": "chg"
     },
     "001380": {
       "code": "001380",
@@ -28933,9 +28933,9 @@
       "code": "000972",
       "type": "深",
       "market": "",
-      "name": "中基健康",
-      "py": "zhongjijiankang",
-      "abbr": "zjjk"
+      "name": "*ST中基",
+      "py": "*stzhongji",
+      "abbr": "*stzj"
     },
     "000971": {
       "code": "000971",
@@ -45413,9 +45413,9 @@
       "code": "920726",
       "type": "京",
       "market": "bj",
-      "name": "朱老六",
-      "py": "zhulaoliu",
-      "abbr": "zll"
+      "name": "XD朱老六",
+      "py": "xdzhulaoliu",
+      "abbr": "xdzll"
     },
     "bj920725": {
       "code": "920725",
@@ -64661,9 +64661,9 @@
       "code": "508607",
       "type": "基",
       "market": "sh",
-      "name": "陆家嘴R",
-      "py": "lujiazuir",
-      "abbr": "ljzr"
+      "name": "N华安陆家嘴商业REIT",
+      "py": "nhuaanlujiazuishangyereit",
+      "abbr": "nhaljzsyreit"
     },
     "sh508606": {
       "code": "508606",
@@ -65069,9 +65069,9 @@
       "code": "508019",
       "type": "基",
       "market": "sh",
-      "name": "中金湖北科投光谷REIT",
-      "py": "zhongjinhubeiketouguanggureit",
-      "abbr": "zjhbktggreit"
+      "name": "XD中金湖北科投光谷REIT",
+      "py": "xdzhongjinhubeiketouguanggureit",
+      "abbr": "xdzjhbktggreit"
     },
     "sh508018": {
       "code": "508018",
@@ -81659,10 +81659,10 @@
       "code": "00936",
       "type": "港",
       "market": "hk",
-      "name": "佳兆业资本",
-      "py": "jiazhaoyeziben",
-      "abbr": "jzyzb",
-      "engname": "KAISA CAPITAL"
+      "name": "佳芯科技",
+      "py": "jiaxinkeji",
+      "abbr": "jxkj",
+      "engname": "KAISACORE"
     },
     "hk00938": {
       "code": "00938",
@@ -85628,10 +85628,10 @@
       "code": "01570",
       "type": "港",
       "market": "hk",
-      "name": "伟业控股",
-      "py": "weiyekonggu",
-      "abbr": "wykg",
-      "engname": "WEIYE HOLDINGS"
+      "name": "鼎吉盛国际",
+      "py": "dingjishengguoji",
+      "abbr": "djsgj",
+      "engname": "DJSH INT'L"
     },
     "hk01571": {
       "code": "01571",
@@ -93166,15 +93166,6 @@
       "abbr": "trqcns",
       "engname": "TR INTERIORS"
     },
-    "hk02950": {
-      "code": "02950",
-      "type": "港",
-      "market": "hk",
-      "name": "阿尔法企业股权",
-      "py": "aerfaqiyeguquan",
-      "abbr": "aefqygq",
-      "engname": "ALPHA PRO H RTS"
-    },
     "hk02952": {
       "code": "02952",
       "type": "港",
@@ -97130,10 +97121,10 @@
       "code": "08128",
       "type": "港",
       "market": "hk",
-      "name": "中华节能(新)",
-      "py": "zhonghuajieneng(xin)",
-      "abbr": "zhjn(x)",
-      "engname": "SINO ENGY C-NEW"
+      "name": "中华节能",
+      "py": "zhonghuajieneng",
+      "abbr": "zhjn",
+      "engname": "SINO ENGY CONS"
     },
     "hk08130": {
       "code": "08130",
@@ -99087,15 +99078,6 @@
       "py": "chaoweikonggu(jiu)",
       "abbr": "cwkg(j)",
       "engname": "GLORY FLAME-OLD"
-    },
-    "hk08573": {
-      "code": "08573",
-      "type": "港",
-      "market": "hk",
-      "name": "中华节能(旧)",
-      "py": "zhonghuajieneng(jiu)",
-      "abbr": "zhjn(j)",
-      "engname": "SINO ENGY C-OLD"
     },
     "hk08583": {
       "code": "08583",
