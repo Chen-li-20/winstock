@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-11-04",
+  "last_update": "2026-11-05",
   "codes": {
     "sh605599": {
       "code": "605599",
@@ -1597,9 +1597,9 @@
       "code": "603858",
       "type": "沪",
       "market": "sh",
-      "name": "步长制药",
-      "py": "buzhangzhiyao",
-      "abbr": "bzzy"
+      "name": "XD步长制",
+      "py": "xdbuzhangzhi",
+      "abbr": "xdbzz"
     },
     "sh603856": {
       "code": "603856",
@@ -3005,9 +3005,9 @@
       "code": "603511",
       "type": "沪",
       "market": "sh",
-      "name": "爱慕股份",
-      "py": "aimugufen",
-      "abbr": "amgf"
+      "name": "XD爱慕股",
+      "py": "xdaimugu",
+      "abbr": "xdamg"
     },
     "sh603508": {
       "code": "603508",
@@ -13069,9 +13069,9 @@
       "code": "600186",
       "type": "沪",
       "market": "sh",
-      "name": "XD莲花控",
-      "py": "xdlianhuakong",
-      "abbr": "xdlhk"
+      "name": "莲花控股",
+      "py": "lianhuakonggu",
+      "abbr": "lhkg"
     },
     "sh600185": {
       "code": "600185",
@@ -18613,9 +18613,9 @@
       "code": "688151",
       "type": "科",
       "market": "sh",
-      "name": "XD华强科",
-      "py": "xdhuaqiangke",
-      "abbr": "xdhqk"
+      "name": "华强科技",
+      "py": "huaqiangkeji",
+      "abbr": "hqkj"
     },
     "sh688150": {
       "code": "688150",
@@ -45413,9 +45413,9 @@
       "code": "920726",
       "type": "京",
       "market": "bj",
-      "name": "XD朱老六",
-      "py": "xdzhulaoliu",
-      "abbr": "xdzll"
+      "name": "朱老六",
+      "py": "zhulaoliu",
+      "abbr": "zll"
     },
     "bj920725": {
       "code": "920725",
@@ -60705,6 +60705,14 @@
       "py": "chuangyebandianchietfyinhua",
       "abbr": "cybdcetfyh"
     },
+    "sh158081": {
+      "code": "158081",
+      "type": "基",
+      "market": "sh",
+      "name": "创业板电池ETF永赢",
+      "py": "chuangyebandianchietfyongying",
+      "abbr": "cybdcetfyy"
+    },
     "sh158079": {
       "code": "158079",
       "type": "基",
@@ -64661,9 +64669,9 @@
       "code": "508607",
       "type": "基",
       "market": "sh",
-      "name": "N华安陆家嘴商业REIT",
-      "py": "nhuaanlujiazuishangyereit",
-      "abbr": "nhaljzsyreit"
+      "name": "华安陆家嘴商业REIT",
+      "py": "huaanlujiazuishangyereit",
+      "abbr": "haljzsyreit"
     },
     "sh508606": {
       "code": "508606",
@@ -65069,9 +65077,9 @@
       "code": "508019",
       "type": "基",
       "market": "sh",
-      "name": "XD中金湖北科投光谷REIT",
-      "py": "xdzhongjinhubeiketouguanggureit",
-      "abbr": "xdzjhbktggreit"
+      "name": "中金湖北科投光谷REIT",
+      "py": "zhongjinhubeiketouguanggureit",
+      "abbr": "zjhbktggreit"
     },
     "sh508018": {
       "code": "508018",
@@ -85484,10 +85492,10 @@
       "code": "01548",
       "type": "港",
       "market": "hk",
-      "name": "金斯瑞生物-一千",
-      "py": "jinsiruishengwu-yiqian",
-      "abbr": "jsrsw-yq",
-      "engname": "GENSCRIPT B-1K"
+      "name": "金斯瑞生物科技",
+      "py": "jinsiruishengwukeji",
+      "abbr": "jsrswkj",
+      "engname": "GENSCRIPT BIO"
     },
     "hk01549": {
       "code": "01549",
@@ -93138,15 +93146,6 @@
       "py": "baihongshiye(jiu)",
       "abbr": "bhsy(j)",
       "engname": "BILLION IND-OLD"
-    },
-    "hk02945": {
-      "code": "02945",
-      "type": "港",
-      "market": "hk",
-      "name": "金斯瑞生物-二千",
-      "py": "jinsiruishengwu-erqian",
-      "abbr": "jsrsw-eq",
-      "engname": "GENSCRIPT B-2K"
     },
     "hk02947": {
       "code": "02947",
