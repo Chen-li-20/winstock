@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-11-05",
+  "last_update": "2026-11-06",
   "codes": {
     "sh605599": {
       "code": "605599",
@@ -1477,9 +1477,9 @@
       "code": "603881",
       "type": "沪",
       "market": "sh",
-      "name": "数据港",
-      "py": "shujugang",
-      "abbr": "sjg"
+      "name": "XD数据港",
+      "py": "xdshujugang",
+      "abbr": "xdsjg"
     },
     "sh603880": {
       "code": "603880",
@@ -1597,9 +1597,9 @@
       "code": "603858",
       "type": "沪",
       "market": "sh",
-      "name": "XD步长制",
-      "py": "xdbuzhangzhi",
-      "abbr": "xdbzz"
+      "name": "步长制药",
+      "py": "buzhangzhiyao",
+      "abbr": "bzzy"
     },
     "sh603856": {
       "code": "603856",
@@ -3005,9 +3005,9 @@
       "code": "603511",
       "type": "沪",
       "market": "sh",
-      "name": "XD爱慕股",
-      "py": "xdaimugu",
-      "abbr": "xdamg"
+      "name": "爱慕股份",
+      "py": "aimugufen",
+      "abbr": "amgf"
     },
     "sh603508": {
       "code": "603508",
@@ -6461,9 +6461,9 @@
       "code": "601696",
       "type": "沪",
       "market": "sh",
-      "name": "中银证券",
-      "py": "zhongyinzhengquan",
-      "abbr": "zyzq"
+      "name": "XD中银证",
+      "py": "xdzhongyinzheng",
+      "abbr": "xdzyz"
     },
     "sh601689": {
       "code": "601689",
@@ -6925,9 +6925,9 @@
       "code": "601319",
       "type": "沪",
       "market": "sh",
-      "name": "中国人保",
-      "py": "zhongguorenbao",
-      "abbr": "zgrb"
+      "name": "XD中国人",
+      "py": "xdzhongguoren",
+      "abbr": "xdzgr"
     },
     "sh601318": {
       "code": "601318",
@@ -10789,9 +10789,9 @@
       "code": "600551",
       "type": "沪",
       "market": "sh",
-      "name": "时代出版",
-      "py": "shidaichuban",
-      "abbr": "sdcb"
+      "name": "XD时代出",
+      "py": "xdshidaichu",
+      "abbr": "xdsdc"
     },
     "sh600550": {
       "code": "600550",
@@ -11021,9 +11021,9 @@
       "code": "600516",
       "type": "沪",
       "market": "sh",
-      "name": "方大炭素",
-      "py": "fangdatansu",
-      "abbr": "fdts"
+      "name": "XD方大炭",
+      "py": "xdfangdatan",
+      "abbr": "xdfdt"
     },
     "sh600515": {
       "code": "600515",
@@ -11389,9 +11389,9 @@
       "code": "600459",
       "type": "沪",
       "market": "sh",
-      "name": "贵研铂业",
-      "py": "guiyanboye",
-      "abbr": "gyby"
+      "name": "XD贵研铂",
+      "py": "xdguiyanbo",
+      "abbr": "xdgyb"
     },
     "sh600458": {
       "code": "600458",
@@ -17309,9 +17309,9 @@
       "code": "688336",
       "type": "科",
       "market": "sh",
-      "name": "三生国健",
-      "py": "sanshengguojian",
-      "abbr": "ssgj"
+      "name": "XD三生国",
+      "py": "xdsanshengguo",
+      "abbr": "xdssg"
     },
     "sh688335": {
       "code": "688335",
@@ -42541,9 +42541,9 @@
       "code": "300237",
       "type": "创",
       "market": "",
-      "name": "ST美晨",
-      "py": "stmeichen",
-      "abbr": "stmc"
+      "name": "美晨科技",
+      "py": "meichenkeji",
+      "abbr": "mckj"
     },
     "300236": {
       "code": "300236",
@@ -45341,9 +45341,9 @@
       "code": "920779",
       "type": "京",
       "market": "bj",
-      "name": "武汉蓝电",
-      "py": "wuhanlandian",
-      "abbr": "whld"
+      "name": "XD武汉蓝",
+      "py": "xdwuhanlan",
+      "abbr": "xdwhl"
     },
     "bj920770": {
       "code": "920770",
@@ -47261,9 +47261,9 @@
       "code": "920085",
       "type": "京",
       "market": "bj",
-      "name": "森峰激光",
-      "py": "senfengjiguang",
-      "abbr": "sfjg"
+      "name": "N森峰",
+      "py": "nsenfeng",
+      "abbr": "nsf"
     },
     "bj920083": {
       "code": "920083",
@@ -49117,9 +49117,9 @@
       "code": "563780",
       "type": "基",
       "market": "sh",
-      "name": "现金流全指ETF方正富邦",
-      "py": "xianjinliuquanzhietffangzhengfubang",
-      "abbr": "xjlqzetffzfb"
+      "name": "现金流ETF方正富邦",
+      "py": "xianjinliuetffangzhengfubang",
+      "abbr": "xjletffzfb"
     },
     "sh563770": {
       "code": "563770",
@@ -54293,9 +54293,9 @@
       "code": "512220",
       "type": "基",
       "market": "sh",
-      "name": "TMTETF景顺",
-      "py": "tmtetfjingshun",
-      "abbr": "tmtetfjs"
+      "name": "UCTMTETF景顺",
+      "py": "uctmtetfjingshun",
+      "abbr": "uctmtetfjs"
     },
     "sh512200": {
       "code": "512200",
@@ -60729,6 +60729,14 @@
       "py": "chuangyebandianchietfhuabao",
       "abbr": "cybdcetfhb"
     },
+    "sh158076": {
+      "code": "158076",
+      "type": "基",
+      "market": "sh",
+      "name": "红利低波ETF广发",
+      "py": "honglidiboetfguangfa",
+      "abbr": "hldbetfgf"
+    },
     "sh158072": {
       "code": "158072",
       "type": "基",
@@ -64853,9 +64861,9 @@
       "code": "508081",
       "type": "基",
       "market": "sh",
-      "name": "华能REIT",
-      "py": "huanengreit",
-      "abbr": "hnreit"
+      "name": "N长城华能燃煤发电REIT",
+      "py": "nchangchenghuanengranmeifadianreit",
+      "abbr": "ncchnrmfdreit"
     },
     "sh508080": {
       "code": "508080",
@@ -81613,10 +81621,10 @@
       "code": "00928",
       "type": "港",
       "market": "hk",
-      "name": "帝王国际投资-新",
-      "py": "diwangguojitouzi-xin",
-      "abbr": "dwgjtz-x",
-      "engname": "KING INTL-NEW"
+      "name": "帝王国际投资",
+      "py": "diwangguojitouzi",
+      "abbr": "dwgjtz",
+      "engname": "KING INTL INV"
     },
     "hk00929": {
       "code": "00929",
@@ -87565,7 +87573,7 @@
       "name": "中国万天控股",
       "py": "zhongguowantiankonggu",
       "abbr": "zgwtkg",
-      "engname": "CHINA WANTIAN"
+      "engname": "CHINA ONETECH"
     },
     "hk01855": {
       "code": "01855",
@@ -93120,15 +93128,6 @@
       "abbr": "hxkg(j)",
       "engname": "SG GROUP H-OLD"
     },
-    "hk02938": {
-      "code": "02938",
-      "type": "港",
-      "market": "hk",
-      "name": "帝王国际投资-旧",
-      "py": "diwangguojitouzi-jiu",
-      "abbr": "dwgjtz-j",
-      "engname": "KING INTL-OLD"
-    },
     "hk02942": {
       "code": "02942",
       "type": "港",
@@ -93160,10 +93159,19 @@
       "code": "02948",
       "type": "港",
       "market": "hk",
-      "name": "天瑞汽车内饰",
-      "py": "tianruiqicheneishi",
-      "abbr": "trqcns",
-      "engname": "TR INTERIORS"
+      "name": "天瑞汽车内饰-旧",
+      "py": "tianruiqicheneishi-jiu",
+      "abbr": "trqcns-j",
+      "engname": "TR INTERIOR-OLD"
+    },
+    "hk02949": {
+      "code": "02949",
+      "type": "港",
+      "market": "hk",
+      "name": "绿色电能集团股权",
+      "py": "lvsediannengjituanguquan",
+      "abbr": "lsdnjtgq",
+      "engname": "GREEN POWER RTS"
     },
     "hk02952": {
       "code": "02952",
@@ -95144,6 +95152,15 @@
       "py": "baijishenzhou",
       "abbr": "bjsz",
       "engname": "BEONE MEDICINES"
+    },
+    "hk06162": {
+      "code": "06162",
+      "type": "港",
+      "market": "hk",
+      "name": "天瑞汽车内饰-新",
+      "py": "tianruiqicheneishi-xin",
+      "abbr": "trqcns-x",
+      "engname": "TR INTERIOR-NEW"
     },
     "hk06163": {
       "code": "06163",
@@ -98223,15 +98240,6 @@
       "abbr": "ycjt",
       "engname": "HATCHER GROUP"
     },
-    "hk08366": {
-      "code": "08366",
-      "type": "港",
-      "market": "hk",
-      "name": "浙江联合投资",
-      "py": "zhejianglianhetouzi",
-      "abbr": "zjlhtz",
-      "engname": "ZJ UNITED INV"
-    },
     "hk08367": {
       "code": "08367",
       "type": "港",
@@ -98344,10 +98352,10 @@
       "code": "08395",
       "type": "港",
       "market": "hk",
-      "name": "中显智能(五千)",
-      "py": "zhongxianzhineng(wuqian)",
-      "abbr": "zxzn(wq)",
-      "engname": "ZXZN QI-HSE-5K"
+      "name": "中显智能齐家控股",
+      "py": "zhongxianzhinengqijiakonggu",
+      "abbr": "zxznqjkg",
+      "engname": "ZXZN QI-HOUSE"
     },
     "hk08400": {
       "code": "08400",
@@ -99033,15 +99041,6 @@
       "abbr": "jygjjt",
       "engname": "GOLDEN LEAF INT"
     },
-    "hk08551": {
-      "code": "08551",
-      "type": "港",
-      "market": "hk",
-      "name": "中显智能(二万)",
-      "py": "zhongxianzhineng(erwan)",
-      "abbr": "zxzn(ew)",
-      "engname": "ZXZN QI-HSE-20K"
-    },
     "hk08552": {
       "code": "08552",
       "type": "港",
@@ -99068,6 +99067,15 @@
       "py": "shentongjiqiren(jiu)",
       "abbr": "stjqr(j)",
       "engname": "S ROBOT EDU-OLD"
+    },
+    "hk08557": {
+      "code": "08557",
+      "type": "港",
+      "market": "hk",
+      "name": "浙江联合投资",
+      "py": "zhejianglianhetouzi",
+      "abbr": "zjlhtz",
+      "engname": "ZJ UNITED INV"
     },
     "hk08572": {
       "code": "08572",
