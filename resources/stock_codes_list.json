@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-11-10",
+  "last_update": "2026-11-11",
   "codes": {
     "sh605599": {
       "code": "605599",
@@ -213,9 +213,9 @@
       "code": "605338",
       "type": "沪",
       "market": "sh",
-      "name": "巴比食品",
-      "py": "babishipin",
-      "abbr": "bbsp"
+      "name": "XD巴比食",
+      "py": "xdbabishi",
+      "abbr": "xdbbs"
     },
     "sh605337": {
       "code": "605337",
@@ -797,9 +797,9 @@
       "code": "605033",
       "type": "沪",
       "market": "sh",
-      "name": "XD美邦股",
-      "py": "xdmeibanggu",
-      "abbr": "xdmbg"
+      "name": "美邦股份",
+      "py": "meibanggufen",
+      "abbr": "mbgf"
     },
     "sh605028": {
       "code": "605028",
@@ -2701,9 +2701,9 @@
       "code": "603596",
       "type": "沪",
       "market": "sh",
-      "name": "XR伯特利",
-      "py": "xrboteli",
-      "abbr": "xrbtl"
+      "name": "伯特利",
+      "py": "boteli",
+      "abbr": "btl"
     },
     "sh603595": {
       "code": "603595",
@@ -3845,9 +3845,9 @@
       "code": "603309",
       "type": "沪",
       "market": "sh",
-      "name": "XD维力医",
-      "py": "xdweiliyi",
-      "abbr": "xdwly"
+      "name": "维力医疗",
+      "py": "weiliyiliao",
+      "abbr": "wlyl"
     },
     "sh603308": {
       "code": "603308",
@@ -4037,9 +4037,9 @@
       "code": "603279",
       "type": "沪",
       "market": "sh",
-      "name": "景津装备",
-      "py": "jingjinzhuangbei",
-      "abbr": "jjzb"
+      "name": "XD景津装",
+      "py": "xdjingjinzhuang",
+      "abbr": "xdjjz"
     },
     "sh603278": {
       "code": "603278",
@@ -6205,9 +6205,9 @@
       "code": "601869",
       "type": "沪",
       "market": "sh",
-      "name": "XD长飞光",
-      "py": "xdzhangfeiguang",
-      "abbr": "xdzfg"
+      "name": "长飞光纤",
+      "py": "zhangfeiguangxian",
+      "abbr": "zfgx"
     },
     "sh601868": {
       "code": "601868",
@@ -6309,9 +6309,9 @@
       "code": "601811",
       "type": "沪",
       "market": "sh",
-      "name": "XD新华文",
-      "py": "xdxinhuawen",
-      "abbr": "xdxhw"
+      "name": "新华文轩",
+      "py": "xinhuawenxuan",
+      "abbr": "xhwx"
     },
     "sh601808": {
       "code": "601808",
@@ -6325,9 +6325,9 @@
       "code": "601801",
       "type": "沪",
       "market": "sh",
-      "name": "XD皖新传",
-      "py": "xdwanxinchuan",
-      "abbr": "xdwxc"
+      "name": "皖新传媒",
+      "py": "wanxinchuanmei",
+      "abbr": "wxcm"
     },
     "sh601800": {
       "code": "601800",
@@ -14757,9 +14757,9 @@
       "code": "688827",
       "type": "科",
       "market": "sh",
-      "name": "N钶锐",
-      "py": "nkerui",
-      "abbr": "nkr"
+      "name": "C钶锐",
+      "py": "ckerui",
+      "abbr": "ckr"
     },
     "sh688826": {
       "code": "688826",
@@ -19293,9 +19293,9 @@
       "code": "688053",
       "type": "科",
       "market": "sh",
-      "name": "ST思科瑞",
-      "py": "stsikerui",
-      "abbr": "stskr"
+      "name": "思科瑞",
+      "py": "sikerui",
+      "abbr": "skr"
     },
     "sh688052": {
       "code": "688052",
@@ -49905,6 +49905,14 @@
       "py": "bandaotishebeietfzhaoshang",
       "abbr": "bdtsbetfzs"
     },
+    "sh561970": {
+      "code": "561970",
+      "type": "基",
+      "market": "sh",
+      "name": "N稀有金属ETF博时",
+      "py": "nxiyoujinshuetfboshi",
+      "abbr": "nxyjsetfbs"
+    },
     "sh561960": {
       "code": "561960",
       "type": "基",
@@ -51109,9 +51117,9 @@
       "code": "560070",
       "type": "基",
       "market": "sh",
-      "name": "央企红利ETF汇添富",
-      "py": "yangqihonglietfhuitianfu",
-      "abbr": "yqhletfhtf"
+      "name": "XD央企红利ETF汇添富",
+      "py": "xdyangqihonglietfhuitianfu",
+      "abbr": "xdyqhletfhtf"
     },
     "sh560060": {
       "code": "560060",
@@ -51141,9 +51149,9 @@
       "code": "560020",
       "type": "基",
       "market": "sh",
-      "name": "红利ETF汇添富",
-      "py": "honglietfhuitianfu",
-      "abbr": "hletfhtf"
+      "name": "XD红利ETF汇添富",
+      "py": "xdhonglietfhuitianfu",
+      "abbr": "xdhletfhtf"
     },
     "sh560010": {
       "code": "560010",
@@ -51157,9 +51165,9 @@
       "code": "530880",
       "type": "基",
       "market": "sh",
-      "name": "XD红利国企ETF银河",
-      "py": "xdhongliguoqietfyinhe",
-      "abbr": "xdhlgqetfyh"
+      "name": "红利国企ETF银河",
+      "py": "hongliguoqietfyinhe",
+      "abbr": "hlgqetfyh"
     },
     "sh530800": {
       "code": "530800",
@@ -51469,9 +51477,9 @@
       "code": "520810",
       "type": "基",
       "market": "sh",
-      "name": "港股通红利ETF易方达",
-      "py": "ganggutonghonglietfyifangda",
-      "abbr": "ggthletfyfd"
+      "name": "XD港股通红利ETF易方达",
+      "py": "xdganggutonghonglietfyifangda",
+      "abbr": "xdggthletfyfd"
     },
     "sh520790": {
       "code": "520790",
@@ -52965,9 +52973,9 @@
       "code": "515450",
       "type": "基",
       "market": "sh",
-      "name": "XD红利低波50ETF南方",
-      "py": "xdhonglidibo50etfnanfang",
-      "abbr": "xdhldb50etfnf"
+      "name": "红利低波50ETF南方",
+      "py": "honglidibo50etfnanfang",
+      "abbr": "hldb50etfnf"
     },
     "sh515440": {
       "code": "515440",
@@ -75761,10 +75769,10 @@
       "code": "00065",
       "type": "港",
       "market": "hk",
-      "name": "弘海高新资源",
-      "py": "honghaigaoxinziyuan",
-      "abbr": "hhgxzy",
-      "engname": "GRAND OCEAN AR"
+      "name": "弘海高新(五千)",
+      "py": "honghaigaoxin(wuqian)",
+      "abbr": "hhgx(wq)",
+      "engname": "GRAND OCEAN-5K"
     },
     "hk00066": {
       "code": "00066",
@@ -81467,10 +81475,10 @@
       "code": "00910",
       "type": "港",
       "market": "hk",
-      "name": "中国三迪(新)",
-      "py": "zhongguosandi(xin)",
-      "abbr": "zgsd(x)",
-      "engname": "CHINA SANDI-NEW"
+      "name": "中国三迪",
+      "py": "zhongguosandi",
+      "abbr": "zgsd",
+      "engname": "CHINA SANDI"
     },
     "hk00911": {
       "code": "00911",
@@ -87466,6 +87474,15 @@
       "abbr": "yyjtkg",
       "engname": "A.PLUS GROUP"
     },
+    "hk01842": {
+      "code": "01842",
+      "type": "港",
+      "market": "hk",
+      "name": "植华集团(新)",
+      "py": "zhihuajituan(xin)",
+      "abbr": "zhjt(x)",
+      "engname": "GROWN UP GP-NEW"
+    },
     "hk01843": {
       "code": "01843",
       "type": "港",
@@ -89652,6 +89669,15 @@
       "py": "kangqiaoyueshenghuo",
       "abbr": "kqysh",
       "engname": "KANGQIAO SER"
+    },
+    "hk02206": {
+      "code": "02206",
+      "type": "港",
+      "market": "hk",
+      "name": "新荷花",
+      "py": "xinhehua",
+      "abbr": "xhh",
+      "engname": "NEAUTUS"
     },
     "hk02208": {
       "code": "02208",
@@ -93082,15 +93108,6 @@
       "abbr": "zjky",
       "engname": "ZIJIN MINING"
     },
-    "hk02934": {
-      "code": "02934",
-      "type": "港",
-      "market": "hk",
-      "name": "中国三迪(旧)",
-      "py": "zhongguosandi(jiu)",
-      "abbr": "zgsd(j)",
-      "engname": "CHINA SANDI-OLD"
-    },
     "hk02942": {
       "code": "02942",
       "type": "港",
@@ -93140,10 +93157,10 @@
       "code": "02952",
       "type": "港",
       "market": "hk",
-      "name": "植华集团",
-      "py": "zhihuajituan",
-      "abbr": "zhjt",
-      "engname": "GROWN UP GROUP"
+      "name": "植华集团(旧)",
+      "py": "zhihuajituan(jiu)",
+      "abbr": "zhjt(j)",
+      "engname": "GROWN UP GP-OLD"
     },
     "hk02955": {
       "code": "02955",
@@ -93162,6 +93179,33 @@
       "py": "huihuangmingtian",
       "abbr": "hhmt",
       "engname": "BRIGHT FUTURE"
+    },
+    "hk02981": {
+      "code": "02981",
+      "type": "港",
+      "market": "hk",
+      "name": "弘海高新资源股权",
+      "py": "honghaigaoxinziyuanguquan",
+      "abbr": "hhgxzygq",
+      "engname": "GRAND OCEAN RTS"
+    },
+    "hk02982": {
+      "code": "02982",
+      "type": "港",
+      "market": "hk",
+      "name": "弘海高新(四千)",
+      "py": "honghaigaoxin(siqian)",
+      "abbr": "hhgx(sq)",
+      "engname": "GRAND OCEAN-4K"
+    },
+    "hk02984": {
+      "code": "02984",
+      "type": "港",
+      "market": "hk",
+      "name": "新锐医药(八千)",
+      "py": "xinruiyiyao(baqian)",
+      "abbr": "xryy(bq)",
+      "engname": "NEW RAY MED-8K"
     },
     "hk02996": {
       "code": "02996",
@@ -95003,10 +95047,10 @@
       "code": "06108",
       "type": "港",
       "market": "hk",
-      "name": "新锐医药",
-      "py": "xinruiyiyao",
-      "abbr": "xryy",
-      "engname": "NEW RAY MEDIC"
+      "name": "新锐医药(一万)",
+      "py": "xinruiyiyao(yiwan)",
+      "abbr": "xryy(yw)",
+      "engname": "NEW RAY MED-10K"
     },
     "hk06110": {
       "code": "06110",
@@ -96785,10 +96829,10 @@
       "code": "08059",
       "type": "港",
       "market": "hk",
-      "name": "朝威控股(新)",
-      "py": "chaoweikonggu(xin)",
-      "abbr": "cwkg(x)",
-      "engname": "GLORY FLAME-NEW"
+      "name": "朝威控股",
+      "py": "chaoweikonggu",
+      "abbr": "cwkg",
+      "engname": "GLORY FLAME"
     },
     "hk08060": {
       "code": "08060",
@@ -99057,15 +99101,6 @@
       "py": "zhejianglianhetouzi",
       "abbr": "zjlhtz",
       "engname": "ZJ UNITED INV"
-    },
-    "hk08572": {
-      "code": "08572",
-      "type": "港",
-      "market": "hk",
-      "name": "朝威控股(旧)",
-      "py": "chaoweikonggu(jiu)",
-      "abbr": "cwkg(j)",
-      "engname": "GLORY FLAME-OLD"
     },
     "hk08585": {
       "code": "08585",
