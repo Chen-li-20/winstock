@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-11-12",
+  "last_update": "2026-11-13",
   "codes": {
     "sh605599": {
       "code": "605599",
@@ -793,6 +793,5566 @@
       "py": "furande",
       "abbr": "frd"
     },
+    "sh605033": {
+      "code": "605033",
+      "type": "沪",
+      "market": "sh",
+      "name": "美邦股份",
+      "py": "meibanggufen",
+      "abbr": "mbgf"
+    },
+    "sh605028": {
+      "code": "605028",
+      "type": "沪",
+      "market": "sh",
+      "name": "世茂能源",
+      "py": "shimaonengyuan",
+      "abbr": "smny"
+    },
+    "sh605020": {
+      "code": "605020",
+      "type": "沪",
+      "market": "sh",
+      "name": "永和股份",
+      "py": "yonghegufen",
+      "abbr": "yhgf"
+    },
+    "sh605018": {
+      "code": "605018",
+      "type": "沪",
+      "market": "sh",
+      "name": "长华集团",
+      "py": "zhanghuajituan",
+      "abbr": "zhjt"
+    },
+    "sh605016": {
+      "code": "605016",
+      "type": "沪",
+      "market": "sh",
+      "name": "百龙创园",
+      "py": "bailongchuangyuan",
+      "abbr": "blcy"
+    },
+    "sh605011": {
+      "code": "605011",
+      "type": "沪",
+      "market": "sh",
+      "name": "杭州热电",
+      "py": "hangzhouredian",
+      "abbr": "hzrd"
+    },
+    "sh605009": {
+      "code": "605009",
+      "type": "沪",
+      "market": "sh",
+      "name": "豪悦护理",
+      "py": "haoyuehuli",
+      "abbr": "hyhl"
+    },
+    "sh605008": {
+      "code": "605008",
+      "type": "沪",
+      "market": "sh",
+      "name": "长鸿高科",
+      "py": "zhanghonggaoke",
+      "abbr": "zhgk"
+    },
+    "sh605007": {
+      "code": "605007",
+      "type": "沪",
+      "market": "sh",
+      "name": "五洲特纸",
+      "py": "wuzhoutezhi",
+      "abbr": "wztz"
+    },
+    "sh605006": {
+      "code": "605006",
+      "type": "沪",
+      "market": "sh",
+      "name": "山东玻纤",
+      "py": "shandongboxian",
+      "abbr": "sdbx"
+    },
+    "sh605005": {
+      "code": "605005",
+      "type": "沪",
+      "market": "sh",
+      "name": "合兴股份",
+      "py": "hexinggufen",
+      "abbr": "hxgf"
+    },
+    "sh605003": {
+      "code": "605003",
+      "type": "沪",
+      "market": "sh",
+      "name": "众望布艺",
+      "py": "zhongwangbuyi",
+      "abbr": "zwby"
+    },
+    "sh605001": {
+      "code": "605001",
+      "type": "沪",
+      "market": "sh",
+      "name": "威奥股份",
+      "py": "weiaogufen",
+      "abbr": "wagf"
+    },
+    "sh603999": {
+      "code": "603999",
+      "type": "沪",
+      "market": "sh",
+      "name": "读者传媒",
+      "py": "duzhechuanmei",
+      "abbr": "dzcm"
+    },
+    "sh603998": {
+      "code": "603998",
+      "type": "沪",
+      "market": "sh",
+      "name": "方盛制药",
+      "py": "fangshengzhiyao",
+      "abbr": "fszy"
+    },
+    "sh603997": {
+      "code": "603997",
+      "type": "沪",
+      "market": "sh",
+      "name": "继峰股份",
+      "py": "jifenggufen",
+      "abbr": "jfgf"
+    },
+    "sh603995": {
+      "code": "603995",
+      "type": "沪",
+      "market": "sh",
+      "name": "甬金股份",
+      "py": "yongjingufen",
+      "abbr": "yjgf"
+    },
+    "sh603993": {
+      "code": "603993",
+      "type": "沪",
+      "market": "sh",
+      "name": "洛阳钼业",
+      "py": "luoyangmuye",
+      "abbr": "lymy"
+    },
+    "sh603992": {
+      "code": "603992",
+      "type": "沪",
+      "market": "sh",
+      "name": "松霖科技",
+      "py": "songlinkeji",
+      "abbr": "slkj"
+    },
+    "sh603991": {
+      "code": "603991",
+      "type": "沪",
+      "market": "sh",
+      "name": "领先股份",
+      "py": "lingxiangufen",
+      "abbr": "lxgf"
+    },
+    "sh603990": {
+      "code": "603990",
+      "type": "沪",
+      "market": "sh",
+      "name": "麦迪科技",
+      "py": "maidikeji",
+      "abbr": "mdkj"
+    },
+    "sh603989": {
+      "code": "603989",
+      "type": "沪",
+      "market": "sh",
+      "name": "艾华集团",
+      "py": "aihuajituan",
+      "abbr": "ahjt"
+    },
+    "sh603988": {
+      "code": "603988",
+      "type": "沪",
+      "market": "sh",
+      "name": "中电电机",
+      "py": "zhongdiandianji",
+      "abbr": "zddj"
+    },
+    "sh603987": {
+      "code": "603987",
+      "type": "沪",
+      "market": "sh",
+      "name": "康德莱",
+      "py": "kangdelai",
+      "abbr": "kdl"
+    },
+    "sh603986": {
+      "code": "603986",
+      "type": "沪",
+      "market": "sh",
+      "name": "兆易创新",
+      "py": "zhaoyichuangxin",
+      "abbr": "zycx"
+    },
+    "sh603985": {
+      "code": "603985",
+      "type": "沪",
+      "market": "sh",
+      "name": "恒润股份",
+      "py": "hengrungufen",
+      "abbr": "hrgf"
+    },
+    "sh603983": {
+      "code": "603983",
+      "type": "沪",
+      "market": "sh",
+      "name": "丸美生物",
+      "py": "wanmeishengwu",
+      "abbr": "wmsw"
+    },
+    "sh603982": {
+      "code": "603982",
+      "type": "沪",
+      "market": "sh",
+      "name": "泉峰汽车",
+      "py": "quanfengqiche",
+      "abbr": "qfqc"
+    },
+    "sh603980": {
+      "code": "603980",
+      "type": "沪",
+      "market": "sh",
+      "name": "吉华集团",
+      "py": "jihuajituan",
+      "abbr": "jhjt"
+    },
+    "sh603979": {
+      "code": "603979",
+      "type": "沪",
+      "market": "sh",
+      "name": "金诚信",
+      "py": "jinchengxin",
+      "abbr": "jcx"
+    },
+    "sh603978": {
+      "code": "603978",
+      "type": "沪",
+      "market": "sh",
+      "name": "深圳新星",
+      "py": "shenzhenxinxing",
+      "abbr": "szxx"
+    },
+    "sh603977": {
+      "code": "603977",
+      "type": "沪",
+      "market": "sh",
+      "name": "国泰集团",
+      "py": "guotaijituan",
+      "abbr": "gtjt"
+    },
+    "sh603976": {
+      "code": "603976",
+      "type": "沪",
+      "market": "sh",
+      "name": "正川股份",
+      "py": "zhengchuangufen",
+      "abbr": "zcgf"
+    },
+    "sh603970": {
+      "code": "603970",
+      "type": "沪",
+      "market": "sh",
+      "name": "中农立华",
+      "py": "zhongnonglihua",
+      "abbr": "znlh"
+    },
+    "sh603969": {
+      "code": "603969",
+      "type": "沪",
+      "market": "sh",
+      "name": "银龙股份",
+      "py": "yinlonggufen",
+      "abbr": "ylgf"
+    },
+    "sh603968": {
+      "code": "603968",
+      "type": "沪",
+      "market": "sh",
+      "name": "醋化股份",
+      "py": "cuhuagufen",
+      "abbr": "chgf"
+    },
+    "sh603967": {
+      "code": "603967",
+      "type": "沪",
+      "market": "sh",
+      "name": "中创物流",
+      "py": "zhongchuangwuliu",
+      "abbr": "zcwl"
+    },
+    "sh603966": {
+      "code": "603966",
+      "type": "沪",
+      "market": "sh",
+      "name": "法兰泰克",
+      "py": "falantaike",
+      "abbr": "fltk"
+    },
+    "sh603963": {
+      "code": "603963",
+      "type": "沪",
+      "market": "sh",
+      "name": "*ST大药",
+      "py": "*stdayao",
+      "abbr": "*stdy"
+    },
+    "sh603960": {
+      "code": "603960",
+      "type": "沪",
+      "market": "sh",
+      "name": "克来机电",
+      "py": "kelaijidian",
+      "abbr": "kljd"
+    },
+    "sh603959": {
+      "code": "603959",
+      "type": "沪",
+      "market": "sh",
+      "name": "ST百利",
+      "py": "stbaili",
+      "abbr": "stbl"
+    },
+    "sh603958": {
+      "code": "603958",
+      "type": "沪",
+      "market": "sh",
+      "name": "哈森股份",
+      "py": "hasengufen",
+      "abbr": "hsgf"
+    },
+    "sh603956": {
+      "code": "603956",
+      "type": "沪",
+      "market": "sh",
+      "name": "威派格",
+      "py": "weipaige",
+      "abbr": "wpg"
+    },
+    "sh603955": {
+      "code": "603955",
+      "type": "沪",
+      "market": "sh",
+      "name": "大千生态",
+      "py": "daqianshengtai",
+      "abbr": "dqst"
+    },
+    "sh603950": {
+      "code": "603950",
+      "type": "沪",
+      "market": "sh",
+      "name": "长源东谷",
+      "py": "zhangyuandonggu",
+      "abbr": "zydg"
+    },
+    "sh603949": {
+      "code": "603949",
+      "type": "沪",
+      "market": "sh",
+      "name": "雪龙集团",
+      "py": "xuelongjituan",
+      "abbr": "xljt"
+    },
+    "sh603948": {
+      "code": "603948",
+      "type": "沪",
+      "market": "sh",
+      "name": "建业股份",
+      "py": "jianyegufen",
+      "abbr": "jygf"
+    },
+    "sh603939": {
+      "code": "603939",
+      "type": "沪",
+      "market": "sh",
+      "name": "益丰药房",
+      "py": "yifengyaofang",
+      "abbr": "yfyf"
+    },
+    "sh603938": {
+      "code": "603938",
+      "type": "沪",
+      "market": "sh",
+      "name": "三孚股份",
+      "py": "sanfugufen",
+      "abbr": "sfgf"
+    },
+    "sh603937": {
+      "code": "603937",
+      "type": "沪",
+      "market": "sh",
+      "name": "丽岛新材",
+      "py": "lidaoxincai",
+      "abbr": "ldxc"
+    },
+    "sh603936": {
+      "code": "603936",
+      "type": "沪",
+      "market": "sh",
+      "name": "博敏电子",
+      "py": "bomindianzi",
+      "abbr": "bmdz"
+    },
+    "sh603933": {
+      "code": "603933",
+      "type": "沪",
+      "market": "sh",
+      "name": "睿能科技",
+      "py": "ruinengkeji",
+      "abbr": "rnkj"
+    },
+    "sh603931": {
+      "code": "603931",
+      "type": "沪",
+      "market": "sh",
+      "name": "格林达",
+      "py": "gelinda",
+      "abbr": "gld"
+    },
+    "sh603929": {
+      "code": "603929",
+      "type": "沪",
+      "market": "sh",
+      "name": "亚翔集成",
+      "py": "yaxiangjicheng",
+      "abbr": "yxjc"
+    },
+    "sh603928": {
+      "code": "603928",
+      "type": "沪",
+      "market": "sh",
+      "name": "兴业股份",
+      "py": "xingyegufen",
+      "abbr": "xygf"
+    },
+    "sh603927": {
+      "code": "603927",
+      "type": "沪",
+      "market": "sh",
+      "name": "中科软",
+      "py": "zhongkeruan",
+      "abbr": "zkr"
+    },
+    "sh603926": {
+      "code": "603926",
+      "type": "沪",
+      "market": "sh",
+      "name": "铁流股份",
+      "py": "tieliugufen",
+      "abbr": "tlgf"
+    },
+    "sh603922": {
+      "code": "603922",
+      "type": "沪",
+      "market": "sh",
+      "name": "ST金鸿顺",
+      "py": "stjinhongshun",
+      "abbr": "stjhs"
+    },
+    "sh603920": {
+      "code": "603920",
+      "type": "沪",
+      "market": "sh",
+      "name": "世运电路",
+      "py": "shiyundianlu",
+      "abbr": "sydl"
+    },
+    "sh603919": {
+      "code": "603919",
+      "type": "沪",
+      "market": "sh",
+      "name": "金徽酒",
+      "py": "jinhuijiu",
+      "abbr": "jhj"
+    },
+    "sh603918": {
+      "code": "603918",
+      "type": "沪",
+      "market": "sh",
+      "name": "金桥信息",
+      "py": "jinqiaoxinxi",
+      "abbr": "jqxx"
+    },
+    "sh603917": {
+      "code": "603917",
+      "type": "沪",
+      "market": "sh",
+      "name": "合力科技",
+      "py": "helikeji",
+      "abbr": "hlkj"
+    },
+    "sh603916": {
+      "code": "603916",
+      "type": "沪",
+      "market": "sh",
+      "name": "苏博特",
+      "py": "subote",
+      "abbr": "sbt"
+    },
+    "sh603915": {
+      "code": "603915",
+      "type": "沪",
+      "market": "sh",
+      "name": "国茂股份",
+      "py": "guomaogufen",
+      "abbr": "gmgf"
+    },
+    "sh603912": {
+      "code": "603912",
+      "type": "沪",
+      "market": "sh",
+      "name": "佳力图",
+      "py": "jialitu",
+      "abbr": "jlt"
+    },
+    "sh603909": {
+      "code": "603909",
+      "type": "沪",
+      "market": "sh",
+      "name": "建发合诚",
+      "py": "jianfahecheng",
+      "abbr": "jfhc"
+    },
+    "sh603908": {
+      "code": "603908",
+      "type": "沪",
+      "market": "sh",
+      "name": "牧高笛",
+      "py": "mugaodi",
+      "abbr": "mgd"
+    },
+    "sh603906": {
+      "code": "603906",
+      "type": "沪",
+      "market": "sh",
+      "name": "龙蟠科技",
+      "py": "longpankeji",
+      "abbr": "lpkj"
+    },
+    "sh603903": {
+      "code": "603903",
+      "type": "沪",
+      "market": "sh",
+      "name": "中持股份",
+      "py": "zhongchigufen",
+      "abbr": "zcgf"
+    },
+    "sh603901": {
+      "code": "603901",
+      "type": "沪",
+      "market": "sh",
+      "name": "永创智能",
+      "py": "yongchuangzhineng",
+      "abbr": "yczn"
+    },
+    "sh603900": {
+      "code": "603900",
+      "type": "沪",
+      "market": "sh",
+      "name": "莱绅通灵",
+      "py": "laishentongling",
+      "abbr": "lstl"
+    },
+    "sh603899": {
+      "code": "603899",
+      "type": "沪",
+      "market": "sh",
+      "name": "晨光股份",
+      "py": "chenguanggufen",
+      "abbr": "cggf"
+    },
+    "sh603898": {
+      "code": "603898",
+      "type": "沪",
+      "market": "sh",
+      "name": "好莱客",
+      "py": "haolaike",
+      "abbr": "hlk"
+    },
+    "sh603897": {
+      "code": "603897",
+      "type": "沪",
+      "market": "sh",
+      "name": "长城科技",
+      "py": "changchengkeji",
+      "abbr": "cckj"
+    },
+    "sh603896": {
+      "code": "603896",
+      "type": "沪",
+      "market": "sh",
+      "name": "寿仙谷",
+      "py": "shouxiangu",
+      "abbr": "sxg"
+    },
+    "sh603895": {
+      "code": "603895",
+      "type": "沪",
+      "market": "sh",
+      "name": "天永智能",
+      "py": "tianyongzhineng",
+      "abbr": "tyzn"
+    },
+    "sh603893": {
+      "code": "603893",
+      "type": "沪",
+      "market": "sh",
+      "name": "瑞芯微",
+      "py": "ruixinwei",
+      "abbr": "rxw"
+    },
+    "sh603890": {
+      "code": "603890",
+      "type": "沪",
+      "market": "sh",
+      "name": "春秋电子",
+      "py": "chunqiudianzi",
+      "abbr": "cqdz"
+    },
+    "sh603889": {
+      "code": "603889",
+      "type": "沪",
+      "market": "sh",
+      "name": "新澳股份",
+      "py": "xinaogufen",
+      "abbr": "xagf"
+    },
+    "sh603888": {
+      "code": "603888",
+      "type": "沪",
+      "market": "sh",
+      "name": "新华网",
+      "py": "xinhuawang",
+      "abbr": "xhw"
+    },
+    "sh603887": {
+      "code": "603887",
+      "type": "沪",
+      "market": "sh",
+      "name": "城地香江",
+      "py": "chengdixiangjiang",
+      "abbr": "cdxj"
+    },
+    "sh603886": {
+      "code": "603886",
+      "type": "沪",
+      "market": "sh",
+      "name": "元祖股份",
+      "py": "yuanzugufen",
+      "abbr": "yzgf"
+    },
+    "sh603885": {
+      "code": "603885",
+      "type": "沪",
+      "market": "sh",
+      "name": "吉祥航空",
+      "py": "jixianghangkong",
+      "abbr": "jxhk"
+    },
+    "sh603883": {
+      "code": "603883",
+      "type": "沪",
+      "market": "sh",
+      "name": "老百姓",
+      "py": "laobaixing",
+      "abbr": "lbx"
+    },
+    "sh603882": {
+      "code": "603882",
+      "type": "沪",
+      "market": "sh",
+      "name": "金域医学",
+      "py": "jinyuyixue",
+      "abbr": "jyyx"
+    },
+    "sh603881": {
+      "code": "603881",
+      "type": "沪",
+      "market": "sh",
+      "name": "数据港",
+      "py": "shujugang",
+      "abbr": "sjg"
+    },
+    "sh603880": {
+      "code": "603880",
+      "type": "沪",
+      "market": "sh",
+      "name": "南卫股份",
+      "py": "nanweigufen",
+      "abbr": "nwgf"
+    },
+    "sh603879": {
+      "code": "603879",
+      "type": "沪",
+      "market": "sh",
+      "name": "永悦科技",
+      "py": "yongyuekeji",
+      "abbr": "yykj"
+    },
+    "sh603878": {
+      "code": "603878",
+      "type": "沪",
+      "market": "sh",
+      "name": "武进不锈",
+      "py": "wujinbuxiu",
+      "abbr": "wjbx"
+    },
+    "sh603877": {
+      "code": "603877",
+      "type": "沪",
+      "market": "sh",
+      "name": "太平鸟",
+      "py": "taipingniao",
+      "abbr": "tpn"
+    },
+    "sh603876": {
+      "code": "603876",
+      "type": "沪",
+      "market": "sh",
+      "name": "鼎胜新材",
+      "py": "dingshengxincai",
+      "abbr": "dsxc"
+    },
+    "sh603871": {
+      "code": "603871",
+      "type": "沪",
+      "market": "sh",
+      "name": "嘉友国际",
+      "py": "jiayouguoji",
+      "abbr": "jygj"
+    },
+    "sh603869": {
+      "code": "603869",
+      "type": "沪",
+      "market": "sh",
+      "name": "ST智知",
+      "py": "stzhizhi",
+      "abbr": "stzz"
+    },
+    "sh603868": {
+      "code": "603868",
+      "type": "沪",
+      "market": "sh",
+      "name": "飞科电器",
+      "py": "feikedianqi",
+      "abbr": "fkdq"
+    },
+    "sh603867": {
+      "code": "603867",
+      "type": "沪",
+      "market": "sh",
+      "name": "新化股份",
+      "py": "xinhuagufen",
+      "abbr": "xhgf"
+    },
+    "sh603866": {
+      "code": "603866",
+      "type": "沪",
+      "market": "sh",
+      "name": "桃李面包",
+      "py": "taolimianbao",
+      "abbr": "tlmb"
+    },
+    "sh603863": {
+      "code": "603863",
+      "type": "沪",
+      "market": "sh",
+      "name": "松炀资源",
+      "py": "songyangziyuan",
+      "abbr": "syzy"
+    },
+    "sh603861": {
+      "code": "603861",
+      "type": "沪",
+      "market": "sh",
+      "name": "白云电器",
+      "py": "baiyundianqi",
+      "abbr": "bydq"
+    },
+    "sh603860": {
+      "code": "603860",
+      "type": "沪",
+      "market": "sh",
+      "name": "中公高科",
+      "py": "zhonggonggaoke",
+      "abbr": "zggk"
+    },
+    "sh603859": {
+      "code": "603859",
+      "type": "沪",
+      "market": "sh",
+      "name": "能科科技",
+      "py": "nengkekeji",
+      "abbr": "nkkj"
+    },
+    "sh603858": {
+      "code": "603858",
+      "type": "沪",
+      "market": "sh",
+      "name": "步长制药",
+      "py": "buzhangzhiyao",
+      "abbr": "bzzy"
+    },
+    "sh603856": {
+      "code": "603856",
+      "type": "沪",
+      "market": "sh",
+      "name": "东宏股份",
+      "py": "donghonggufen",
+      "abbr": "dhgf"
+    },
+    "sh603855": {
+      "code": "603855",
+      "type": "沪",
+      "market": "sh",
+      "name": "华荣股份",
+      "py": "huaronggufen",
+      "abbr": "hrgf"
+    },
+    "sh603848": {
+      "code": "603848",
+      "type": "沪",
+      "market": "sh",
+      "name": "好太太",
+      "py": "haotaitai",
+      "abbr": "htt"
+    },
+    "sh603843": {
+      "code": "603843",
+      "type": "沪",
+      "market": "sh",
+      "name": "*ST正平",
+      "py": "*stzhengping",
+      "abbr": "*stzp"
+    },
+    "sh603839": {
+      "code": "603839",
+      "type": "沪",
+      "market": "sh",
+      "name": "安正时尚",
+      "py": "anzhengshishang",
+      "abbr": "azss"
+    },
+    "sh603838": {
+      "code": "603838",
+      "type": "沪",
+      "market": "sh",
+      "name": "四通股份",
+      "py": "sitonggufen",
+      "abbr": "stgf"
+    },
+    "sh603836": {
+      "code": "603836",
+      "type": "沪",
+      "market": "sh",
+      "name": "海程邦达",
+      "py": "haichengbangda",
+      "abbr": "hcbd"
+    },
+    "sh603833": {
+      "code": "603833",
+      "type": "沪",
+      "market": "sh",
+      "name": "欧派家居",
+      "py": "oupaijiaju",
+      "abbr": "opjj"
+    },
+    "sh603829": {
+      "code": "603829",
+      "type": "沪",
+      "market": "sh",
+      "name": "洛凯股份",
+      "py": "luokaigufen",
+      "abbr": "lkgf"
+    },
+    "sh603828": {
+      "code": "603828",
+      "type": "沪",
+      "market": "sh",
+      "name": "*ST利达",
+      "py": "*stlida",
+      "abbr": "*stld"
+    },
+    "sh603826": {
+      "code": "603826",
+      "type": "沪",
+      "market": "sh",
+      "name": "坤彩科技",
+      "py": "kuncaikeji",
+      "abbr": "kckj"
+    },
+    "sh603825": {
+      "code": "603825",
+      "type": "沪",
+      "market": "sh",
+      "name": "ST华扬",
+      "py": "sthuayang",
+      "abbr": "sthy"
+    },
+    "sh603823": {
+      "code": "603823",
+      "type": "沪",
+      "market": "sh",
+      "name": "百合花",
+      "py": "baihehua",
+      "abbr": "bhh"
+    },
+    "sh603822": {
+      "code": "603822",
+      "type": "沪",
+      "market": "sh",
+      "name": "ST嘉澳",
+      "py": "stjiaao",
+      "abbr": "stja"
+    },
+    "sh603819": {
+      "code": "603819",
+      "type": "沪",
+      "market": "sh",
+      "name": "神力股份",
+      "py": "shenligufen",
+      "abbr": "slgf"
+    },
+    "sh603818": {
+      "code": "603818",
+      "type": "沪",
+      "market": "sh",
+      "name": "曲美家居",
+      "py": "qumeijiaju",
+      "abbr": "qmjj"
+    },
+    "sh603817": {
+      "code": "603817",
+      "type": "沪",
+      "market": "sh",
+      "name": "海峡环保",
+      "py": "haixiahuanbao",
+      "abbr": "hxhb"
+    },
+    "sh603816": {
+      "code": "603816",
+      "type": "沪",
+      "market": "sh",
+      "name": "顾家家居",
+      "py": "gujiajiaju",
+      "abbr": "gjjj"
+    },
+    "sh603815": {
+      "code": "603815",
+      "type": "沪",
+      "market": "sh",
+      "name": "交建股份",
+      "py": "jiaojiangufen",
+      "abbr": "jjgf"
+    },
+    "sh603813": {
+      "code": "603813",
+      "type": "沪",
+      "market": "sh",
+      "name": "原尚股份",
+      "py": "yuanshanggufen",
+      "abbr": "ysgf"
+    },
+    "sh603811": {
+      "code": "603811",
+      "type": "沪",
+      "market": "sh",
+      "name": "诚意药业",
+      "py": "chengyiyaoye",
+      "abbr": "cyyy"
+    },
+    "sh603810": {
+      "code": "603810",
+      "type": "沪",
+      "market": "sh",
+      "name": "丰山集团",
+      "py": "fengshanjituan",
+      "abbr": "fsjt"
+    },
+    "sh603809": {
+      "code": "603809",
+      "type": "沪",
+      "market": "sh",
+      "name": "豪能股份",
+      "py": "haonenggufen",
+      "abbr": "hngf"
+    },
+    "sh603808": {
+      "code": "603808",
+      "type": "沪",
+      "market": "sh",
+      "name": "歌力思",
+      "py": "gelisi",
+      "abbr": "gls"
+    },
+    "sh603806": {
+      "code": "603806",
+      "type": "沪",
+      "market": "sh",
+      "name": "福斯特",
+      "py": "fusite",
+      "abbr": "fst"
+    },
+    "sh603803": {
+      "code": "603803",
+      "type": "沪",
+      "market": "sh",
+      "name": "瑞斯康达",
+      "py": "ruisikangda",
+      "abbr": "rskd"
+    },
+    "sh603801": {
+      "code": "603801",
+      "type": "沪",
+      "market": "sh",
+      "name": "志邦家居",
+      "py": "zhibangjiaju",
+      "abbr": "zbjj"
+    },
+    "sh603800": {
+      "code": "603800",
+      "type": "沪",
+      "market": "sh",
+      "name": "洪田股份",
+      "py": "hongtiangufen",
+      "abbr": "htgf"
+    },
+    "sh603799": {
+      "code": "603799",
+      "type": "沪",
+      "market": "sh",
+      "name": "华友钴业",
+      "py": "huayouguye",
+      "abbr": "hygy"
+    },
+    "sh603798": {
+      "code": "603798",
+      "type": "沪",
+      "market": "sh",
+      "name": "康普顿",
+      "py": "kangpudun",
+      "abbr": "kpd"
+    },
+    "sh603797": {
+      "code": "603797",
+      "type": "沪",
+      "market": "sh",
+      "name": "联泰环保",
+      "py": "liantaihuanbao",
+      "abbr": "lthb"
+    },
+    "sh603790": {
+      "code": "603790",
+      "type": "沪",
+      "market": "sh",
+      "name": "雅运股份",
+      "py": "yayungufen",
+      "abbr": "yygf"
+    },
+    "sh603789": {
+      "code": "603789",
+      "type": "沪",
+      "market": "sh",
+      "name": "ST星农",
+      "py": "stxingnong",
+      "abbr": "stxn"
+    },
+    "sh603788": {
+      "code": "603788",
+      "type": "沪",
+      "market": "sh",
+      "name": "宁波高发",
+      "py": "ningbogaofa",
+      "abbr": "nbgf"
+    },
+    "sh603787": {
+      "code": "603787",
+      "type": "沪",
+      "market": "sh",
+      "name": "新日股份",
+      "py": "xinrigufen",
+      "abbr": "xrgf"
+    },
+    "sh603786": {
+      "code": "603786",
+      "type": "沪",
+      "market": "sh",
+      "name": "科博达",
+      "py": "keboda",
+      "abbr": "kbd"
+    },
+    "sh603779": {
+      "code": "603779",
+      "type": "沪",
+      "market": "sh",
+      "name": "威龙股份",
+      "py": "weilonggufen",
+      "abbr": "wlgf"
+    },
+    "sh603778": {
+      "code": "603778",
+      "type": "沪",
+      "market": "sh",
+      "name": "国晟科技",
+      "py": "guochengkeji",
+      "abbr": "gckj"
+    },
+    "sh603777": {
+      "code": "603777",
+      "type": "沪",
+      "market": "sh",
+      "name": "来伊份",
+      "py": "laiyifen",
+      "abbr": "lyf"
+    },
+    "sh603776": {
+      "code": "603776",
+      "type": "沪",
+      "market": "sh",
+      "name": "永安行",
+      "py": "yonganxing",
+      "abbr": "yax"
+    },
+    "sh603773": {
+      "code": "603773",
+      "type": "沪",
+      "market": "sh",
+      "name": "沃格光电",
+      "py": "wogeguangdian",
+      "abbr": "wggd"
+    },
+    "sh603768": {
+      "code": "603768",
+      "type": "沪",
+      "market": "sh",
+      "name": "常青股份",
+      "py": "changqinggufen",
+      "abbr": "cqgf"
+    },
+    "sh603767": {
+      "code": "603767",
+      "type": "沪",
+      "market": "sh",
+      "name": "中马传动",
+      "py": "zhongmachuandong",
+      "abbr": "zmcd"
+    },
+    "sh603766": {
+      "code": "603766",
+      "type": "沪",
+      "market": "sh",
+      "name": "隆鑫通用",
+      "py": "longxintongyong",
+      "abbr": "lxty"
+    },
+    "sh603759": {
+      "code": "603759",
+      "type": "沪",
+      "market": "sh",
+      "name": "海天股份",
+      "py": "haitiangufen",
+      "abbr": "htgf"
+    },
+    "sh603758": {
+      "code": "603758",
+      "type": "沪",
+      "market": "sh",
+      "name": "秦安股份",
+      "py": "qinangufen",
+      "abbr": "qagf"
+    },
+    "sh603757": {
+      "code": "603757",
+      "type": "沪",
+      "market": "sh",
+      "name": "大元泵业",
+      "py": "dayuanbengye",
+      "abbr": "dyby"
+    },
+    "sh603755": {
+      "code": "603755",
+      "type": "沪",
+      "market": "sh",
+      "name": "日辰股份",
+      "py": "richengufen",
+      "abbr": "rcgf"
+    },
+    "sh603739": {
+      "code": "603739",
+      "type": "沪",
+      "market": "sh",
+      "name": "蔚蓝生物",
+      "py": "weilanshengwu",
+      "abbr": "wlsw"
+    },
+    "sh603738": {
+      "code": "603738",
+      "type": "沪",
+      "market": "sh",
+      "name": "泰晶科技",
+      "py": "taijingkeji",
+      "abbr": "tjkj"
+    },
+    "sh603737": {
+      "code": "603737",
+      "type": "沪",
+      "market": "sh",
+      "name": "三棵树",
+      "py": "sankeshu",
+      "abbr": "sks"
+    },
+    "sh603733": {
+      "code": "603733",
+      "type": "沪",
+      "market": "sh",
+      "name": "仙鹤股份",
+      "py": "xianhegufen",
+      "abbr": "xhgf"
+    },
+    "sh603730": {
+      "code": "603730",
+      "type": "沪",
+      "market": "sh",
+      "name": "岱美股份",
+      "py": "daimeigufen",
+      "abbr": "dmgf"
+    },
+    "sh603729": {
+      "code": "603729",
+      "type": "沪",
+      "market": "sh",
+      "name": "ST龙韵",
+      "py": "stlongyun",
+      "abbr": "stly"
+    },
+    "sh603728": {
+      "code": "603728",
+      "type": "沪",
+      "market": "sh",
+      "name": "鸣志电器",
+      "py": "mingzhidianqi",
+      "abbr": "mzdq"
+    },
+    "sh603727": {
+      "code": "603727",
+      "type": "沪",
+      "market": "sh",
+      "name": "博迈科",
+      "py": "bomaike",
+      "abbr": "bmk"
+    },
+    "sh603726": {
+      "code": "603726",
+      "type": "沪",
+      "market": "sh",
+      "name": "朗迪集团",
+      "py": "langdijituan",
+      "abbr": "ldjt"
+    },
+    "sh603725": {
+      "code": "603725",
+      "type": "沪",
+      "market": "sh",
+      "name": "天安新材",
+      "py": "tiananxincai",
+      "abbr": "taxc"
+    },
+    "sh603722": {
+      "code": "603722",
+      "type": "沪",
+      "market": "sh",
+      "name": "阿科力",
+      "py": "akeli",
+      "abbr": "akl"
+    },
+    "sh603721": {
+      "code": "603721",
+      "type": "沪",
+      "market": "sh",
+      "name": "中广天择",
+      "py": "zhongguangtianze",
+      "abbr": "zgtz"
+    },
+    "sh603719": {
+      "code": "603719",
+      "type": "沪",
+      "market": "sh",
+      "name": "良品铺子",
+      "py": "liangpinpuzi",
+      "abbr": "lppz"
+    },
+    "sh603718": {
+      "code": "603718",
+      "type": "沪",
+      "market": "sh",
+      "name": "*ST海利",
+      "py": "*sthaili",
+      "abbr": "*sthl"
+    },
+    "sh603717": {
+      "code": "603717",
+      "type": "沪",
+      "market": "sh",
+      "name": "天域生物",
+      "py": "tianyushengwu",
+      "abbr": "tysw"
+    },
+    "sh603716": {
+      "code": "603716",
+      "type": "沪",
+      "market": "sh",
+      "name": "塞力医疗",
+      "py": "sailiyiliao",
+      "abbr": "slyl"
+    },
+    "sh603713": {
+      "code": "603713",
+      "type": "沪",
+      "market": "sh",
+      "name": "密尔克卫",
+      "py": "mierkewei",
+      "abbr": "mekw"
+    },
+    "sh603712": {
+      "code": "603712",
+      "type": "沪",
+      "market": "sh",
+      "name": "七一二",
+      "py": "qiyier",
+      "abbr": "qye"
+    },
+    "sh603711": {
+      "code": "603711",
+      "type": "沪",
+      "market": "sh",
+      "name": "香飘飘",
+      "py": "xiangpiaopiao",
+      "abbr": "xpp"
+    },
+    "sh603709": {
+      "code": "603709",
+      "type": "沪",
+      "market": "sh",
+      "name": "中源家居",
+      "py": "zhongyuanjiaju",
+      "abbr": "zyjj"
+    },
+    "sh603708": {
+      "code": "603708",
+      "type": "沪",
+      "market": "sh",
+      "name": "家家悦",
+      "py": "jiajiayue",
+      "abbr": "jjy"
+    },
+    "sh603707": {
+      "code": "603707",
+      "type": "沪",
+      "market": "sh",
+      "name": "健友股份",
+      "py": "jianyougufen",
+      "abbr": "jygf"
+    },
+    "sh603706": {
+      "code": "603706",
+      "type": "沪",
+      "market": "sh",
+      "name": "东方环宇",
+      "py": "dongfanghuanyu",
+      "abbr": "dfhy"
+    },
+    "sh603703": {
+      "code": "603703",
+      "type": "沪",
+      "market": "sh",
+      "name": "盛洋科技",
+      "py": "shengyangkeji",
+      "abbr": "sykj"
+    },
+    "sh603701": {
+      "code": "603701",
+      "type": "沪",
+      "market": "sh",
+      "name": "德宏股份",
+      "py": "dehonggufen",
+      "abbr": "dhgf"
+    },
+    "sh603700": {
+      "code": "603700",
+      "type": "沪",
+      "market": "sh",
+      "name": "宁水集团",
+      "py": "ningshuijituan",
+      "abbr": "nsjt"
+    },
+    "sh603699": {
+      "code": "603699",
+      "type": "沪",
+      "market": "sh",
+      "name": "纽威股份",
+      "py": "niuweigufen",
+      "abbr": "nwgf"
+    },
+    "sh603698": {
+      "code": "603698",
+      "type": "沪",
+      "market": "sh",
+      "name": "航天工程",
+      "py": "hangtiangongcheng",
+      "abbr": "htgc"
+    },
+    "sh603697": {
+      "code": "603697",
+      "type": "沪",
+      "market": "sh",
+      "name": "有友食品",
+      "py": "youyoushipin",
+      "abbr": "yysp"
+    },
+    "sh603696": {
+      "code": "603696",
+      "type": "沪",
+      "market": "sh",
+      "name": "安记食品",
+      "py": "anjishipin",
+      "abbr": "ajsp"
+    },
+    "sh603693": {
+      "code": "603693",
+      "type": "沪",
+      "market": "sh",
+      "name": "江苏新能",
+      "py": "jiangsuxinneng",
+      "abbr": "jsxn"
+    },
+    "sh603690": {
+      "code": "603690",
+      "type": "沪",
+      "market": "sh",
+      "name": "至纯科技",
+      "py": "zhichunkeji",
+      "abbr": "zckj"
+    },
+    "sh603689": {
+      "code": "603689",
+      "type": "沪",
+      "market": "sh",
+      "name": "皖天然气",
+      "py": "wantianranqi",
+      "abbr": "wtrq"
+    },
+    "sh603688": {
+      "code": "603688",
+      "type": "沪",
+      "market": "sh",
+      "name": "石英股份",
+      "py": "shiyinggufen",
+      "abbr": "sygf"
+    },
+    "sh603687": {
+      "code": "603687",
+      "type": "沪",
+      "market": "sh",
+      "name": "大胜达",
+      "py": "dashengda",
+      "abbr": "dsd"
+    },
+    "sh603686": {
+      "code": "603686",
+      "type": "沪",
+      "market": "sh",
+      "name": "福龙马",
+      "py": "fulongma",
+      "abbr": "flm"
+    },
+    "sh603685": {
+      "code": "603685",
+      "type": "沪",
+      "market": "sh",
+      "name": "晨丰科技",
+      "py": "chenfengkeji",
+      "abbr": "cfkj"
+    },
+    "sh603683": {
+      "code": "603683",
+      "type": "沪",
+      "market": "sh",
+      "name": "晶华新材",
+      "py": "jinghuaxincai",
+      "abbr": "jhxc"
+    },
+    "sh603682": {
+      "code": "603682",
+      "type": "沪",
+      "market": "sh",
+      "name": "锦和商管",
+      "py": "jinheshangguan",
+      "abbr": "jhsg"
+    },
+    "sh603681": {
+      "code": "603681",
+      "type": "沪",
+      "market": "sh",
+      "name": "永冠新材",
+      "py": "yongguanxincai",
+      "abbr": "ygxc"
+    },
+    "sh603680": {
+      "code": "603680",
+      "type": "沪",
+      "market": "sh",
+      "name": "今创集团",
+      "py": "jinchuangjituan",
+      "abbr": "jcjt"
+    },
+    "sh603679": {
+      "code": "603679",
+      "type": "沪",
+      "market": "sh",
+      "name": "华体科技",
+      "py": "huatikeji",
+      "abbr": "htkj"
+    },
+    "sh603678": {
+      "code": "603678",
+      "type": "沪",
+      "market": "sh",
+      "name": "火炬电子",
+      "py": "huojudianzi",
+      "abbr": "hjdz"
+    },
+    "sh603677": {
+      "code": "603677",
+      "type": "沪",
+      "market": "sh",
+      "name": "奇精机械",
+      "py": "qijingjixie",
+      "abbr": "qjjx"
+    },
+    "sh603676": {
+      "code": "603676",
+      "type": "沪",
+      "market": "sh",
+      "name": "卫信康",
+      "py": "weixinkang",
+      "abbr": "wxk"
+    },
+    "sh603669": {
+      "code": "603669",
+      "type": "沪",
+      "market": "sh",
+      "name": "灵康药业",
+      "py": "lingkangyaoye",
+      "abbr": "lkyy"
+    },
+    "sh603668": {
+      "code": "603668",
+      "type": "沪",
+      "market": "sh",
+      "name": "天马科技",
+      "py": "tianmakeji",
+      "abbr": "tmkj"
+    },
+    "sh603667": {
+      "code": "603667",
+      "type": "沪",
+      "market": "sh",
+      "name": "五洲新春",
+      "py": "wuzhouxinchun",
+      "abbr": "wzxc"
+    },
+    "sh603666": {
+      "code": "603666",
+      "type": "沪",
+      "market": "sh",
+      "name": "亿嘉和",
+      "py": "yijiahe",
+      "abbr": "yjh"
+    },
+    "sh603665": {
+      "code": "603665",
+      "type": "沪",
+      "market": "sh",
+      "name": "康隆达",
+      "py": "kanglongda",
+      "abbr": "kld"
+    },
+    "sh603663": {
+      "code": "603663",
+      "type": "沪",
+      "market": "sh",
+      "name": "三祥新材",
+      "py": "sanxiangxincai",
+      "abbr": "sxxc"
+    },
+    "sh603662": {
+      "code": "603662",
+      "type": "沪",
+      "market": "sh",
+      "name": "柯力传感",
+      "py": "kelichuangan",
+      "abbr": "klcg"
+    },
+    "sh603661": {
+      "code": "603661",
+      "type": "沪",
+      "market": "sh",
+      "name": "恒林股份",
+      "py": "henglingufen",
+      "abbr": "hlgf"
+    },
+    "sh603660": {
+      "code": "603660",
+      "type": "沪",
+      "market": "sh",
+      "name": "苏州科达",
+      "py": "suzhoukeda",
+      "abbr": "szkd"
+    },
+    "sh603659": {
+      "code": "603659",
+      "type": "沪",
+      "market": "sh",
+      "name": "璞泰来",
+      "py": "putailai",
+      "abbr": "ptl"
+    },
+    "sh603658": {
+      "code": "603658",
+      "type": "沪",
+      "market": "sh",
+      "name": "安图生物",
+      "py": "antushengwu",
+      "abbr": "atsw"
+    },
+    "sh603657": {
+      "code": "603657",
+      "type": "沪",
+      "market": "sh",
+      "name": "春光科技",
+      "py": "chunguangkeji",
+      "abbr": "cgkj"
+    },
+    "sh603656": {
+      "code": "603656",
+      "type": "沪",
+      "market": "sh",
+      "name": "泰禾智能",
+      "py": "taihezhineng",
+      "abbr": "thzn"
+    },
+    "sh603655": {
+      "code": "603655",
+      "type": "沪",
+      "market": "sh",
+      "name": "朗博科技",
+      "py": "langbokeji",
+      "abbr": "lbkj"
+    },
+    "sh603650": {
+      "code": "603650",
+      "type": "沪",
+      "market": "sh",
+      "name": "彤程新材",
+      "py": "tongchengxincai",
+      "abbr": "tcxc"
+    },
+    "sh603648": {
+      "code": "603648",
+      "type": "沪",
+      "market": "sh",
+      "name": "畅联股份",
+      "py": "changliangufen",
+      "abbr": "clgf"
+    },
+    "sh603639": {
+      "code": "603639",
+      "type": "沪",
+      "market": "sh",
+      "name": "海利尔",
+      "py": "hailier",
+      "abbr": "hle"
+    },
+    "sh603638": {
+      "code": "603638",
+      "type": "沪",
+      "market": "sh",
+      "name": "艾迪精密",
+      "py": "aidijingmi",
+      "abbr": "adjm"
+    },
+    "sh603637": {
+      "code": "603637",
+      "type": "沪",
+      "market": "sh",
+      "name": "镇海股份",
+      "py": "zhenhaigufen",
+      "abbr": "zhgf"
+    },
+    "sh603636": {
+      "code": "603636",
+      "type": "沪",
+      "market": "sh",
+      "name": "南威软件",
+      "py": "nanweiruanjian",
+      "abbr": "nwrj"
+    },
+    "sh603633": {
+      "code": "603633",
+      "type": "沪",
+      "market": "sh",
+      "name": "徕木股份",
+      "py": "laimugufen",
+      "abbr": "lmgf"
+    },
+    "sh603630": {
+      "code": "603630",
+      "type": "沪",
+      "market": "sh",
+      "name": "拉芳家化",
+      "py": "lafangjiahua",
+      "abbr": "lfjh"
+    },
+    "sh603629": {
+      "code": "603629",
+      "type": "沪",
+      "market": "sh",
+      "name": "利通电子",
+      "py": "litongdianzi",
+      "abbr": "ltdz"
+    },
+    "sh603628": {
+      "code": "603628",
+      "type": "沪",
+      "market": "sh",
+      "name": "清源股份",
+      "py": "qingyuangufen",
+      "abbr": "qygf"
+    },
+    "sh603626": {
+      "code": "603626",
+      "type": "沪",
+      "market": "sh",
+      "name": "科森科技",
+      "py": "kesenkeji",
+      "abbr": "kskj"
+    },
+    "sh603619": {
+      "code": "603619",
+      "type": "沪",
+      "market": "sh",
+      "name": "中曼石油",
+      "py": "zhongmanshiyou",
+      "abbr": "zmsy"
+    },
+    "sh603618": {
+      "code": "603618",
+      "type": "沪",
+      "market": "sh",
+      "name": "杭电股份",
+      "py": "hangdiangufen",
+      "abbr": "hdgf"
+    },
+    "sh603617": {
+      "code": "603617",
+      "type": "沪",
+      "market": "sh",
+      "name": "君禾股份",
+      "py": "junhegufen",
+      "abbr": "jhgf"
+    },
+    "sh603616": {
+      "code": "603616",
+      "type": "沪",
+      "market": "sh",
+      "name": "韩建河山",
+      "py": "hanjianheshan",
+      "abbr": "hjhs"
+    },
+    "sh603615": {
+      "code": "603615",
+      "type": "沪",
+      "market": "sh",
+      "name": "茶花股份",
+      "py": "chahuagufen",
+      "abbr": "chgf"
+    },
+    "sh603613": {
+      "code": "603613",
+      "type": "沪",
+      "market": "sh",
+      "name": "国联股份",
+      "py": "guoliangufen",
+      "abbr": "glgf"
+    },
+    "sh603612": {
+      "code": "603612",
+      "type": "沪",
+      "market": "sh",
+      "name": "索通发展",
+      "py": "suotongfazhan",
+      "abbr": "stfz"
+    },
+    "sh603611": {
+      "code": "603611",
+      "type": "沪",
+      "market": "sh",
+      "name": "诺力股份",
+      "py": "nuoligufen",
+      "abbr": "nlgf"
+    },
+    "sh603610": {
+      "code": "603610",
+      "type": "沪",
+      "market": "sh",
+      "name": "麒盛科技",
+      "py": "qishengkeji",
+      "abbr": "qskj"
+    },
+    "sh603609": {
+      "code": "603609",
+      "type": "沪",
+      "market": "sh",
+      "name": "禾丰股份",
+      "py": "hefenggufen",
+      "abbr": "hfgf"
+    },
+    "sh603608": {
+      "code": "603608",
+      "type": "沪",
+      "market": "sh",
+      "name": "天创股份",
+      "py": "tianchuanggufen",
+      "abbr": "tcgf"
+    },
+    "sh603607": {
+      "code": "603607",
+      "type": "沪",
+      "market": "sh",
+      "name": "京华激光",
+      "py": "jinghuajiguang",
+      "abbr": "jhjg"
+    },
+    "sh603606": {
+      "code": "603606",
+      "type": "沪",
+      "market": "sh",
+      "name": "东方电缆",
+      "py": "dongfangdianlan",
+      "abbr": "dfdl"
+    },
+    "sh603605": {
+      "code": "603605",
+      "type": "沪",
+      "market": "sh",
+      "name": "珀莱雅",
+      "py": "polaiya",
+      "abbr": "ply"
+    },
+    "sh603602": {
+      "code": "603602",
+      "type": "沪",
+      "market": "sh",
+      "name": "纵横通信",
+      "py": "zonghengtongxin",
+      "abbr": "zhtx"
+    },
+    "sh603601": {
+      "code": "603601",
+      "type": "沪",
+      "market": "sh",
+      "name": "再升科技",
+      "py": "zaishengkeji",
+      "abbr": "zskj"
+    },
+    "sh603600": {
+      "code": "603600",
+      "type": "沪",
+      "market": "sh",
+      "name": "永艺股份",
+      "py": "yongyigufen",
+      "abbr": "yygf"
+    },
+    "sh603599": {
+      "code": "603599",
+      "type": "沪",
+      "market": "sh",
+      "name": "广信股份",
+      "py": "guangxingufen",
+      "abbr": "gxgf"
+    },
+    "sh603598": {
+      "code": "603598",
+      "type": "沪",
+      "market": "sh",
+      "name": "引力传媒",
+      "py": "yinlichuanmei",
+      "abbr": "ylcm"
+    },
+    "sh603596": {
+      "code": "603596",
+      "type": "沪",
+      "market": "sh",
+      "name": "伯特利",
+      "py": "boteli",
+      "abbr": "btl"
+    },
+    "sh603595": {
+      "code": "603595",
+      "type": "沪",
+      "market": "sh",
+      "name": "ST东尼",
+      "py": "stdongni",
+      "abbr": "stdn"
+    },
+    "sh603590": {
+      "code": "603590",
+      "type": "沪",
+      "market": "sh",
+      "name": "康辰药业",
+      "py": "kangchenyaoye",
+      "abbr": "kcyy"
+    },
+    "sh603589": {
+      "code": "603589",
+      "type": "沪",
+      "market": "sh",
+      "name": "口子窖",
+      "py": "kouzijiao",
+      "abbr": "kzj"
+    },
+    "sh603588": {
+      "code": "603588",
+      "type": "沪",
+      "market": "sh",
+      "name": "高能时代",
+      "py": "gaonengshidai",
+      "abbr": "gnsd"
+    },
+    "sh603587": {
+      "code": "603587",
+      "type": "沪",
+      "market": "sh",
+      "name": "地素时尚",
+      "py": "disushishang",
+      "abbr": "dsss"
+    },
+    "sh603586": {
+      "code": "603586",
+      "type": "沪",
+      "market": "sh",
+      "name": "金麒麟",
+      "py": "jinqilin",
+      "abbr": "jql"
+    },
+    "sh603585": {
+      "code": "603585",
+      "type": "沪",
+      "market": "sh",
+      "name": "苏利股份",
+      "py": "suligufen",
+      "abbr": "slgf"
+    },
+    "sh603583": {
+      "code": "603583",
+      "type": "沪",
+      "market": "sh",
+      "name": "捷昌驱动",
+      "py": "jiechangqudong",
+      "abbr": "jcqd"
+    },
+    "sh603580": {
+      "code": "603580",
+      "type": "沪",
+      "market": "sh",
+      "name": "艾艾精工",
+      "py": "aiaijinggong",
+      "abbr": "aajg"
+    },
+    "sh603579": {
+      "code": "603579",
+      "type": "沪",
+      "market": "sh",
+      "name": "荣泰健康",
+      "py": "rongtaijiankang",
+      "abbr": "rtjk"
+    },
+    "sh603578": {
+      "code": "603578",
+      "type": "沪",
+      "market": "sh",
+      "name": "三星新材",
+      "py": "sanxingxincai",
+      "abbr": "sxxc"
+    },
+    "sh603577": {
+      "code": "603577",
+      "type": "沪",
+      "market": "sh",
+      "name": "汇金通",
+      "py": "huijintong",
+      "abbr": "hjt"
+    },
+    "sh603569": {
+      "code": "603569",
+      "type": "沪",
+      "market": "sh",
+      "name": "长久物流",
+      "py": "changjiuwuliu",
+      "abbr": "cjwl"
+    },
+    "sh603568": {
+      "code": "603568",
+      "type": "沪",
+      "market": "sh",
+      "name": "伟明环保",
+      "py": "weiminghuanbao",
+      "abbr": "wmhb"
+    },
+    "sh603567": {
+      "code": "603567",
+      "type": "沪",
+      "market": "sh",
+      "name": "珍宝岛",
+      "py": "zhenbaodao",
+      "abbr": "zbd"
+    },
+    "sh603566": {
+      "code": "603566",
+      "type": "沪",
+      "market": "sh",
+      "name": "普莱柯",
+      "py": "pulaike",
+      "abbr": "plk"
+    },
+    "sh603565": {
+      "code": "603565",
+      "type": "沪",
+      "market": "sh",
+      "name": "中谷物流",
+      "py": "zhongguwuliu",
+      "abbr": "zgwl"
+    },
+    "sh603559": {
+      "code": "603559",
+      "type": "沪",
+      "market": "sh",
+      "name": "中通国脉",
+      "py": "zhongtongguomai",
+      "abbr": "ztgm"
+    },
+    "sh603558": {
+      "code": "603558",
+      "type": "沪",
+      "market": "sh",
+      "name": "健盛集团",
+      "py": "jianshengjituan",
+      "abbr": "jsjt"
+    },
+    "sh603557": {
+      "code": "603557",
+      "type": "沪",
+      "market": "sh",
+      "name": "*ST起步",
+      "py": "*stqibu",
+      "abbr": "*stqb"
+    },
+    "sh603556": {
+      "code": "603556",
+      "type": "沪",
+      "market": "sh",
+      "name": "海兴电力",
+      "py": "haixingdianli",
+      "abbr": "hxdl"
+    },
+    "sh603555": {
+      "code": "603555",
+      "type": "沪",
+      "market": "sh",
+      "name": "ST贵人",
+      "py": "stguiren",
+      "abbr": "stgr"
+    },
+    "sh603551": {
+      "code": "603551",
+      "type": "沪",
+      "market": "sh",
+      "name": "奥普科技",
+      "py": "aopukeji",
+      "abbr": "apkj"
+    },
+    "sh603538": {
+      "code": "603538",
+      "type": "沪",
+      "market": "sh",
+      "name": "美诺华",
+      "py": "meinuohua",
+      "abbr": "mnh"
+    },
+    "sh603536": {
+      "code": "603536",
+      "type": "沪",
+      "market": "sh",
+      "name": "惠发食品",
+      "py": "huifashipin",
+      "abbr": "hfsp"
+    },
+    "sh603535": {
+      "code": "603535",
+      "type": "沪",
+      "market": "sh",
+      "name": "嘉诚国际",
+      "py": "jiachengguoji",
+      "abbr": "jcgj"
+    },
+    "sh603533": {
+      "code": "603533",
+      "type": "沪",
+      "market": "sh",
+      "name": "掌阅科技",
+      "py": "zhangyuekeji",
+      "abbr": "zykj"
+    },
+    "sh603530": {
+      "code": "603530",
+      "type": "沪",
+      "market": "sh",
+      "name": "神马电力",
+      "py": "shenmadianli",
+      "abbr": "smdl"
+    },
+    "sh603529": {
+      "code": "603529",
+      "type": "沪",
+      "market": "sh",
+      "name": "爱玛科技",
+      "py": "aimakeji",
+      "abbr": "amkj"
+    },
+    "sh603528": {
+      "code": "603528",
+      "type": "沪",
+      "market": "sh",
+      "name": "多伦科技",
+      "py": "duolunkeji",
+      "abbr": "dlkj"
+    },
+    "sh603527": {
+      "code": "603527",
+      "type": "沪",
+      "market": "sh",
+      "name": "众源新材",
+      "py": "zhongyuanxincai",
+      "abbr": "zyxc"
+    },
+    "sh603520": {
+      "code": "603520",
+      "type": "沪",
+      "market": "sh",
+      "name": "司太立",
+      "py": "sitaili",
+      "abbr": "stl"
+    },
+    "sh603519": {
+      "code": "603519",
+      "type": "沪",
+      "market": "sh",
+      "name": "立霸股份",
+      "py": "libagufen",
+      "abbr": "lbgf"
+    },
+    "sh603518": {
+      "code": "603518",
+      "type": "沪",
+      "market": "sh",
+      "name": "锦泓集团",
+      "py": "jinhongjituan",
+      "abbr": "jhjt"
+    },
+    "sh603517": {
+      "code": "603517",
+      "type": "沪",
+      "market": "sh",
+      "name": "绝味食品",
+      "py": "jueweishipin",
+      "abbr": "jwsp"
+    },
+    "sh603516": {
+      "code": "603516",
+      "type": "沪",
+      "market": "sh",
+      "name": "淳中科技",
+      "py": "chunzhongkeji",
+      "abbr": "czkj"
+    },
+    "sh603515": {
+      "code": "603515",
+      "type": "沪",
+      "market": "sh",
+      "name": "欧普照明",
+      "py": "oupuzhaoming",
+      "abbr": "opzm"
+    },
+    "sh603511": {
+      "code": "603511",
+      "type": "沪",
+      "market": "sh",
+      "name": "爱慕股份",
+      "py": "aimugufen",
+      "abbr": "amgf"
+    },
+    "sh603508": {
+      "code": "603508",
+      "type": "沪",
+      "market": "sh",
+      "name": "思维列控",
+      "py": "siweiliekong",
+      "abbr": "swlk"
+    },
+    "sh603507": {
+      "code": "603507",
+      "type": "沪",
+      "market": "sh",
+      "name": "振江股份",
+      "py": "zhenjianggufen",
+      "abbr": "zjgf"
+    },
+    "sh603506": {
+      "code": "603506",
+      "type": "沪",
+      "market": "sh",
+      "name": "南都物业",
+      "py": "nandouwuye",
+      "abbr": "ndwy"
+    },
+    "sh603505": {
+      "code": "603505",
+      "type": "沪",
+      "market": "sh",
+      "name": "金石资源",
+      "py": "jinshiziyuan",
+      "abbr": "jszy"
+    },
+    "sh603501": {
+      "code": "603501",
+      "type": "沪",
+      "market": "sh",
+      "name": "豪威集团",
+      "py": "haoweijituan",
+      "abbr": "hwjt"
+    },
+    "sh603500": {
+      "code": "603500",
+      "type": "沪",
+      "market": "sh",
+      "name": "祥和实业",
+      "py": "xiangheshiye",
+      "abbr": "xhsy"
+    },
+    "sh603499": {
+      "code": "603499",
+      "type": "沪",
+      "market": "sh",
+      "name": "翔港科技",
+      "py": "xianggangkeji",
+      "abbr": "xgkj"
+    },
+    "sh603496": {
+      "code": "603496",
+      "type": "沪",
+      "market": "sh",
+      "name": "恒为科技",
+      "py": "hengweikeji",
+      "abbr": "hwkj"
+    },
+    "sh603489": {
+      "code": "603489",
+      "type": "沪",
+      "market": "sh",
+      "name": "八方股份",
+      "py": "bafanggufen",
+      "abbr": "bfgf"
+    },
+    "sh603488": {
+      "code": "603488",
+      "type": "沪",
+      "market": "sh",
+      "name": "展鹏科技",
+      "py": "zhanpengkeji",
+      "abbr": "zpkj"
+    },
+    "sh603486": {
+      "code": "603486",
+      "type": "沪",
+      "market": "sh",
+      "name": "科沃斯",
+      "py": "kewosi",
+      "abbr": "kws"
+    },
+    "sh603477": {
+      "code": "603477",
+      "type": "沪",
+      "market": "sh",
+      "name": "巨星农牧",
+      "py": "juxingnongmu",
+      "abbr": "jxnm"
+    },
+    "sh603468": {
+      "code": "603468",
+      "type": "沪",
+      "market": "sh",
+      "name": "津富士达",
+      "py": "jinfushida",
+      "abbr": "jfsd"
+    },
+    "sh603466": {
+      "code": "603466",
+      "type": "沪",
+      "market": "sh",
+      "name": "风语筑",
+      "py": "fengyuzhu",
+      "abbr": "fyz"
+    },
+    "sh603459": {
+      "code": "603459",
+      "type": "沪",
+      "market": "sh",
+      "name": "红板科技",
+      "py": "hongbankeji",
+      "abbr": "hbkj"
+    },
+    "sh603458": {
+      "code": "603458",
+      "type": "沪",
+      "market": "sh",
+      "name": "勘设股份",
+      "py": "kanshegufen",
+      "abbr": "ksgf"
+    },
+    "sh603456": {
+      "code": "603456",
+      "type": "沪",
+      "market": "sh",
+      "name": "九洲药业",
+      "py": "jiuzhouyaoye",
+      "abbr": "jzyy"
+    },
+    "sh603448": {
+      "code": "603448",
+      "type": "沪",
+      "market": "sh",
+      "name": "天博智能",
+      "py": "tianbozhineng",
+      "abbr": "tbzn"
+    },
+    "sh603444": {
+      "code": "603444",
+      "type": "沪",
+      "market": "sh",
+      "name": "XD吉比特",
+      "py": "xdjibite",
+      "abbr": "xdjbt"
+    },
+    "sh603439": {
+      "code": "603439",
+      "type": "沪",
+      "market": "sh",
+      "name": "三力制药",
+      "py": "sanlizhiyao",
+      "abbr": "slzy"
+    },
+    "sh603435": {
+      "code": "603435",
+      "type": "沪",
+      "market": "sh",
+      "name": "嘉德利",
+      "py": "jiadeli",
+      "abbr": "jdl"
+    },
+    "sh603429": {
+      "code": "603429",
+      "type": "沪",
+      "market": "sh",
+      "name": "*ST集友",
+      "py": "*stjiyou",
+      "abbr": "*stjy"
+    },
+    "sh603421": {
+      "code": "603421",
+      "type": "沪",
+      "market": "sh",
+      "name": "鼎信通讯",
+      "py": "dingxintongxun",
+      "abbr": "dxtx"
+    },
+    "sh603418": {
+      "code": "603418",
+      "type": "沪",
+      "market": "sh",
+      "name": "友升股份",
+      "py": "youshenggufen",
+      "abbr": "ysgf"
+    },
+    "sh603416": {
+      "code": "603416",
+      "type": "沪",
+      "market": "sh",
+      "name": "信捷电气",
+      "py": "xinjiedianqi",
+      "abbr": "xjdq"
+    },
+    "sh603409": {
+      "code": "603409",
+      "type": "沪",
+      "market": "sh",
+      "name": "汇通控股",
+      "py": "huitongkonggu",
+      "abbr": "htkg"
+    },
+    "sh603408": {
+      "code": "603408",
+      "type": "沪",
+      "market": "sh",
+      "name": "建霖家居",
+      "py": "jianlinjiaju",
+      "abbr": "jljj"
+    },
+    "sh603407": {
+      "code": "603407",
+      "type": "沪",
+      "market": "sh",
+      "name": "长裕集团",
+      "py": "zhangyujituan",
+      "abbr": "zyjt"
+    },
+    "sh603406": {
+      "code": "603406",
+      "type": "沪",
+      "market": "sh",
+      "name": "天富龙",
+      "py": "tianfulong",
+      "abbr": "tfl"
+    },
+    "sh603402": {
+      "code": "603402",
+      "type": "沪",
+      "market": "sh",
+      "name": "陕西旅游",
+      "py": "shanxilvyou",
+      "abbr": "sxly"
+    },
+    "sh603400": {
+      "code": "603400",
+      "type": "沪",
+      "market": "sh",
+      "name": "华之杰",
+      "py": "huazhijie",
+      "abbr": "hzj"
+    },
+    "sh603399": {
+      "code": "603399",
+      "type": "沪",
+      "market": "sh",
+      "name": "永杉锂业",
+      "py": "yongshanliye",
+      "abbr": "ysly"
+    },
+    "sh603398": {
+      "code": "603398",
+      "type": "沪",
+      "market": "sh",
+      "name": "*ST沐邦",
+      "py": "*stmubang",
+      "abbr": "*stmb"
+    },
+    "sh603396": {
+      "code": "603396",
+      "type": "沪",
+      "market": "sh",
+      "name": "金辰股份",
+      "py": "jinchengufen",
+      "abbr": "jcgf"
+    },
+    "sh603395": {
+      "code": "603395",
+      "type": "沪",
+      "market": "sh",
+      "name": "红四方",
+      "py": "hongsifang",
+      "abbr": "hsf"
+    },
+    "sh603393": {
+      "code": "603393",
+      "type": "沪",
+      "market": "sh",
+      "name": "新天然气",
+      "py": "xintianranqi",
+      "abbr": "xtrq"
+    },
+    "sh603392": {
+      "code": "603392",
+      "type": "沪",
+      "market": "sh",
+      "name": "万泰生物",
+      "py": "wantaishengwu",
+      "abbr": "wtsw"
+    },
+    "sh603391": {
+      "code": "603391",
+      "type": "沪",
+      "market": "sh",
+      "name": "力聚热能",
+      "py": "lijureneng",
+      "abbr": "ljrn"
+    },
+    "sh603390": {
+      "code": "603390",
+      "type": "沪",
+      "market": "sh",
+      "name": "通达电气",
+      "py": "tongdadianqi",
+      "abbr": "tddq"
+    },
+    "sh603389": {
+      "code": "603389",
+      "type": "沪",
+      "market": "sh",
+      "name": "亚振家居",
+      "py": "yazhenjiaju",
+      "abbr": "yzjj"
+    },
+    "sh603388": {
+      "code": "603388",
+      "type": "沪",
+      "market": "sh",
+      "name": "*ST元成",
+      "py": "*styuancheng",
+      "abbr": "*styc"
+    },
+    "sh603387": {
+      "code": "603387",
+      "type": "沪",
+      "market": "sh",
+      "name": "基蛋生物",
+      "py": "jidanshengwu",
+      "abbr": "jdsw"
+    },
+    "sh603386": {
+      "code": "603386",
+      "type": "沪",
+      "market": "sh",
+      "name": "骏亚科技",
+      "py": "junyakeji",
+      "abbr": "jykj"
+    },
+    "sh603385": {
+      "code": "603385",
+      "type": "沪",
+      "market": "sh",
+      "name": "惠达卫浴",
+      "py": "huidaweiyu",
+      "abbr": "hdwy"
+    },
+    "sh603383": {
+      "code": "603383",
+      "type": "沪",
+      "market": "sh",
+      "name": "顶点软件",
+      "py": "dingdianruanjian",
+      "abbr": "ddrj"
+    },
+    "sh603382": {
+      "code": "603382",
+      "type": "沪",
+      "market": "sh",
+      "name": "海阳科技",
+      "py": "haiyangkeji",
+      "abbr": "hykj"
+    },
+    "sh603381": {
+      "code": "603381",
+      "type": "沪",
+      "market": "sh",
+      "name": "永臻股份",
+      "py": "yongzhengufen",
+      "abbr": "yzgf"
+    },
+    "sh603380": {
+      "code": "603380",
+      "type": "沪",
+      "market": "sh",
+      "name": "易德龙",
+      "py": "yidelong",
+      "abbr": "ydl"
+    },
+    "sh603379": {
+      "code": "603379",
+      "type": "沪",
+      "market": "sh",
+      "name": "三美股份",
+      "py": "sanmeigufen",
+      "abbr": "smgf"
+    },
+    "sh603378": {
+      "code": "603378",
+      "type": "沪",
+      "market": "sh",
+      "name": "*ST亚士",
+      "py": "*styashi",
+      "abbr": "*stys"
+    },
+    "sh603377": {
+      "code": "603377",
+      "type": "沪",
+      "market": "sh",
+      "name": "ST东时",
+      "py": "stdongshi",
+      "abbr": "stds"
+    },
+    "sh603376": {
+      "code": "603376",
+      "type": "沪",
+      "market": "sh",
+      "name": "大明电子",
+      "py": "damingdianzi",
+      "abbr": "dmdz"
+    },
+    "sh603375": {
+      "code": "603375",
+      "type": "沪",
+      "market": "sh",
+      "name": "盛景微",
+      "py": "shengjingwei",
+      "abbr": "sjw"
+    },
+    "sh603373": {
+      "code": "603373",
+      "type": "沪",
+      "market": "sh",
+      "name": "安邦护卫",
+      "py": "anbanghuwei",
+      "abbr": "abhw"
+    },
+    "sh603370": {
+      "code": "603370",
+      "type": "沪",
+      "market": "sh",
+      "name": "华新精科",
+      "py": "huaxinjingke",
+      "abbr": "hxjk"
+    },
+    "sh603369": {
+      "code": "603369",
+      "type": "沪",
+      "market": "sh",
+      "name": "今世缘",
+      "py": "jinshiyuan",
+      "abbr": "jsy"
+    },
+    "sh603368": {
+      "code": "603368",
+      "type": "沪",
+      "market": "sh",
+      "name": "柳药集团",
+      "py": "liuyaojituan",
+      "abbr": "lyjt"
+    },
+    "sh603367": {
+      "code": "603367",
+      "type": "沪",
+      "market": "sh",
+      "name": "辰欣药业",
+      "py": "chenxinyaoye",
+      "abbr": "cxyy"
+    },
+    "sh603366": {
+      "code": "603366",
+      "type": "沪",
+      "market": "sh",
+      "name": "日出东方",
+      "py": "richudongfang",
+      "abbr": "rcdf"
+    },
+    "sh603365": {
+      "code": "603365",
+      "type": "沪",
+      "market": "sh",
+      "name": "水星家纺",
+      "py": "shuixingjiafang",
+      "abbr": "sxjf"
+    },
+    "sh603363": {
+      "code": "603363",
+      "type": "沪",
+      "market": "sh",
+      "name": "傲农生物",
+      "py": "aonongshengwu",
+      "abbr": "answ"
+    },
+    "sh603360": {
+      "code": "603360",
+      "type": "沪",
+      "market": "sh",
+      "name": "百傲化学",
+      "py": "baiaohuaxue",
+      "abbr": "bahx"
+    },
+    "sh603359": {
+      "code": "603359",
+      "type": "沪",
+      "market": "sh",
+      "name": "*ST东珠",
+      "py": "*stdongzhu",
+      "abbr": "*stdz"
+    },
+    "sh603358": {
+      "code": "603358",
+      "type": "沪",
+      "market": "sh",
+      "name": "华达科技",
+      "py": "huadakeji",
+      "abbr": "hdkj"
+    },
+    "sh603357": {
+      "code": "603357",
+      "type": "沪",
+      "market": "sh",
+      "name": "设计总院",
+      "py": "shejizongyuan",
+      "abbr": "sjzy"
+    },
+    "sh603356": {
+      "code": "603356",
+      "type": "沪",
+      "market": "sh",
+      "name": "华菱精工",
+      "py": "hualingjinggong",
+      "abbr": "hljg"
+    },
+    "sh603355": {
+      "code": "603355",
+      "type": "沪",
+      "market": "sh",
+      "name": "莱克电气",
+      "py": "laikedianqi",
+      "abbr": "lkdq"
+    },
+    "sh603353": {
+      "code": "603353",
+      "type": "沪",
+      "market": "sh",
+      "name": "和顺石油",
+      "py": "heshunshiyou",
+      "abbr": "hssy"
+    },
+    "sh603352": {
+      "code": "603352",
+      "type": "沪",
+      "market": "sh",
+      "name": "至信股份",
+      "py": "zhixingufen",
+      "abbr": "zxgf"
+    },
+    "sh603351": {
+      "code": "603351",
+      "type": "沪",
+      "market": "sh",
+      "name": "威尔药业",
+      "py": "weieryaoye",
+      "abbr": "weyy"
+    },
+    "sh603350": {
+      "code": "603350",
+      "type": "沪",
+      "market": "sh",
+      "name": "安乃达",
+      "py": "annaida",
+      "abbr": "and"
+    },
+    "sh603348": {
+      "code": "603348",
+      "type": "沪",
+      "market": "sh",
+      "name": "文灿股份",
+      "py": "wencangufen",
+      "abbr": "wcgf"
+    },
+    "sh603345": {
+      "code": "603345",
+      "type": "沪",
+      "market": "sh",
+      "name": "安井食品",
+      "py": "anjingshipin",
+      "abbr": "ajsp"
+    },
+    "sh603344": {
+      "code": "603344",
+      "type": "沪",
+      "market": "sh",
+      "name": "星德胜",
+      "py": "xingdesheng",
+      "abbr": "xds"
+    },
+    "sh603341": {
+      "code": "603341",
+      "type": "沪",
+      "market": "sh",
+      "name": "龙旗科技",
+      "py": "longqikeji",
+      "abbr": "lqkj"
+    },
+    "sh603339": {
+      "code": "603339",
+      "type": "沪",
+      "market": "sh",
+      "name": "四方科技",
+      "py": "sifangkeji",
+      "abbr": "sfkj"
+    },
+    "sh603338": {
+      "code": "603338",
+      "type": "沪",
+      "market": "sh",
+      "name": "浙江鼎力",
+      "py": "zhejiangdingli",
+      "abbr": "zjdl"
+    },
+    "sh603337": {
+      "code": "603337",
+      "type": "沪",
+      "market": "sh",
+      "name": "杰克科技",
+      "py": "jiekekeji",
+      "abbr": "jkkj"
+    },
+    "sh603336": {
+      "code": "603336",
+      "type": "沪",
+      "market": "sh",
+      "name": "宏辉果蔬",
+      "py": "honghuiguoshu",
+      "abbr": "hhgs"
+    },
+    "sh603335": {
+      "code": "603335",
+      "type": "沪",
+      "market": "sh",
+      "name": "迪生力",
+      "py": "dishengli",
+      "abbr": "dsl"
+    },
+    "sh603334": {
+      "code": "603334",
+      "type": "沪",
+      "market": "sh",
+      "name": "丰倍生物",
+      "py": "fengbeishengwu",
+      "abbr": "fbsw"
+    },
+    "sh603333": {
+      "code": "603333",
+      "type": "沪",
+      "market": "sh",
+      "name": "福华尚纬",
+      "py": "fuhuashangwei",
+      "abbr": "fhsw"
+    },
+    "sh603332": {
+      "code": "603332",
+      "type": "沪",
+      "market": "sh",
+      "name": "苏州龙杰",
+      "py": "suzhoulongjie",
+      "abbr": "szlj"
+    },
+    "sh603331": {
+      "code": "603331",
+      "type": "沪",
+      "market": "sh",
+      "name": "百达精工",
+      "py": "baidajinggong",
+      "abbr": "bdjg"
+    },
+    "sh603330": {
+      "code": "603330",
+      "type": "沪",
+      "market": "sh",
+      "name": "天洋新材",
+      "py": "tianyangxincai",
+      "abbr": "tyxc"
+    },
+    "sh603329": {
+      "code": "603329",
+      "type": "沪",
+      "market": "sh",
+      "name": "上海雅仕",
+      "py": "shanghaiyashi",
+      "abbr": "shys"
+    },
+    "sh603328": {
+      "code": "603328",
+      "type": "沪",
+      "market": "sh",
+      "name": "依顿电子",
+      "py": "yidundianzi",
+      "abbr": "yddz"
+    },
+    "sh603327": {
+      "code": "603327",
+      "type": "沪",
+      "market": "sh",
+      "name": "福蓉科技",
+      "py": "furongkeji",
+      "abbr": "frkj"
+    },
+    "sh603326": {
+      "code": "603326",
+      "type": "沪",
+      "market": "sh",
+      "name": "我乐家居",
+      "py": "wolejiaju",
+      "abbr": "wljj"
+    },
+    "sh603325": {
+      "code": "603325",
+      "type": "沪",
+      "market": "sh",
+      "name": "博隆技术",
+      "py": "bolongjishu",
+      "abbr": "bljs"
+    },
+    "sh603324": {
+      "code": "603324",
+      "type": "沪",
+      "market": "sh",
+      "name": "盛剑科技",
+      "py": "shengjiankeji",
+      "abbr": "sjkj"
+    },
+    "sh603323": {
+      "code": "603323",
+      "type": "沪",
+      "market": "sh",
+      "name": "苏农银行",
+      "py": "sunongyinhang",
+      "abbr": "snyh"
+    },
+    "sh603322": {
+      "code": "603322",
+      "type": "沪",
+      "market": "sh",
+      "name": "超讯科技",
+      "py": "chaoxunkeji",
+      "abbr": "cxkj"
+    },
+    "sh603321": {
+      "code": "603321",
+      "type": "沪",
+      "market": "sh",
+      "name": "梅轮电梯",
+      "py": "meilundianti",
+      "abbr": "mldt"
+    },
+    "sh603320": {
+      "code": "603320",
+      "type": "沪",
+      "market": "sh",
+      "name": "迪贝电气",
+      "py": "dibeidianqi",
+      "abbr": "dbdq"
+    },
+    "sh603319": {
+      "code": "603319",
+      "type": "沪",
+      "market": "sh",
+      "name": "美湖股份",
+      "py": "meihugufen",
+      "abbr": "mhgf"
+    },
+    "sh603318": {
+      "code": "603318",
+      "type": "沪",
+      "market": "sh",
+      "name": "水发燃气",
+      "py": "shuifaranqi",
+      "abbr": "sfrq"
+    },
+    "sh603317": {
+      "code": "603317",
+      "type": "沪",
+      "market": "sh",
+      "name": "天味食品",
+      "py": "tianweishipin",
+      "abbr": "twsp"
+    },
+    "sh603316": {
+      "code": "603316",
+      "type": "沪",
+      "market": "sh",
+      "name": "诚邦股份",
+      "py": "chengbanggufen",
+      "abbr": "cbgf"
+    },
+    "sh603315": {
+      "code": "603315",
+      "type": "沪",
+      "market": "sh",
+      "name": "福鞍股份",
+      "py": "fuangufen",
+      "abbr": "fagf"
+    },
+    "sh603313": {
+      "code": "603313",
+      "type": "沪",
+      "market": "sh",
+      "name": "梦百合",
+      "py": "mengbaihe",
+      "abbr": "mbh"
+    },
+    "sh603312": {
+      "code": "603312",
+      "type": "沪",
+      "market": "sh",
+      "name": "西典新能",
+      "py": "xidianxinneng",
+      "abbr": "xdxn"
+    },
+    "sh603311": {
+      "code": "603311",
+      "type": "沪",
+      "market": "sh",
+      "name": "金海高科",
+      "py": "jinhaigaoke",
+      "abbr": "jhgk"
+    },
+    "sh603310": {
+      "code": "603310",
+      "type": "沪",
+      "market": "sh",
+      "name": "巍华新材",
+      "py": "weihuaxincai",
+      "abbr": "whxc"
+    },
+    "sh603309": {
+      "code": "603309",
+      "type": "沪",
+      "market": "sh",
+      "name": "维力医疗",
+      "py": "weiliyiliao",
+      "abbr": "wlyl"
+    },
+    "sh603308": {
+      "code": "603308",
+      "type": "沪",
+      "market": "sh",
+      "name": "应流股份",
+      "py": "yingliugufen",
+      "abbr": "ylgf"
+    },
+    "sh603307": {
+      "code": "603307",
+      "type": "沪",
+      "market": "sh",
+      "name": "扬州金泉",
+      "py": "yangzhoujinquan",
+      "abbr": "yzjq"
+    },
+    "sh603306": {
+      "code": "603306",
+      "type": "沪",
+      "market": "sh",
+      "name": "华懋科技",
+      "py": "huamaokeji",
+      "abbr": "hmkj"
+    },
+    "sh603305": {
+      "code": "603305",
+      "type": "沪",
+      "market": "sh",
+      "name": "旭升集团",
+      "py": "xushengjituan",
+      "abbr": "xsjt"
+    },
+    "sh603303": {
+      "code": "603303",
+      "type": "沪",
+      "market": "sh",
+      "name": "得邦照明",
+      "py": "debangzhaoming",
+      "abbr": "dbzm"
+    },
+    "sh603301": {
+      "code": "603301",
+      "type": "沪",
+      "market": "sh",
+      "name": "振德医疗",
+      "py": "zhendeyiliao",
+      "abbr": "zdyl"
+    },
+    "sh603300": {
+      "code": "603300",
+      "type": "沪",
+      "market": "sh",
+      "name": "海南华铁",
+      "py": "hainanhuatie",
+      "abbr": "hnht"
+    },
+    "sh603299": {
+      "code": "603299",
+      "type": "沪",
+      "market": "sh",
+      "name": "苏盐井神",
+      "py": "suyanjingshen",
+      "abbr": "syjs"
+    },
+    "sh603298": {
+      "code": "603298",
+      "type": "沪",
+      "market": "sh",
+      "name": "杭叉集团",
+      "py": "hangchajituan",
+      "abbr": "hcjt"
+    },
+    "sh603297": {
+      "code": "603297",
+      "type": "沪",
+      "market": "sh",
+      "name": "永新光学",
+      "py": "yongxinguangxue",
+      "abbr": "yxgx"
+    },
+    "sh603296": {
+      "code": "603296",
+      "type": "沪",
+      "market": "sh",
+      "name": "华勤技术",
+      "py": "huaqinjishu",
+      "abbr": "hqjs"
+    },
+    "sh603293": {
+      "code": "603293",
+      "type": "沪",
+      "market": "sh",
+      "name": "埃泰克",
+      "py": "aitaike",
+      "abbr": "atk"
+    },
+    "sh603291": {
+      "code": "603291",
+      "type": "沪",
+      "market": "sh",
+      "name": "联合水务",
+      "py": "lianheshuiwu",
+      "abbr": "lhsw"
+    },
+    "sh603290": {
+      "code": "603290",
+      "type": "沪",
+      "market": "sh",
+      "name": "斯达半导",
+      "py": "sidabandao",
+      "abbr": "sdbd"
+    },
+    "sh603289": {
+      "code": "603289",
+      "type": "沪",
+      "market": "sh",
+      "name": "泰瑞机器",
+      "py": "tairuijiqi",
+      "abbr": "trjq"
+    },
+    "sh603288": {
+      "code": "603288",
+      "type": "沪",
+      "market": "sh",
+      "name": "海天味业",
+      "py": "haitianweiye",
+      "abbr": "htwy"
+    },
+    "sh603286": {
+      "code": "603286",
+      "type": "沪",
+      "market": "sh",
+      "name": "日盈电子",
+      "py": "riyingdianzi",
+      "abbr": "rydz"
+    },
+    "sh603285": {
+      "code": "603285",
+      "type": "沪",
+      "market": "sh",
+      "name": "键邦股份",
+      "py": "jianbanggufen",
+      "abbr": "jbgf"
+    },
+    "sh603284": {
+      "code": "603284",
+      "type": "沪",
+      "market": "sh",
+      "name": "林平发展",
+      "py": "linpingfazhan",
+      "abbr": "lpfz"
+    },
+    "sh603283": {
+      "code": "603283",
+      "type": "沪",
+      "market": "sh",
+      "name": "赛腾股份",
+      "py": "saitenggufen",
+      "abbr": "stgf"
+    },
+    "sh603282": {
+      "code": "603282",
+      "type": "沪",
+      "market": "sh",
+      "name": "亚光股份",
+      "py": "yaguanggufen",
+      "abbr": "yggf"
+    },
+    "sh603281": {
+      "code": "603281",
+      "type": "沪",
+      "market": "sh",
+      "name": "江瀚新材",
+      "py": "jianghanxincai",
+      "abbr": "jhxc"
+    },
+    "sh603280": {
+      "code": "603280",
+      "type": "沪",
+      "market": "sh",
+      "name": "南方路机",
+      "py": "nanfangluji",
+      "abbr": "nflj"
+    },
+    "sh603279": {
+      "code": "603279",
+      "type": "沪",
+      "market": "sh",
+      "name": "景津装备",
+      "py": "jingjinzhuangbei",
+      "abbr": "jjzb"
+    },
+    "sh603278": {
+      "code": "603278",
+      "type": "沪",
+      "market": "sh",
+      "name": "大业股份",
+      "py": "dayegufen",
+      "abbr": "dygf"
+    },
+    "sh603277": {
+      "code": "603277",
+      "type": "沪",
+      "market": "sh",
+      "name": "银都股份",
+      "py": "yindougufen",
+      "abbr": "ydgf"
+    },
+    "sh603276": {
+      "code": "603276",
+      "type": "沪",
+      "market": "sh",
+      "name": "恒兴新材",
+      "py": "hengxingxincai",
+      "abbr": "hxxc"
+    },
+    "sh603275": {
+      "code": "603275",
+      "type": "沪",
+      "market": "sh",
+      "name": "众辰科技",
+      "py": "zhongchenkeji",
+      "abbr": "zckj"
+    },
+    "sh603273": {
+      "code": "603273",
+      "type": "沪",
+      "market": "sh",
+      "name": "天元智能",
+      "py": "tianyuanzhineng",
+      "abbr": "tyzn"
+    },
+    "sh603272": {
+      "code": "603272",
+      "type": "沪",
+      "market": "sh",
+      "name": "*ST联翔",
+      "py": "*stlianxiang",
+      "abbr": "*stlx"
+    },
+    "sh603271": {
+      "code": "603271",
+      "type": "沪",
+      "market": "sh",
+      "name": "永杰新材",
+      "py": "yongjiexincai",
+      "abbr": "yjxc"
+    },
+    "sh603270": {
+      "code": "603270",
+      "type": "沪",
+      "market": "sh",
+      "name": "金帝股份",
+      "py": "jindigufen",
+      "abbr": "jdgf"
+    },
+    "sh603269": {
+      "code": "603269",
+      "type": "沪",
+      "market": "sh",
+      "name": "海鸥股份",
+      "py": "haiougufen",
+      "abbr": "hogf"
+    },
+    "sh603268": {
+      "code": "603268",
+      "type": "沪",
+      "market": "sh",
+      "name": "松发股份",
+      "py": "songfagufen",
+      "abbr": "sfgf"
+    },
+    "sh603267": {
+      "code": "603267",
+      "type": "沪",
+      "market": "sh",
+      "name": "鸿远电子",
+      "py": "hongyuandianzi",
+      "abbr": "hydz"
+    },
+    "sh603266": {
+      "code": "603266",
+      "type": "沪",
+      "market": "sh",
+      "name": "天龙股份",
+      "py": "tianlonggufen",
+      "abbr": "tlgf"
+    },
+    "sh603262": {
+      "code": "603262",
+      "type": "沪",
+      "market": "sh",
+      "name": "技源集团",
+      "py": "jiyuanjituan",
+      "abbr": "jyjt"
+    },
+    "sh603261": {
+      "code": "603261",
+      "type": "沪",
+      "market": "sh",
+      "name": "立航科技",
+      "py": "lihangkeji",
+      "abbr": "lhkj"
+    },
+    "sh603260": {
+      "code": "603260",
+      "type": "沪",
+      "market": "sh",
+      "name": "合盛硅业",
+      "py": "heshengguiye",
+      "abbr": "hsgy"
+    },
+    "sh603259": {
+      "code": "603259",
+      "type": "沪",
+      "market": "sh",
+      "name": "药明康德",
+      "py": "yaomingkangde",
+      "abbr": "ymkd"
+    },
+    "sh603258": {
+      "code": "603258",
+      "type": "沪",
+      "market": "sh",
+      "name": "电魂网络",
+      "py": "dianhunwangluo",
+      "abbr": "dhwl"
+    },
+    "sh603257": {
+      "code": "603257",
+      "type": "沪",
+      "market": "sh",
+      "name": "中国瑞林",
+      "py": "zhongguoruilin",
+      "abbr": "zgrl"
+    },
+    "sh603256": {
+      "code": "603256",
+      "type": "沪",
+      "market": "sh",
+      "name": "宏和科技",
+      "py": "honghekeji",
+      "abbr": "hhkj"
+    },
+    "sh603255": {
+      "code": "603255",
+      "type": "沪",
+      "market": "sh",
+      "name": "鼎际得",
+      "py": "dingjide",
+      "abbr": "djd"
+    },
+    "sh603248": {
+      "code": "603248",
+      "type": "沪",
+      "market": "sh",
+      "name": "锡华科技",
+      "py": "xihuakeji",
+      "abbr": "xhkj"
+    },
+    "sh603239": {
+      "code": "603239",
+      "type": "沪",
+      "market": "sh",
+      "name": "浙江仙通",
+      "py": "zhejiangxiantong",
+      "abbr": "zjxt"
+    },
+    "sh603238": {
+      "code": "603238",
+      "type": "沪",
+      "market": "sh",
+      "name": "诺邦股份",
+      "py": "nuobanggufen",
+      "abbr": "nbgf"
+    },
+    "sh603237": {
+      "code": "603237",
+      "type": "沪",
+      "market": "sh",
+      "name": "五芳斋",
+      "py": "wufangzhai",
+      "abbr": "wfz"
+    },
+    "sh603236": {
+      "code": "603236",
+      "type": "沪",
+      "market": "sh",
+      "name": "移远通信",
+      "py": "yiyuantongxin",
+      "abbr": "yytx"
+    },
+    "sh603235": {
+      "code": "603235",
+      "type": "沪",
+      "market": "sh",
+      "name": "天新药业",
+      "py": "tianxinyaoye",
+      "abbr": "txyy"
+    },
+    "sh603233": {
+      "code": "603233",
+      "type": "沪",
+      "market": "sh",
+      "name": "大参林",
+      "py": "dacanlin",
+      "abbr": "dcl"
+    },
+    "sh603232": {
+      "code": "603232",
+      "type": "沪",
+      "market": "sh",
+      "name": "格尔软件",
+      "py": "geerruanjian",
+      "abbr": "gerj"
+    },
+    "sh603231": {
+      "code": "603231",
+      "type": "沪",
+      "market": "sh",
+      "name": "索宝蛋白",
+      "py": "suobaodanbai",
+      "abbr": "sbdb"
+    },
+    "sh603230": {
+      "code": "603230",
+      "type": "沪",
+      "market": "sh",
+      "name": "内蒙新华",
+      "py": "neimengxinhua",
+      "abbr": "nmxh"
+    },
+    "sh603229": {
+      "code": "603229",
+      "type": "沪",
+      "market": "sh",
+      "name": "奥翔药业",
+      "py": "aoxiangyaoye",
+      "abbr": "axyy"
+    },
+    "sh603228": {
+      "code": "603228",
+      "type": "沪",
+      "market": "sh",
+      "name": "景旺电子",
+      "py": "jingwangdianzi",
+      "abbr": "jwdz"
+    },
+    "sh603227": {
+      "code": "603227",
+      "type": "沪",
+      "market": "sh",
+      "name": "雪峰科技",
+      "py": "xuefengkeji",
+      "abbr": "xfkj"
+    },
+    "sh603226": {
+      "code": "603226",
+      "type": "沪",
+      "market": "sh",
+      "name": "菲林格尔",
+      "py": "feilingeer",
+      "abbr": "flge"
+    },
+    "sh603225": {
+      "code": "603225",
+      "type": "沪",
+      "market": "sh",
+      "name": "新凤鸣",
+      "py": "xinfengming",
+      "abbr": "xfm"
+    },
+    "sh603223": {
+      "code": "603223",
+      "type": "沪",
+      "market": "sh",
+      "name": "恒通股份",
+      "py": "hengtonggufen",
+      "abbr": "htgf"
+    },
+    "sh603222": {
+      "code": "603222",
+      "type": "沪",
+      "market": "sh",
+      "name": "济民健康",
+      "py": "jiminjiankang",
+      "abbr": "jmjk"
+    },
+    "sh603221": {
+      "code": "603221",
+      "type": "沪",
+      "market": "sh",
+      "name": "爱丽家居",
+      "py": "ailijiaju",
+      "abbr": "aljj"
+    },
+    "sh603220": {
+      "code": "603220",
+      "type": "沪",
+      "market": "sh",
+      "name": "中贝通信",
+      "py": "zhongbeitongxin",
+      "abbr": "zbtx"
+    },
+    "sh603219": {
+      "code": "603219",
+      "type": "沪",
+      "market": "sh",
+      "name": "富佳股份",
+      "py": "fujiagufen",
+      "abbr": "fjgf"
+    },
+    "sh603218": {
+      "code": "603218",
+      "type": "沪",
+      "market": "sh",
+      "name": "日月股份",
+      "py": "riyuegufen",
+      "abbr": "rygf"
+    },
+    "sh603217": {
+      "code": "603217",
+      "type": "沪",
+      "market": "sh",
+      "name": "元利科技",
+      "py": "yuanlikeji",
+      "abbr": "ylkj"
+    },
+    "sh603216": {
+      "code": "603216",
+      "type": "沪",
+      "market": "sh",
+      "name": "梦天家居",
+      "py": "mengtianjiaju",
+      "abbr": "mtjj"
+    },
+    "sh603215": {
+      "code": "603215",
+      "type": "沪",
+      "market": "sh",
+      "name": "比依股份",
+      "py": "biyigufen",
+      "abbr": "bygf"
+    },
+    "sh603214": {
+      "code": "603214",
+      "type": "沪",
+      "market": "sh",
+      "name": "爱婴室",
+      "py": "aiyingshi",
+      "abbr": "ays"
+    },
+    "sh603213": {
+      "code": "603213",
+      "type": "沪",
+      "market": "sh",
+      "name": "镇洋发展",
+      "py": "zhenyangfazhan",
+      "abbr": "zyfz"
+    },
+    "sh603212": {
+      "code": "603212",
+      "type": "沪",
+      "market": "sh",
+      "name": "赛伍技术",
+      "py": "saiwujishu",
+      "abbr": "swjs"
+    },
+    "sh603211": {
+      "code": "603211",
+      "type": "沪",
+      "market": "sh",
+      "name": "晋拓股份",
+      "py": "jintuogufen",
+      "abbr": "jtgf"
+    },
+    "sh603210": {
+      "code": "603210",
+      "type": "沪",
+      "market": "sh",
+      "name": "泰鸿万立",
+      "py": "taihongwanli",
+      "abbr": "thwl"
+    },
+    "sh603209": {
+      "code": "603209",
+      "type": "沪",
+      "market": "sh",
+      "name": "兴通股份",
+      "py": "xingtonggufen",
+      "abbr": "xtgf"
+    },
+    "sh603208": {
+      "code": "603208",
+      "type": "沪",
+      "market": "sh",
+      "name": "江山欧派",
+      "py": "jiangshanoupai",
+      "abbr": "jsop"
+    },
+    "sh603207": {
+      "code": "603207",
+      "type": "沪",
+      "market": "sh",
+      "name": "小方制药",
+      "py": "xiaofangzhiyao",
+      "abbr": "xfzy"
+    },
+    "sh603206": {
+      "code": "603206",
+      "type": "沪",
+      "market": "sh",
+      "name": "嘉环科技",
+      "py": "jiahuankeji",
+      "abbr": "jhkj"
+    },
+    "sh603205": {
+      "code": "603205",
+      "type": "沪",
+      "market": "sh",
+      "name": "健尔康",
+      "py": "jianerkang",
+      "abbr": "jek"
+    },
+    "sh603203": {
+      "code": "603203",
+      "type": "沪",
+      "market": "sh",
+      "name": "快克智能",
+      "py": "kuaikezhineng",
+      "abbr": "kkzn"
+    },
+    "sh603202": {
+      "code": "603202",
+      "type": "沪",
+      "market": "sh",
+      "name": "天有为",
+      "py": "tianyouwei",
+      "abbr": "tyw"
+    },
+    "sh603201": {
+      "code": "603201",
+      "type": "沪",
+      "market": "sh",
+      "name": "常润股份",
+      "py": "changrungufen",
+      "abbr": "crgf"
+    },
+    "sh603200": {
+      "code": "603200",
+      "type": "沪",
+      "market": "sh",
+      "name": "上海洗霸",
+      "py": "shanghaixiba",
+      "abbr": "shxb"
+    },
+    "sh603199": {
+      "code": "603199",
+      "type": "沪",
+      "market": "sh",
+      "name": "九华旅游",
+      "py": "jiuhualvyou",
+      "abbr": "jhly"
+    },
+    "sh603198": {
+      "code": "603198",
+      "type": "沪",
+      "market": "sh",
+      "name": "迎驾贡酒",
+      "py": "yingjiagongjiu",
+      "abbr": "yjgj"
+    },
+    "sh603197": {
+      "code": "603197",
+      "type": "沪",
+      "market": "sh",
+      "name": "保隆科技",
+      "py": "baolongkeji",
+      "abbr": "blkj"
+    },
+    "sh603196": {
+      "code": "603196",
+      "type": "沪",
+      "market": "sh",
+      "name": "璞源材料",
+      "py": "puyuancailiao",
+      "abbr": "pycl"
+    },
+    "sh603195": {
+      "code": "603195",
+      "type": "沪",
+      "market": "sh",
+      "name": "公牛集团",
+      "py": "gongniujituan",
+      "abbr": "gnjt"
+    },
+    "sh603194": {
+      "code": "603194",
+      "type": "沪",
+      "market": "sh",
+      "name": "中力股份",
+      "py": "zhongligufen",
+      "abbr": "zlgf"
+    },
+    "sh603193": {
+      "code": "603193",
+      "type": "沪",
+      "market": "sh",
+      "name": "润本股份",
+      "py": "runbengufen",
+      "abbr": "rbgf"
+    },
+    "sh603192": {
+      "code": "603192",
+      "type": "沪",
+      "market": "sh",
+      "name": "汇得科技",
+      "py": "huidekeji",
+      "abbr": "hdkj"
+    },
+    "sh603191": {
+      "code": "603191",
+      "type": "沪",
+      "market": "sh",
+      "name": "望变电气",
+      "py": "wangbiandianqi",
+      "abbr": "wbdq"
+    },
+    "sh603190": {
+      "code": "603190",
+      "type": "沪",
+      "market": "sh",
+      "name": "亚通精工",
+      "py": "yatongjinggong",
+      "abbr": "ytjg"
+    },
+    "sh603189": {
+      "code": "603189",
+      "type": "沪",
+      "market": "sh",
+      "name": "*ST网达",
+      "py": "*stwangda",
+      "abbr": "*stwd"
+    },
+    "sh603188": {
+      "code": "603188",
+      "type": "沪",
+      "market": "sh",
+      "name": "亚邦股份",
+      "py": "yabanggufen",
+      "abbr": "ybgf"
+    },
+    "sh603187": {
+      "code": "603187",
+      "type": "沪",
+      "market": "sh",
+      "name": "海容冷链",
+      "py": "haironglenglian",
+      "abbr": "hrll"
+    },
+    "sh603186": {
+      "code": "603186",
+      "type": "沪",
+      "market": "sh",
+      "name": "华正新材",
+      "py": "huazhengxincai",
+      "abbr": "hzxc"
+    },
+    "sh603185": {
+      "code": "603185",
+      "type": "沪",
+      "market": "sh",
+      "name": "弘元绿能",
+      "py": "hongyuanlvneng",
+      "abbr": "hyln"
+    },
+    "sh603183": {
+      "code": "603183",
+      "type": "沪",
+      "market": "sh",
+      "name": "建研院",
+      "py": "jianyanyuan",
+      "abbr": "jyy"
+    },
+    "sh603182": {
+      "code": "603182",
+      "type": "沪",
+      "market": "sh",
+      "name": "嘉华股份",
+      "py": "jiahuagufen",
+      "abbr": "jhgf"
+    },
+    "sh603181": {
+      "code": "603181",
+      "type": "沪",
+      "market": "sh",
+      "name": "皇马科技",
+      "py": "huangmakeji",
+      "abbr": "hmkj"
+    },
+    "sh603180": {
+      "code": "603180",
+      "type": "沪",
+      "market": "sh",
+      "name": "金牌家居",
+      "py": "jinpaijiaju",
+      "abbr": "jpjj"
+    },
+    "sh603179": {
+      "code": "603179",
+      "type": "沪",
+      "market": "sh",
+      "name": "新泉股份",
+      "py": "xinquangufen",
+      "abbr": "xqgf"
+    },
+    "sh603178": {
+      "code": "603178",
+      "type": "沪",
+      "market": "sh",
+      "name": "圣龙股份",
+      "py": "shenglonggufen",
+      "abbr": "slgf"
+    },
+    "sh603177": {
+      "code": "603177",
+      "type": "沪",
+      "market": "sh",
+      "name": "德创环保",
+      "py": "dechuanghuanbao",
+      "abbr": "dchb"
+    },
+    "sh603176": {
+      "code": "603176",
+      "type": "沪",
+      "market": "sh",
+      "name": "汇通集团",
+      "py": "huitongjituan",
+      "abbr": "htjt"
+    },
+    "sh603175": {
+      "code": "603175",
+      "type": "沪",
+      "market": "sh",
+      "name": "超颖电子",
+      "py": "chaoyingdianzi",
+      "abbr": "cydz"
+    },
+    "sh603173": {
+      "code": "603173",
+      "type": "沪",
+      "market": "sh",
+      "name": "福斯达",
+      "py": "fusida",
+      "abbr": "fsd"
+    },
+    "sh603172": {
+      "code": "603172",
+      "type": "沪",
+      "market": "sh",
+      "name": "万丰股份",
+      "py": "wanfenggufen",
+      "abbr": "wfgf"
+    },
+    "sh603171": {
+      "code": "603171",
+      "type": "沪",
+      "market": "sh",
+      "name": "税友股份",
+      "py": "shuiyougufen",
+      "abbr": "sygf"
+    },
+    "sh603170": {
+      "code": "603170",
+      "type": "沪",
+      "market": "sh",
+      "name": "宝立食品",
+      "py": "baolishipin",
+      "abbr": "blsp"
+    },
+    "sh603169": {
+      "code": "603169",
+      "type": "沪",
+      "market": "sh",
+      "name": "兰石重装",
+      "py": "lanshizhongzhuang",
+      "abbr": "lszz"
+    },
+    "sh603168": {
+      "code": "603168",
+      "type": "沪",
+      "market": "sh",
+      "name": "莎普爱思",
+      "py": "shapuaisi",
+      "abbr": "spas"
+    },
+    "sh603167": {
+      "code": "603167",
+      "type": "沪",
+      "market": "sh",
+      "name": "渤海轮渡",
+      "py": "bohailundu",
+      "abbr": "bhld"
+    },
+    "sh603166": {
+      "code": "603166",
+      "type": "沪",
+      "market": "sh",
+      "name": "福达股份",
+      "py": "fudagufen",
+      "abbr": "fdgf"
+    },
+    "sh603165": {
+      "code": "603165",
+      "type": "沪",
+      "market": "sh",
+      "name": "荣晟环保",
+      "py": "rongchenghuanbao",
+      "abbr": "rchb"
+    },
+    "sh603163": {
+      "code": "603163",
+      "type": "沪",
+      "market": "sh",
+      "name": "圣晖集成",
+      "py": "shenghuijicheng",
+      "abbr": "shjc"
+    },
+    "sh603162": {
+      "code": "603162",
+      "type": "沪",
+      "market": "sh",
+      "name": "海通发展",
+      "py": "haitongfazhan",
+      "abbr": "htfz"
+    },
+    "sh603161": {
+      "code": "603161",
+      "type": "沪",
+      "market": "sh",
+      "name": "科华控股",
+      "py": "kehuakonggu",
+      "abbr": "khkg"
+    },
+    "sh603160": {
+      "code": "603160",
+      "type": "沪",
+      "market": "sh",
+      "name": "汇顶科技",
+      "py": "huidingkeji",
+      "abbr": "hdkj"
+    },
+    "sh603159": {
+      "code": "603159",
+      "type": "沪",
+      "market": "sh",
+      "name": "上海亚虹",
+      "py": "shanghaiyahong",
+      "abbr": "shyh"
+    },
+    "sh603158": {
+      "code": "603158",
+      "type": "沪",
+      "market": "sh",
+      "name": "腾龙股份",
+      "py": "tenglonggufen",
+      "abbr": "tlgf"
+    },
+    "sh603156": {
+      "code": "603156",
+      "type": "沪",
+      "market": "sh",
+      "name": "养元饮品",
+      "py": "yangyuanyinpin",
+      "abbr": "yyyp"
+    },
+    "sh603155": {
+      "code": "603155",
+      "type": "沪",
+      "market": "sh",
+      "name": "新亚强",
+      "py": "xinyaqiang",
+      "abbr": "xyq"
+    },
+    "sh603153": {
+      "code": "603153",
+      "type": "沪",
+      "market": "sh",
+      "name": "上海建科",
+      "py": "shanghaijianke",
+      "abbr": "shjk"
+    },
+    "sh603151": {
+      "code": "603151",
+      "type": "沪",
+      "market": "sh",
+      "name": "邦基科技",
+      "py": "bangjikeji",
+      "abbr": "bjkj"
+    },
+    "sh603150": {
+      "code": "603150",
+      "type": "沪",
+      "market": "sh",
+      "name": "万朗磁塑",
+      "py": "wanlangcisu",
+      "abbr": "wlcs"
+    },
+    "sh603139": {
+      "code": "603139",
+      "type": "沪",
+      "market": "sh",
+      "name": "康惠股份",
+      "py": "kanghuigufen",
+      "abbr": "khgf"
+    },
+    "sh603138": {
+      "code": "603138",
+      "type": "沪",
+      "market": "sh",
+      "name": "海量数据",
+      "py": "hailiangshuju",
+      "abbr": "hlsj"
+    },
+    "sh603137": {
+      "code": "603137",
+      "type": "沪",
+      "market": "sh",
+      "name": "恒尚节能",
+      "py": "hengshangjieneng",
+      "abbr": "hsjn"
+    },
+    "sh603136": {
+      "code": "603136",
+      "type": "沪",
+      "market": "sh",
+      "name": "天目湖",
+      "py": "tianmuhu",
+      "abbr": "tmh"
+    },
+    "sh603135": {
+      "code": "603135",
+      "type": "沪",
+      "market": "sh",
+      "name": "中重科技",
+      "py": "zhongzhongkeji",
+      "abbr": "zzkj"
+    },
+    "sh603132": {
+      "code": "603132",
+      "type": "沪",
+      "market": "sh",
+      "name": "金徽股份",
+      "py": "jinhuigufen",
+      "abbr": "jhgf"
+    },
+    "sh603131": {
+      "code": "603131",
+      "type": "沪",
+      "market": "sh",
+      "name": "上海沪工",
+      "py": "shanghaihugong",
+      "abbr": "shhg"
+    },
+    "sh603130": {
+      "code": "603130",
+      "type": "沪",
+      "market": "sh",
+      "name": "云中马",
+      "py": "yunzhongma",
+      "abbr": "yzm"
+    },
+    "sh603129": {
+      "code": "603129",
+      "type": "沪",
+      "market": "sh",
+      "name": "春风动力",
+      "py": "chunfengdongli",
+      "abbr": "cfdl"
+    },
+    "sh603128": {
+      "code": "603128",
+      "type": "沪",
+      "market": "sh",
+      "name": "华贸物流",
+      "py": "huamaowuliu",
+      "abbr": "hmwl"
+    },
+    "sh603127": {
+      "code": "603127",
+      "type": "沪",
+      "market": "sh",
+      "name": "昭衍新药",
+      "py": "zhaoyanxinyao",
+      "abbr": "zyxy"
+    },
+    "sh603126": {
+      "code": "603126",
+      "type": "沪",
+      "market": "sh",
+      "name": "中材节能",
+      "py": "zhongcaijieneng",
+      "abbr": "zcjn"
+    },
+    "sh603125": {
+      "code": "603125",
+      "type": "沪",
+      "market": "sh",
+      "name": "常青科技",
+      "py": "changqingkeji",
+      "abbr": "cqkj"
+    },
+    "sh603124": {
+      "code": "603124",
+      "type": "沪",
+      "market": "sh",
+      "name": "江南新材",
+      "py": "jiangnanxincai",
+      "abbr": "jnxc"
+    },
+    "sh603123": {
+      "code": "603123",
+      "type": "沪",
+      "market": "sh",
+      "name": "翠微股份",
+      "py": "cuiweigufen",
+      "abbr": "cwgf"
+    },
+    "sh603122": {
+      "code": "603122",
+      "type": "沪",
+      "market": "sh",
+      "name": "合富中国",
+      "py": "hefuzhongguo",
+      "abbr": "hfzg"
+    },
+    "sh603121": {
+      "code": "603121",
+      "type": "沪",
+      "market": "sh",
+      "name": "华培动力",
+      "py": "huapeidongli",
+      "abbr": "hpdl"
+    },
+    "sh603120": {
+      "code": "603120",
+      "type": "沪",
+      "market": "sh",
+      "name": "肯特催化",
+      "py": "kentecuihua",
+      "abbr": "ktch"
+    },
+    "sh603119": {
+      "code": "603119",
+      "type": "沪",
+      "market": "sh",
+      "name": "浙江荣泰",
+      "py": "zhejiangrongtai",
+      "abbr": "zjrt"
+    },
+    "sh603118": {
+      "code": "603118",
+      "type": "沪",
+      "market": "sh",
+      "name": "共进股份",
+      "py": "gongjingufen",
+      "abbr": "gjgf"
+    },
+    "sh603117": {
+      "code": "603117",
+      "type": "沪",
+      "market": "sh",
+      "name": "万林物流",
+      "py": "wanlinwuliu",
+      "abbr": "wlwl"
+    },
+    "sh603116": {
+      "code": "603116",
+      "type": "沪",
+      "market": "sh",
+      "name": "红蜻蜓",
+      "py": "hongqingting",
+      "abbr": "hqt"
+    },
+    "sh603115": {
+      "code": "603115",
+      "type": "沪",
+      "market": "sh",
+      "name": "海星股份",
+      "py": "haixinggufen",
+      "abbr": "hxgf"
+    },
+    "sh603113": {
+      "code": "603113",
+      "type": "沪",
+      "market": "sh",
+      "name": "金能科技",
+      "py": "jinnengkeji",
+      "abbr": "jnkj"
+    },
+    "sh603112": {
+      "code": "603112",
+      "type": "沪",
+      "market": "sh",
+      "name": "华翔股份",
+      "py": "huaxianggufen",
+      "abbr": "hxgf"
+    },
+    "sh603111": {
+      "code": "603111",
+      "type": "沪",
+      "market": "sh",
+      "name": "康尼机电",
+      "py": "kangnijidian",
+      "abbr": "knjd"
+    },
+    "sh603110": {
+      "code": "603110",
+      "type": "沪",
+      "market": "sh",
+      "name": "东方材料",
+      "py": "dongfangcailiao",
+      "abbr": "dfcl"
+    },
+    "sh603109": {
+      "code": "603109",
+      "type": "沪",
+      "market": "sh",
+      "name": "神驰机电",
+      "py": "shenchijidian",
+      "abbr": "scjd"
+    },
+    "sh603108": {
+      "code": "603108",
+      "type": "沪",
+      "market": "sh",
+      "name": "润达医疗",
+      "py": "rundayiliao",
+      "abbr": "rdyl"
+    },
+    "sh603107": {
+      "code": "603107",
+      "type": "沪",
+      "market": "sh",
+      "name": "上海汽配",
+      "py": "shanghaiqipei",
+      "abbr": "shqp"
+    },
+    "sh603106": {
+      "code": "603106",
+      "type": "沪",
+      "market": "sh",
+      "name": "恒银科技",
+      "py": "hengyinkeji",
+      "abbr": "hykj"
+    },
+    "sh603105": {
+      "code": "603105",
+      "type": "沪",
+      "market": "sh",
+      "name": "芯能科技",
+      "py": "xinnengkeji",
+      "abbr": "xnkj"
+    },
+    "sh603103": {
+      "code": "603103",
+      "type": "沪",
+      "market": "sh",
+      "name": "横店影视",
+      "py": "hengdianyingshi",
+      "abbr": "hdys"
+    },
+    "sh603102": {
+      "code": "603102",
+      "type": "沪",
+      "market": "sh",
+      "name": "百合股份",
+      "py": "baihegufen",
+      "abbr": "bhgf"
+    },
+    "sh603101": {
+      "code": "603101",
+      "type": "沪",
+      "market": "sh",
+      "name": "汇嘉时代",
+      "py": "huijiashidai",
+      "abbr": "hjsd"
+    },
+    "sh603100": {
+      "code": "603100",
+      "type": "沪",
+      "market": "sh",
+      "name": "川仪股份",
+      "py": "chuanyigufen",
+      "abbr": "cygf"
+    },
+    "sh603099": {
+      "code": "603099",
+      "type": "沪",
+      "market": "sh",
+      "name": "长白山",
+      "py": "changbaishan",
+      "abbr": "cbs"
+    },
+    "sh603098": {
+      "code": "603098",
+      "type": "沪",
+      "market": "sh",
+      "name": "森特股份",
+      "py": "sentegufen",
+      "abbr": "stgf"
+    },
+    "sh603097": {
+      "code": "603097",
+      "type": "沪",
+      "market": "sh",
+      "name": "江苏华辰",
+      "py": "jiangsuhuachen",
+      "abbr": "jshc"
+    },
+    "sh603096": {
+      "code": "603096",
+      "type": "沪",
+      "market": "sh",
+      "name": "新经典",
+      "py": "xinjingdian",
+      "abbr": "xjd"
+    },
+    "sh603095": {
+      "code": "603095",
+      "type": "沪",
+      "market": "sh",
+      "name": "越剑智能",
+      "py": "yuejianzhineng",
+      "abbr": "yjzn"
+    },
+    "sh603093": {
+      "code": "603093",
+      "type": "沪",
+      "market": "sh",
+      "name": "南华期货",
+      "py": "nanhuaqihuo",
+      "abbr": "nhqh"
+    },
+    "sh603092": {
+      "code": "603092",
+      "type": "沪",
+      "market": "sh",
+      "name": "德力佳",
+      "py": "delijia",
+      "abbr": "dlj"
+    },
+    "sh603091": {
+      "code": "603091",
+      "type": "沪",
+      "market": "sh",
+      "name": "众鑫股份",
+      "py": "zhongxingufen",
+      "abbr": "zxgf"
+    },
+    "sh603090": {
+      "code": "603090",
+      "type": "沪",
+      "market": "sh",
+      "name": "宏盛股份",
+      "py": "hongshenggufen",
+      "abbr": "hsgf"
+    },
+    "sh603089": {
+      "code": "603089",
+      "type": "沪",
+      "market": "sh",
+      "name": "正裕工业",
+      "py": "zhengyugongye",
+      "abbr": "zygy"
+    },
+    "sh603088": {
+      "code": "603088",
+      "type": "沪",
+      "market": "sh",
+      "name": "宁波精达",
+      "py": "ningbojingda",
+      "abbr": "nbjd"
+    },
+    "sh603087": {
+      "code": "603087",
+      "type": "沪",
+      "market": "sh",
+      "name": "甘李药业",
+      "py": "ganliyaoye",
+      "abbr": "glyy"
+    },
+    "sh603086": {
+      "code": "603086",
+      "type": "沪",
+      "market": "sh",
+      "name": "先达股份",
+      "py": "xiandagufen",
+      "abbr": "xdgf"
+    },
+    "sh603085": {
+      "code": "603085",
+      "type": "沪",
+      "market": "sh",
+      "name": "天成自控",
+      "py": "tianchengzikong",
+      "abbr": "tczk"
+    },
+    "sh603083": {
+      "code": "603083",
+      "type": "沪",
+      "market": "sh",
+      "name": "剑桥科技",
+      "py": "jianqiaokeji",
+      "abbr": "jqkj"
+    },
+    "sh603082": {
+      "code": "603082",
+      "type": "沪",
+      "market": "sh",
+      "name": "北自科技",
+      "py": "beizikeji",
+      "abbr": "bzkj"
+    },
+    "sh603081": {
+      "code": "603081",
+      "type": "沪",
+      "market": "sh",
+      "name": "大丰实业",
+      "py": "dafengshiye",
+      "abbr": "dfsy"
+    },
+    "sh603080": {
+      "code": "603080",
+      "type": "沪",
+      "market": "sh",
+      "name": "新疆火炬",
+      "py": "xinjianghuoju",
+      "abbr": "xjhj"
+    },
+    "sh603079": {
+      "code": "603079",
+      "type": "沪",
+      "market": "sh",
+      "name": "圣达生物",
+      "py": "shengdashengwu",
+      "abbr": "sdsw"
+    },
+    "sh603078": {
+      "code": "603078",
+      "type": "沪",
+      "market": "sh",
+      "name": "江化微",
+      "py": "jianghuawei",
+      "abbr": "jhw"
+    },
+    "sh603077": {
+      "code": "603077",
+      "type": "沪",
+      "market": "sh",
+      "name": "和邦生物",
+      "py": "hebangshengwu",
+      "abbr": "hbsw"
+    },
+    "sh603076": {
+      "code": "603076",
+      "type": "沪",
+      "market": "sh",
+      "name": "乐惠国际",
+      "py": "lehuiguoji",
+      "abbr": "lhgj"
+    },
+    "sh603075": {
+      "code": "603075",
+      "type": "沪",
+      "market": "sh",
+      "name": "热威股份",
+      "py": "reweigufen",
+      "abbr": "rwgf"
+    },
+    "sh603073": {
+      "code": "603073",
+      "type": "沪",
+      "market": "sh",
+      "name": "彩蝶实业",
+      "py": "caidieshiye",
+      "abbr": "cdsy"
+    },
+    "sh603072": {
+      "code": "603072",
+      "type": "沪",
+      "market": "sh",
+      "name": "天和磁材",
+      "py": "tianhecicai",
+      "abbr": "thcc"
+    },
+    "sh603071": {
+      "code": "603071",
+      "type": "沪",
+      "market": "sh",
+      "name": "物产环能",
+      "py": "wuchanhuanneng",
+      "abbr": "wchn"
+    },
+    "sh603070": {
+      "code": "603070",
+      "type": "沪",
+      "market": "sh",
+      "name": "万控智造",
+      "py": "wankongzhizao",
+      "abbr": "wkzz"
+    },
+    "sh603069": {
+      "code": "603069",
+      "type": "沪",
+      "market": "sh",
+      "name": "海汽集团",
+      "py": "haiqijituan",
+      "abbr": "hqjt"
+    },
+    "sh603068": {
+      "code": "603068",
+      "type": "沪",
+      "market": "sh",
+      "name": "博通集成",
+      "py": "botongjicheng",
+      "abbr": "btjc"
+    },
+    "sh603067": {
+      "code": "603067",
+      "type": "沪",
+      "market": "sh",
+      "name": "振华股份",
+      "py": "zhenhuagufen",
+      "abbr": "zhgf"
+    },
+    "sh603066": {
+      "code": "603066",
+      "type": "沪",
+      "market": "sh",
+      "name": "音飞储存",
+      "py": "yinfeichucun",
+      "abbr": "yfcc"
+    },
+    "sh603065": {
+      "code": "603065",
+      "type": "沪",
+      "market": "sh",
+      "name": "宿迁联盛",
+      "py": "suqianliansheng",
+      "abbr": "sqls"
+    },
+    "sh603063": {
+      "code": "603063",
+      "type": "沪",
+      "market": "sh",
+      "name": "禾望电气",
+      "py": "hewangdianqi",
+      "abbr": "hwdq"
+    },
+    "sh603062": {
+      "code": "603062",
+      "type": "沪",
+      "market": "sh",
+      "name": "麦加芯彩",
+      "py": "maijiaxincai",
+      "abbr": "mjxc"
+    },
+    "sh603061": {
+      "code": "603061",
+      "type": "沪",
+      "market": "sh",
+      "name": "金海通",
+      "py": "jinhaitong",
+      "abbr": "jht"
+    },
+    "sh603060": {
+      "code": "603060",
+      "type": "沪",
+      "market": "sh",
+      "name": "国检集团",
+      "py": "guojianjituan",
+      "abbr": "gjjt"
+    },
+    "sh603059": {
+      "code": "603059",
+      "type": "沪",
+      "market": "sh",
+      "name": "倍加洁",
+      "py": "beijiajie",
+      "abbr": "bjj"
+    },
+    "sh603058": {
+      "code": "603058",
+      "type": "沪",
+      "market": "sh",
+      "name": "永吉股份",
+      "py": "yongjigufen",
+      "abbr": "yjgf"
+    },
+    "sh603057": {
+      "code": "603057",
+      "type": "沪",
+      "market": "sh",
+      "name": "紫燕食品",
+      "py": "ziyanshipin",
+      "abbr": "zysp"
+    },
+    "sh603056": {
+      "code": "603056",
+      "type": "沪",
+      "market": "sh",
+      "name": "德邦股份",
+      "py": "debanggufen",
+      "abbr": "dbgf"
+    },
+    "sh603055": {
+      "code": "603055",
+      "type": "沪",
+      "market": "sh",
+      "name": "台华新材",
+      "py": "taihuaxincai",
+      "abbr": "thxc"
+    },
+    "sh603053": {
+      "code": "603053",
+      "type": "沪",
+      "market": "sh",
+      "name": "成都燃气",
+      "py": "chengduranqi",
+      "abbr": "cdrq"
+    },
+    "sh603052": {
+      "code": "603052",
+      "type": "沪",
+      "market": "sh",
+      "name": "可川科技",
+      "py": "kechuankeji",
+      "abbr": "kckj"
+    },
+    "sh603051": {
+      "code": "603051",
+      "type": "沪",
+      "market": "sh",
+      "name": "鹿山新材",
+      "py": "lushanxincai",
+      "abbr": "lsxc"
+    },
+    "sh603050": {
+      "code": "603050",
+      "type": "沪",
+      "market": "sh",
+      "name": "科林电气",
+      "py": "kelindianqi",
+      "abbr": "kldq"
+    },
+    "sh603049": {
+      "code": "603049",
+      "type": "沪",
+      "market": "sh",
+      "name": "中策橡胶",
+      "py": "zhongcexiangjiao",
+      "abbr": "zcxj"
+    },
+    "sh603048": {
+      "code": "603048",
+      "type": "沪",
+      "market": "sh",
+      "name": "浙江黎明",
+      "py": "zhejiangliming",
+      "abbr": "zjlm"
+    },
+    "sh603045": {
+      "code": "603045",
+      "type": "沪",
+      "market": "sh",
+      "name": "福达合金",
+      "py": "fudahejin",
+      "abbr": "fdhj"
+    },
+    "sh603043": {
+      "code": "603043",
+      "type": "沪",
+      "market": "sh",
+      "name": "广州酒家",
+      "py": "guangzhoujiujia",
+      "abbr": "gzjj"
+    },
+    "sh603042": {
+      "code": "603042",
+      "type": "沪",
+      "market": "sh",
+      "name": "华脉科技",
+      "py": "huamaikeji",
+      "abbr": "hmkj"
+    },
+    "sh603041": {
+      "code": "603041",
+      "type": "沪",
+      "market": "sh",
+      "name": "美思德",
+      "py": "meiside",
+      "abbr": "msd"
+    },
+    "sh603040": {
+      "code": "603040",
+      "type": "沪",
+      "market": "sh",
+      "name": "新坐标",
+      "py": "xinzuobiao",
+      "abbr": "xzb"
+    },
+    "sh603039": {
+      "code": "603039",
+      "type": "沪",
+      "market": "sh",
+      "name": "泛微网络",
+      "py": "fanweiwangluo",
+      "abbr": "fwwl"
+    },
+    "sh603038": {
+      "code": "603038",
+      "type": "沪",
+      "market": "sh",
+      "name": "华立股份",
+      "py": "hualigufen",
+      "abbr": "hlgf"
+    },
+    "sh603037": {
+      "code": "603037",
+      "type": "沪",
+      "market": "sh",
+      "name": "凯众股份",
+      "py": "kaizhonggufen",
+      "abbr": "kzgf"
+    },
+    "sh603036": {
+      "code": "603036",
+      "type": "沪",
+      "market": "sh",
+      "name": "如通股份",
+      "py": "rutonggufen",
+      "abbr": "rtgf"
+    },
+    "sh603035": {
+      "code": "603035",
+      "type": "沪",
+      "market": "sh",
+      "name": "常熟汽饰",
+      "py": "changshuqishi",
+      "abbr": "csqs"
+    },
+    "sh603033": {
+      "code": "603033",
+      "type": "沪",
+      "market": "sh",
+      "name": "三维股份",
+      "py": "sanweigufen",
+      "abbr": "swgf"
+    },
+    "sh603032": {
+      "code": "603032",
+      "type": "沪",
+      "market": "sh",
+      "name": "德新科技",
+      "py": "dexinkeji",
+      "abbr": "dxkj"
+    },
+    "sh603031": {
+      "code": "603031",
+      "type": "沪",
+      "market": "sh",
+      "name": "安孚科技",
+      "py": "anfukeji",
+      "abbr": "afkj"
+    },
+    "sh603030": {
+      "code": "603030",
+      "type": "沪",
+      "market": "sh",
+      "name": "全筑股份",
+      "py": "quanzhugufen",
+      "abbr": "qzgf"
+    },
+    "sh603029": {
+      "code": "603029",
+      "type": "沪",
+      "market": "sh",
+      "name": "天鹅股份",
+      "py": "tianegufen",
+      "abbr": "tegf"
+    },
+    "sh603028": {
+      "code": "603028",
+      "type": "沪",
+      "market": "sh",
+      "name": "赛福天",
+      "py": "saifutian",
+      "abbr": "sft"
+    },
+    "sh603027": {
+      "code": "603027",
+      "type": "沪",
+      "market": "sh",
+      "name": "千禾味业",
+      "py": "qianheweiye",
+      "abbr": "qhwy"
+    },
+    "sh603026": {
+      "code": "603026",
+      "type": "沪",
+      "market": "sh",
+      "name": "石大胜华",
+      "py": "shidashenghua",
+      "abbr": "sdsh"
+    },
+    "sh603025": {
+      "code": "603025",
+      "type": "沪",
+      "market": "sh",
+      "name": "大豪科技",
+      "py": "dahaokeji",
+      "abbr": "dhkj"
+    },
+    "sh603023": {
+      "code": "603023",
+      "type": "沪",
+      "market": "sh",
+      "name": "威帝股份",
+      "py": "weidigufen",
+      "abbr": "wdgf"
+    },
+    "sh603022": {
+      "code": "603022",
+      "type": "沪",
+      "market": "sh",
+      "name": "新通联",
+      "py": "xintonglian",
+      "abbr": "xtl"
+    },
+    "sh603021": {
+      "code": "603021",
+      "type": "沪",
+      "market": "sh",
+      "name": "*ST华鹏",
+      "py": "*sthuapeng",
+      "abbr": "*sthp"
+    },
+    "sh603020": {
+      "code": "603020",
+      "type": "沪",
+      "market": "sh",
+      "name": "爱普股份",
+      "py": "aipugufen",
+      "abbr": "apgf"
+    },
+    "sh603019": {
+      "code": "603019",
+      "type": "沪",
+      "market": "sh",
+      "name": "中科曙光",
+      "py": "zhongkeshuguang",
+      "abbr": "zksg"
+    },
+    "sh603018": {
+      "code": "603018",
+      "type": "沪",
+      "market": "sh",
+      "name": "华设集团",
+      "py": "huashejituan",
+      "abbr": "hsjt"
+    },
+    "sh603017": {
+      "code": "603017",
+      "type": "沪",
+      "market": "sh",
+      "name": "中衡设计",
+      "py": "zhonghengsheji",
+      "abbr": "zhsj"
+    },
+    "sh603016": {
+      "code": "603016",
+      "type": "沪",
+      "market": "sh",
+      "name": "新宏泰",
+      "py": "xinhongtai",
+      "abbr": "xht"
+    },
+    "sh603015": {
+      "code": "603015",
+      "type": "沪",
+      "market": "sh",
+      "name": "弘讯科技",
+      "py": "hongxunkeji",
+      "abbr": "hxkj"
+    },
+    "sh603014": {
+      "code": "603014",
+      "type": "沪",
+      "market": "sh",
+      "name": "威高血净",
+      "py": "weigaoxuejing",
+      "abbr": "wgxj"
+    },
+    "sh603013": {
+      "code": "603013",
+      "type": "沪",
+      "market": "sh",
+      "name": "亚普股份",
+      "py": "yapugufen",
+      "abbr": "ypgf"
+    },
+    "sh603012": {
+      "code": "603012",
+      "type": "沪",
+      "market": "sh",
+      "name": "创力集团",
+      "py": "chuanglijituan",
+      "abbr": "cljt"
+    },
+    "sh603011": {
+      "code": "603011",
+      "type": "沪",
+      "market": "sh",
+      "name": "合锻智能",
+      "py": "heduanzhineng",
+      "abbr": "hdzn"
+    },
+    "sh603010": {
+      "code": "603010",
+      "type": "沪",
+      "market": "sh",
+      "name": "万盛股份",
+      "py": "wanshenggufen",
+      "abbr": "wsgf"
+    },
+    "sh603009": {
+      "code": "603009",
+      "type": "沪",
+      "market": "sh",
+      "name": "北特科技",
+      "py": "beitekeji",
+      "abbr": "btkj"
+    },
+    "sh603008": {
+      "code": "603008",
+      "type": "沪",
+      "market": "sh",
+      "name": "ST喜临门",
+      "py": "stxilinmen",
+      "abbr": "stxlm"
+    },
+    "sh603007": {
+      "code": "603007",
+      "type": "沪",
+      "market": "sh",
+      "name": "顺景科技",
+      "py": "shunjingkeji",
+      "abbr": "sjkj"
+    },
+    "sh603006": {
+      "code": "603006",
+      "type": "沪",
+      "market": "sh",
+      "name": "联明股份",
+      "py": "lianminggufen",
+      "abbr": "lmgf"
+    },
+    "sh603005": {
+      "code": "603005",
+      "type": "沪",
+      "market": "sh",
+      "name": "晶方科技",
+      "py": "jingfangkeji",
+      "abbr": "jfkj"
+    },
+    "sh603004": {
+      "code": "603004",
+      "type": "沪",
+      "market": "sh",
+      "name": "鼎龙科技",
+      "py": "dinglongkeji",
+      "abbr": "dlkj"
+    },
+    "sh603002": {
+      "code": "603002",
+      "type": "沪",
+      "market": "sh",
+      "name": "宏昌电子",
+      "py": "hongchangdianzi",
+      "abbr": "hcdz"
+    },
+    "sh603001": {
+      "code": "603001",
+      "type": "沪",
+      "market": "sh",
+      "name": "奥康国际",
+      "py": "aokangguoji",
+      "abbr": "akgj"
+    },
+    "sh603000": {
+      "code": "603000",
+      "type": "沪",
+      "market": "sh",
+      "name": "人民网",
+      "py": "renminwang",
+      "abbr": "rmw"
+    },
+    "sh601999": {
+      "code": "601999",
+      "type": "沪",
+      "market": "sh",
+      "name": "出版传媒",
+      "py": "chubanchuanmei",
+      "abbr": "cbcm"
+    },
+    "sh601998": {
+      "code": "601998",
+      "type": "沪",
+      "market": "sh",
+      "name": "中信银行",
+      "py": "zhongxinyinhang",
+      "abbr": "zxyh"
+    },
+    "sh601997": {
+      "code": "601997",
+      "type": "沪",
+      "market": "sh",
+      "name": "贵阳银行",
+      "py": "guiyangyinhang",
+      "abbr": "gyyh"
+    },
+    "sh601996": {
+      "code": "601996",
+      "type": "沪",
+      "market": "sh",
+      "name": "丰林集团",
+      "py": "fenglinjituan",
+      "abbr": "fljt"
+    },
+    "sh601995": {
+      "code": "601995",
+      "type": "沪",
+      "market": "sh",
+      "name": "中金公司",
+      "py": "zhongjingongsi",
+      "abbr": "zjgs"
+    },
+    "sh601992": {
+      "code": "601992",
+      "type": "沪",
+      "market": "sh",
+      "name": "金隅集团",
+      "py": "jinyujituan",
+      "abbr": "jyjt"
+    },
+    "sh601991": {
+      "code": "601991",
+      "type": "沪",
+      "market": "sh",
+      "name": "大唐发电",
+      "py": "datangfadian",
+      "abbr": "dtfd"
+    },
+    "sh601990": {
+      "code": "601990",
+      "type": "沪",
+      "market": "sh",
+      "name": "南京证券",
+      "py": "nanjingzhengquan",
+      "abbr": "njzq"
+    },
+    "sh601989": {
+      "code": "601989",
+      "type": "沪",
+      "market": "sh",
+      "name": "中国重工",
+      "py": "zhongguozhonggong",
+      "abbr": "zgzg"
+    },
+    "sh601988": {
+      "code": "601988",
+      "type": "沪",
+      "market": "sh",
+      "name": "中国银行",
+      "py": "zhongguoyinhang",
+      "abbr": "zgyh"
+    },
+    "sh601985": {
+      "code": "601985",
+      "type": "沪",
+      "market": "sh",
+      "name": "中国核电",
+      "py": "zhongguohedian",
+      "abbr": "zghd"
+    },
+    "sh601975": {
+      "code": "601975",
+      "type": "沪",
+      "market": "sh",
+      "name": "招商南油",
+      "py": "zhaoshangnanyou",
+      "abbr": "zsny"
+    },
+    "sh601969": {
+      "code": "601969",
+      "type": "沪",
+      "market": "sh",
+      "name": "海南矿业",
+      "py": "hainankuangye",
+      "abbr": "hnky"
+    },
+    "sh601968": {
+      "code": "601968",
+      "type": "沪",
+      "market": "sh",
+      "name": "宝钢包装",
+      "py": "baogangbaozhuang",
+      "abbr": "bgbz"
+    },
+    "sh601966": {
+      "code": "601966",
+      "type": "沪",
+      "market": "sh",
+      "name": "玲珑轮胎",
+      "py": "linglongluntai",
+      "abbr": "lllt"
+    },
+    "sh601965": {
+      "code": "601965",
+      "type": "沪",
+      "market": "sh",
+      "name": "中国汽研",
+      "py": "zhongguoqiyan",
+      "abbr": "zgqy"
+    },
+    "sh601963": {
+      "code": "601963",
+      "type": "沪",
+      "market": "sh",
+      "name": "重庆银行",
+      "py": "chongqingyinhang",
+      "abbr": "cqyh"
+    },
+    "sh601958": {
+      "code": "601958",
+      "type": "沪",
+      "market": "sh",
+      "name": "金钼股份",
+      "py": "jinmugufen",
+      "abbr": "jmgf"
+    },
+    "sh601956": {
+      "code": "601956",
+      "type": "沪",
+      "market": "sh",
+      "name": "东贝集团",
+      "py": "dongbeijituan",
+      "abbr": "dbjt"
+    },
+    "sh601952": {
+      "code": "601952",
+      "type": "沪",
+      "market": "sh",
+      "name": "苏垦农发",
+      "py": "sukennongfa",
+      "abbr": "sknf"
+    },
+    "sh601949": {
+      "code": "601949",
+      "type": "沪",
+      "market": "sh",
+      "name": "中国出版",
+      "py": "zhongguochuban",
+      "abbr": "zgcb"
+    },
+    "sh601939": {
+      "code": "601939",
+      "type": "沪",
+      "market": "sh",
+      "name": "建设银行",
+      "py": "jiansheyinhang",
+      "abbr": "jsyh"
+    },
+    "sh601933": {
+      "code": "601933",
+      "type": "沪",
+      "market": "sh",
+      "name": "永辉超市",
+      "py": "yonghuichaoshi",
+      "abbr": "yhcs"
+    },
+    "sh601929": {
+      "code": "601929",
+      "type": "沪",
+      "market": "sh",
+      "name": "吉视传媒",
+      "py": "jishichuanmei",
+      "abbr": "jscm"
+    },
+    "sh601928": {
+      "code": "601928",
+      "type": "沪",
+      "market": "sh",
+      "name": "凤凰传媒",
+      "py": "fenghuangchuanmei",
+      "abbr": "fhcm"
+    },
+    "sh601921": {
+      "code": "601921",
+      "type": "沪",
+      "market": "sh",
+      "name": "浙版传媒",
+      "py": "zhebanchuanmei",
+      "abbr": "zbcm"
+    },
+    "sh601919": {
+      "code": "601919",
+      "type": "沪",
+      "market": "sh",
+      "name": "中远海控",
+      "py": "zhongyuanhaikong",
+      "abbr": "zyhk"
+    },
+    "sh601918": {
+      "code": "601918",
+      "type": "沪",
+      "market": "sh",
+      "name": "新集能源",
+      "py": "xinjinengyuan",
+      "abbr": "xjny"
+    },
+    "sh601916": {
+      "code": "601916",
+      "type": "沪",
+      "market": "sh",
+      "name": "浙商银行",
+      "py": "zheshangyinhang",
+      "abbr": "zsyh"
+    },
+    "sh601908": {
+      "code": "601908",
+      "type": "沪",
+      "market": "sh",
+      "name": "京运通",
+      "py": "jingyuntong",
+      "abbr": "jyt"
+    },
+    "sh601901": {
+      "code": "601901",
+      "type": "沪",
+      "market": "sh",
+      "name": "方正证券",
+      "py": "fangzhengzhengquan",
+      "abbr": "fzzq"
+    },
+    "sh601900": {
+      "code": "601900",
+      "type": "沪",
+      "market": "sh",
+      "name": "南方传媒",
+      "py": "nanfangchuanmei",
+      "abbr": "nfcm"
+    },
+    "sh601899": {
+      "code": "601899",
+      "type": "沪",
+      "market": "sh",
+      "name": "紫金矿业",
+      "py": "zijinkuangye",
+      "abbr": "zjky"
+    },
+    "sh601898": {
+      "code": "601898",
+      "type": "沪",
+      "market": "sh",
+      "name": "中煤能源",
+      "py": "zhongmeinengyuan",
+      "abbr": "zmny"
+    },
+    "sh601890": {
+      "code": "601890",
+      "type": "沪",
+      "market": "sh",
+      "name": "亚星锚链",
+      "py": "yaxingmaolian",
+      "abbr": "yxml"
+    },
+    "sh601888": {
+      "code": "601888",
+      "type": "沪",
+      "market": "sh",
+      "name": "中国中免",
+      "py": "zhongguozhongmian",
+      "abbr": "zgzm"
+    },
+    "sh601886": {
+      "code": "601886",
+      "type": "沪",
+      "market": "sh",
+      "name": "江河集团",
+      "py": "jianghejituan",
+      "abbr": "jhjt"
+    },
+    "sh601882": {
+      "code": "601882",
+      "type": "沪",
+      "market": "sh",
+      "name": "海天精工",
+      "py": "haitianjinggong",
+      "abbr": "htjg"
+    },
+    "sh601881": {
+      "code": "601881",
+      "type": "沪",
+      "market": "sh",
+      "name": "中国银河",
+      "py": "zhongguoyinhe",
+      "abbr": "zgyh"
+    },
+    "sh601880": {
+      "code": "601880",
+      "type": "沪",
+      "market": "sh",
+      "name": "辽港股份",
+      "py": "liaoganggufen",
+      "abbr": "lggf"
+    },
+    "sh601878": {
+      "code": "601878",
+      "type": "沪",
+      "market": "sh",
+      "name": "浙商证券",
+      "py": "zheshangzhengquan",
+      "abbr": "zszq"
+    },
+    "sh601877": {
+      "code": "601877",
+      "type": "沪",
+      "market": "sh",
+      "name": "正泰电器",
+      "py": "zhengtaidianqi",
+      "abbr": "ztdq"
+    },
+    "sh601872": {
+      "code": "601872",
+      "type": "沪",
+      "market": "sh",
+      "name": "招商轮船",
+      "py": "zhaoshanglunchuan",
+      "abbr": "zslc"
+    },
+    "sh601869": {
+      "code": "601869",
+      "type": "沪",
+      "market": "sh",
+      "name": "长飞光纤",
+      "py": "zhangfeiguangxian",
+      "abbr": "zfgx"
+    },
+    "sh601868": {
+      "code": "601868",
+      "type": "沪",
+      "market": "sh",
+      "name": "中国能建",
+      "py": "zhongguonengjian",
+      "abbr": "zgnj"
+    },
+    "sh601866": {
+      "code": "601866",
+      "type": "沪",
+      "market": "sh",
+      "name": "中远海发",
+      "py": "zhongyuanhaifa",
+      "abbr": "zyhf"
+    },
+    "sh601865": {
+      "code": "601865",
+      "type": "沪",
+      "market": "sh",
+      "name": "福莱特",
+      "py": "fulaite",
+      "abbr": "flt"
+    },
+    "sh601860": {
+      "code": "601860",
+      "type": "沪",
+      "market": "sh",
+      "name": "紫金银行",
+      "py": "zijinyinhang",
+      "abbr": "zjyh"
+    },
+    "sh601858": {
+      "code": "601858",
+      "type": "沪",
+      "market": "sh",
+      "name": "中国科传",
+      "py": "zhongguokechuan",
+      "abbr": "zgkc"
+    },
+    "sh601857": {
+      "code": "601857",
+      "type": "沪",
+      "market": "sh",
+      "name": "中国石油",
+      "py": "zhongguoshiyou",
+      "abbr": "zgsy"
+    },
+    "sh601838": {
+      "code": "601838",
+      "type": "沪",
+      "market": "sh",
+      "name": "成都银行",
+      "py": "chengduyinhang",
+      "abbr": "cdyh"
+    },
+    "sh601828": {
+      "code": "601828",
+      "type": "沪",
+      "market": "sh",
+      "name": "美凯龙",
+      "py": "meikailong",
+      "abbr": "mkl"
+    },
+    "sh601827": {
+      "code": "601827",
+      "type": "沪",
+      "market": "sh",
+      "name": "三峰环境",
+      "py": "sanfenghuanjing",
+      "abbr": "sfhj"
+    },
+    "sh601825": {
+      "code": "601825",
+      "type": "沪",
+      "market": "sh",
+      "name": "沪农商行",
+      "py": "hunongshanghang",
+      "abbr": "hnsh"
+    },
+    "sh601818": {
+      "code": "601818",
+      "type": "沪",
+      "market": "sh",
+      "name": "光大银行",
+      "py": "guangdayinhang",
+      "abbr": "gdyh"
+    },
+    "sh601816": {
+      "code": "601816",
+      "type": "沪",
+      "market": "sh",
+      "name": "京沪高铁",
+      "py": "jinghugaotie",
+      "abbr": "jhgt"
+    },
+    "sh601811": {
+      "code": "601811",
+      "type": "沪",
+      "market": "sh",
+      "name": "新华文轩",
+      "py": "xinhuawenxuan",
+      "abbr": "xhwx"
+    },
+    "sh601808": {
+      "code": "601808",
+      "type": "沪",
+      "market": "sh",
+      "name": "中海油服",
+      "py": "zhonghaiyoufu",
+      "abbr": "zhyf"
+    },
+    "sh601801": {
+      "code": "601801",
+      "type": "沪",
+      "market": "sh",
+      "name": "皖新传媒",
+      "py": "wanxinchuanmei",
+      "abbr": "wxcm"
+    },
+    "sh601800": {
+      "code": "601800",
+      "type": "沪",
+      "market": "sh",
+      "name": "中国交建",
+      "py": "zhongguojiaojian",
+      "abbr": "zgjj"
+    },
+    "sh601799": {
+      "code": "601799",
+      "type": "沪",
+      "market": "sh",
+      "name": "星宇股份",
+      "py": "xingyugufen",
+      "abbr": "xygf"
+    },
+    "sh601798": {
+      "code": "601798",
+      "type": "沪",
+      "market": "sh",
+      "name": "蓝科高新",
+      "py": "lankegaoxin",
+      "abbr": "lkgx"
+    },
     "sh900957": {
       "code": "900957",
       "type": "沪",
@@ -1193,477 +6753,805 @@
       "py": "yunsaibgu",
       "abbr": "ysbg"
     },
-    "201872": {
-      "code": "201872",
-      "type": "深",
-      "market": "",
-      "name": "招港B",
-      "py": "zhaogangb",
-      "abbr": "zgb"
+    "sh689009": {
+      "code": "689009",
+      "type": "科",
+      "market": "sh",
+      "name": "九号公司-WD",
+      "py": "jiuhaogongsi-wd",
+      "abbr": "jhgs-wd"
     },
-    "200992": {
-      "code": "200992",
-      "type": "深",
-      "market": "",
-      "name": "中  鲁B",
-      "py": "zhonglub",
-      "abbr": "zlb"
+    "sh688981": {
+      "code": "688981",
+      "type": "科",
+      "market": "sh",
+      "name": "中芯国际",
+      "py": "zhongxinguoji",
+      "abbr": "zxgj"
     },
-    "200986": {
-      "code": "200986",
-      "type": "深",
-      "market": "",
-      "name": "粤华包B",
-      "py": "yuehuabaob",
-      "abbr": "yhbb"
+    "sh688845": {
+      "code": "688845",
+      "type": "科",
+      "market": "sh",
+      "name": "傲拓科技",
+      "py": "aotuokeji",
+      "abbr": "atkj"
     },
-    "200869": {
-      "code": "200869",
-      "type": "深",
-      "market": "",
-      "name": "张  裕B",
-      "py": "zhangyub",
-      "abbr": "zyb"
+    "sh688837": {
+      "code": "688837",
+      "type": "科",
+      "market": "sh",
+      "name": "信诺维",
+      "py": "xinnuowei",
+      "abbr": "xnw"
     },
-    "200771": {
-      "code": "200771",
-      "type": "深",
-      "market": "",
-      "name": "杭汽轮B",
-      "py": "hangqilunb",
-      "abbr": "hqlb"
+    "sh688836": {
+      "code": "688836",
+      "type": "科",
+      "market": "sh",
+      "name": "宇树科技-W",
+      "py": "yushukeji-w",
+      "abbr": "yskj-w"
     },
-    "200770": {
-      "code": "200770",
-      "type": "深",
-      "market": "",
-      "name": "武锅B退",
-      "py": "wuguobtui",
-      "abbr": "wgbt"
+    "sh688835": {
+      "code": "688835",
+      "type": "科",
+      "market": "sh",
+      "name": "高凯技术",
+      "py": "gaokaijishu",
+      "abbr": "gkjs"
     },
-    "200761": {
-      "code": "200761",
-      "type": "深",
-      "market": "",
-      "name": "本钢板B",
-      "py": "bengangbanb",
-      "abbr": "bgbb"
+    "sh688828": {
+      "code": "688828",
+      "type": "科",
+      "market": "sh",
+      "name": "国仪公司-U",
+      "py": "guoyigongsi-u",
+      "abbr": "gygs-u"
     },
-    "200726": {
-      "code": "200726",
-      "type": "深",
-      "market": "",
-      "name": "鲁  泰B",
-      "py": "lutaib",
-      "abbr": "ltb"
+    "sh688827": {
+      "code": "688827",
+      "type": "科",
+      "market": "sh",
+      "name": "C钶锐",
+      "py": "ckerui",
+      "abbr": "ckr"
     },
-    "200725": {
-      "code": "200725",
-      "type": "深",
-      "market": "",
-      "name": "京东方B",
-      "py": "jingdongfangb",
-      "abbr": "jdfb"
+    "sh688826": {
+      "code": "688826",
+      "type": "科",
+      "market": "sh",
+      "name": "频准激光",
+      "py": "pinzhunjiguang",
+      "abbr": "pzjg"
     },
-    "200706": {
-      "code": "200706",
-      "type": "深",
-      "market": "",
-      "name": "瓦轴B",
-      "py": "wazhoub",
-      "abbr": "wzb"
+    "sh688825": {
+      "code": "688825",
+      "type": "科",
+      "market": "sh",
+      "name": "长鑫科技",
+      "py": "zhangxinkeji",
+      "abbr": "zxkj"
     },
-    "200625": {
-      "code": "200625",
-      "type": "深",
-      "market": "",
-      "name": "长  安B",
-      "py": "changanb",
-      "abbr": "cab"
+    "sh688820": {
+      "code": "688820",
+      "type": "科",
+      "market": "sh",
+      "name": "盛合晶微",
+      "py": "shenghejingwei",
+      "abbr": "shjw"
     },
-    "200613": {
-      "code": "200613",
-      "type": "深",
-      "market": "",
-      "name": "东海B退",
-      "py": "donghaibtui",
-      "abbr": "dhbt"
+    "sh688819": {
+      "code": "688819",
+      "type": "科",
+      "market": "sh",
+      "name": "天能股份",
+      "py": "tiannenggufen",
+      "abbr": "tngf"
     },
-    "200596": {
-      "code": "200596",
-      "type": "深",
-      "market": "",
-      "name": "古井贡B",
-      "py": "gujinggongb",
-      "abbr": "gjgb"
+    "sh688818": {
+      "code": "688818",
+      "type": "科",
+      "market": "sh",
+      "name": "电科蓝天",
+      "py": "diankelantian",
+      "abbr": "dklt"
     },
-    "200581": {
-      "code": "200581",
-      "type": "深",
-      "market": "",
-      "name": "苏威孚B",
-      "py": "suweifub",
-      "abbr": "swfb"
+    "sh688816": {
+      "code": "688816",
+      "type": "科",
+      "market": "sh",
+      "name": "易思维",
+      "py": "yisiwei",
+      "abbr": "ysw"
     },
-    "200570": {
-      "code": "200570",
-      "type": "深",
-      "market": "",
-      "name": "苏常柴B",
-      "py": "suchangchaib",
-      "abbr": "sccb"
+    "sh688813": {
+      "code": "688813",
+      "type": "科",
+      "market": "sh",
+      "name": "泰金新能",
+      "py": "taijinxinneng",
+      "abbr": "tjxn"
     },
-    "200553": {
-      "code": "200553",
-      "type": "深",
-      "market": "",
-      "name": "安道麦B",
-      "py": "andaomaib",
-      "abbr": "admb"
+    "sh688811": {
+      "code": "688811",
+      "type": "科",
+      "market": "sh",
+      "name": "有研复材",
+      "py": "youyanfucai",
+      "abbr": "yyfc"
     },
-    "200550": {
-      "code": "200550",
-      "type": "深",
-      "market": "",
-      "name": "江  铃B",
-      "py": "jianglingb",
-      "abbr": "jlb"
+    "sh688809": {
+      "code": "688809",
+      "type": "科",
+      "market": "sh",
+      "name": "强一股份",
+      "py": "qiangyigufen",
+      "abbr": "qygf"
     },
-    "200541": {
-      "code": "200541",
-      "type": "深",
-      "market": "",
-      "name": "粤照明B",
-      "py": "yuezhaomingb",
-      "abbr": "yzmb"
+    "sh688808": {
+      "code": "688808",
+      "type": "科",
+      "market": "sh",
+      "name": "联讯仪器",
+      "py": "lianxunyiqi",
+      "abbr": "lxyq"
     },
-    "200539": {
-      "code": "200539",
-      "type": "深",
-      "market": "",
-      "name": "粤电力B",
-      "py": "yuedianlib",
-      "abbr": "ydlb"
+    "sh688807": {
+      "code": "688807",
+      "type": "科",
+      "market": "sh",
+      "name": "优迅股份",
+      "py": "youxungufen",
+      "abbr": "yxgf"
     },
-    "200530": {
-      "code": "200530",
-      "type": "深",
-      "market": "",
-      "name": "冰山B",
-      "py": "bingshanb",
-      "abbr": "bsb"
+    "sh688806": {
+      "code": "688806",
+      "type": "科",
+      "market": "sh",
+      "name": "泰诺麦博-U",
+      "py": "tainuomaibo-u",
+      "abbr": "tnmb-u"
     },
-    "200521": {
-      "code": "200521",
-      "type": "深",
-      "market": "",
-      "name": "虹美菱B",
-      "py": "hongmeilingb",
-      "abbr": "hmlb"
+    "sh688805": {
+      "code": "688805",
+      "type": "科",
+      "market": "sh",
+      "name": "健信超导",
+      "py": "jianxinchaodao",
+      "abbr": "jxcd"
     },
-    "200513": {
-      "code": "200513",
-      "type": "深",
-      "market": "",
-      "name": "丽珠B",
-      "py": "lizhub",
-      "abbr": "lzb"
+    "sh688802": {
+      "code": "688802",
+      "type": "科",
+      "market": "sh",
+      "name": "沐曦股份-U",
+      "py": "muxigufen-u",
+      "abbr": "mxgf-u"
     },
-    "200512": {
-      "code": "200512",
-      "type": "深",
-      "market": "",
-      "name": "闽灿坤B",
-      "py": "mincankunb",
-      "abbr": "mckb"
+    "sh688801": {
+      "code": "688801",
+      "type": "科",
+      "market": "sh",
+      "name": "燧原科技-U",
+      "py": "suiyuankeji-u",
+      "abbr": "sykj-u"
     },
-    "200505": {
-      "code": "200505",
-      "type": "深",
-      "market": "",
-      "name": "京粮B",
-      "py": "jingliangb",
-      "abbr": "jlb"
+    "sh688800": {
+      "code": "688800",
+      "type": "科",
+      "market": "sh",
+      "name": "瑞可达",
+      "py": "ruikeda",
+      "abbr": "rkd"
     },
-    "200488": {
-      "code": "200488",
-      "type": "深",
-      "market": "",
-      "name": "ST晨鸣B",
-      "py": "stchenmingb",
-      "abbr": "stcmb"
+    "sh688799": {
+      "code": "688799",
+      "type": "科",
+      "market": "sh",
+      "name": "华纳药厂",
+      "py": "huanayaochang",
+      "abbr": "hnyc"
     },
-    "200468": {
-      "code": "200468",
-      "type": "深",
-      "market": "",
-      "name": "宁通信B",
-      "py": "ningtongxinb",
-      "abbr": "ntxb"
+    "sh688798": {
+      "code": "688798",
+      "type": "科",
+      "market": "sh",
+      "name": "艾为电子",
+      "py": "aiweidianzi",
+      "abbr": "awdz"
     },
-    "200429": {
-      "code": "200429",
-      "type": "深",
-      "market": "",
-      "name": "粤高速B",
-      "py": "yuegaosub",
-      "abbr": "ygsb"
+    "sh688797": {
+      "code": "688797",
+      "type": "科",
+      "market": "sh",
+      "name": "臻宝科技",
+      "py": "zhenbaokeji",
+      "abbr": "zbkj"
     },
-    "200418": {
-      "code": "200418",
-      "type": "深",
-      "market": "",
-      "name": "小天鹅B",
-      "py": "xiaotianeb",
-      "abbr": "xteb"
+    "sh688796": {
+      "code": "688796",
+      "type": "科",
+      "market": "sh",
+      "name": "百奥赛图",
+      "py": "baiaosaitu",
+      "abbr": "bast"
     },
-    "200413": {
-      "code": "200413",
-      "type": "深",
-      "market": "",
-      "name": "ST东旭B",
-      "py": "stdongxub",
-      "abbr": "stdxb"
+    "sh688795": {
+      "code": "688795",
+      "type": "科",
+      "market": "sh",
+      "name": "摩尔线程-U",
+      "py": "moerxiancheng-u",
+      "abbr": "mexc-u"
     },
-    "200168": {
-      "code": "200168",
-      "type": "深",
-      "market": "",
-      "name": "*ST舜喆B",
-      "py": "*stshunzheb",
-      "abbr": "*stszb"
+    "sh688793": {
+      "code": "688793",
+      "type": "科",
+      "market": "sh",
+      "name": "倍轻松",
+      "py": "beiqingsong",
+      "abbr": "bqs"
     },
-    "200160": {
-      "code": "200160",
-      "type": "深",
-      "market": "",
-      "name": "东沣B退",
-      "py": "dongfengbtui",
-      "abbr": "dfbt"
+    "sh688790": {
+      "code": "688790",
+      "type": "科",
+      "market": "sh",
+      "name": "昂瑞微-UW",
+      "py": "angruiwei-uw",
+      "abbr": "arw-uw"
     },
-    "200152": {
-      "code": "200152",
-      "type": "深",
-      "market": "",
-      "name": "山航B退",
-      "py": "shanhangbtui",
-      "abbr": "shbt"
+    "sh688789": {
+      "code": "688789",
+      "type": "科",
+      "market": "sh",
+      "name": "宏华数科",
+      "py": "honghuashuke",
+      "abbr": "hhsk"
     },
-    "200058": {
-      "code": "200058",
-      "type": "深",
-      "market": "",
-      "name": "深赛格B",
-      "py": "shensaigeb",
-      "abbr": "ssgb"
+    "sh688788": {
+      "code": "688788",
+      "type": "科",
+      "market": "sh",
+      "name": "科思科技",
+      "py": "kesikeji",
+      "abbr": "kskj"
     },
-    "200057": {
-      "code": "200057",
-      "type": "深",
-      "market": "",
-      "name": "*ST大洋B",
-      "py": "*stdayangb",
-      "abbr": "*stdyb"
+    "sh688787": {
+      "code": "688787",
+      "type": "科",
+      "market": "sh",
+      "name": "海天瑞声",
+      "py": "haitianruisheng",
+      "abbr": "htrs"
     },
-    "200056": {
-      "code": "200056",
-      "type": "深",
-      "market": "",
-      "name": "*ST皇庭B",
-      "py": "*sthuangtingb",
-      "abbr": "*sthtb"
+    "sh688786": {
+      "code": "688786",
+      "type": "科",
+      "market": "sh",
+      "name": "悦安新材",
+      "py": "yueanxincai",
+      "abbr": "yaxc"
     },
-    "200055": {
-      "code": "200055",
-      "type": "深",
-      "market": "",
-      "name": "方大B",
-      "py": "fangdab",
-      "abbr": "fdb"
+    "sh688785": {
+      "code": "688785",
+      "type": "科",
+      "market": "sh",
+      "name": "恒运昌",
+      "py": "hengyunchang",
+      "abbr": "hyc"
     },
-    "200054": {
-      "code": "200054",
-      "type": "深",
-      "market": "",
-      "name": "建车B",
-      "py": "jiancheb",
-      "abbr": "jcb"
+    "sh688783": {
+      "code": "688783",
+      "type": "科",
+      "market": "sh",
+      "name": "西安奕材-U",
+      "py": "xianyicai-u",
+      "abbr": "xayc-u"
     },
-    "200053": {
-      "code": "200053",
-      "type": "深",
-      "market": "",
-      "name": "深基地B",
-      "py": "shenjidib",
-      "abbr": "sjdb"
+    "sh688781": {
+      "code": "688781",
+      "type": "科",
+      "market": "sh",
+      "name": "视涯科技-UW",
+      "py": "shiyakeji-uw",
+      "abbr": "sykj-uw"
     },
-    "200045": {
-      "code": "200045",
-      "type": "深",
-      "market": "",
-      "name": "深纺织B",
-      "py": "shenfangzhib",
-      "abbr": "sfzb"
+    "sh688779": {
+      "code": "688779",
+      "type": "科",
+      "market": "sh",
+      "name": "五矿新能",
+      "py": "wukuangxinneng",
+      "abbr": "wkxn"
     },
-    "200041": {
-      "code": "200041",
-      "type": "深",
-      "market": "",
-      "name": "*ST本实B",
-      "py": "*stbenshib",
-      "abbr": "*stbsb"
+    "sh688778": {
+      "code": "688778",
+      "type": "科",
+      "market": "sh",
+      "name": "厦钨新能",
+      "py": "shawuxinneng",
+      "abbr": "swxn"
     },
-    "200039": {
-      "code": "200039",
-      "type": "深",
-      "market": "",
-      "name": "中集B",
-      "py": "zhongjib",
-      "abbr": "zjb"
+    "sh688777": {
+      "code": "688777",
+      "type": "科",
+      "market": "sh",
+      "name": "中控技术",
+      "py": "zhongkongjishu",
+      "abbr": "zkjs"
     },
-    "200037": {
-      "code": "200037",
-      "type": "深",
-      "market": "",
-      "name": "深南电B",
-      "py": "shennandianb",
-      "abbr": "sndb"
+    "sh688776": {
+      "code": "688776",
+      "type": "科",
+      "market": "sh",
+      "name": "国光电气",
+      "py": "guoguangdianqi",
+      "abbr": "ggdq"
     },
-    "200030": {
-      "code": "200030",
-      "type": "深",
-      "market": "",
-      "name": "富奥B",
-      "py": "fuaob",
-      "abbr": "fab"
+    "sh688775": {
+      "code": "688775",
+      "type": "科",
+      "market": "sh",
+      "name": "影石创新",
+      "py": "yingshichuangxin",
+      "abbr": "yscx"
     },
-    "200029": {
-      "code": "200029",
-      "type": "深",
-      "market": "",
-      "name": "深深房B",
-      "py": "shenshenfangb",
-      "abbr": "ssfb"
+    "sh688772": {
+      "code": "688772",
+      "type": "科",
+      "market": "sh",
+      "name": "珠海冠宇",
+      "py": "zhuhaiguanyu",
+      "abbr": "zhgy"
     },
-    "200028": {
-      "code": "200028",
-      "type": "深",
-      "market": "",
-      "name": "一致B",
-      "py": "yizhib",
-      "abbr": "yzb"
+    "sh688768": {
+      "code": "688768",
+      "type": "科",
+      "market": "sh",
+      "name": "容知日新",
+      "py": "rongzhirixin",
+      "abbr": "rzrx"
     },
-    "200026": {
-      "code": "200026",
-      "type": "深",
-      "market": "",
-      "name": "飞亚达B",
-      "py": "feiyadab",
-      "abbr": "fydb"
+    "sh688767": {
+      "code": "688767",
+      "type": "科",
+      "market": "sh",
+      "name": "博拓生物",
+      "py": "botuoshengwu",
+      "abbr": "btsw"
     },
-    "200025": {
-      "code": "200025",
-      "type": "深",
-      "market": "",
-      "name": "特  力B",
-      "py": "telib",
-      "abbr": "tlb"
+    "sh688766": {
+      "code": "688766",
+      "type": "科",
+      "market": "sh",
+      "name": "普冉股份",
+      "py": "purangufen",
+      "abbr": "prgf"
     },
-    "200024": {
-      "code": "200024",
-      "type": "深",
-      "market": "",
-      "name": "招商局B",
-      "py": "zhaoshangjub",
-      "abbr": "zsjb"
+    "sh688765": {
+      "code": "688765",
+      "type": "科",
+      "market": "sh",
+      "name": "禾元生物-U",
+      "py": "heyuanshengwu-u",
+      "abbr": "hysw-u"
     },
-    "200020": {
-      "code": "200020",
-      "type": "深",
-      "market": "",
-      "name": "深华发B",
-      "py": "shenhuafab",
-      "abbr": "shfb"
+    "sh688759": {
+      "code": "688759",
+      "type": "科",
+      "market": "sh",
+      "name": "必贝特-U",
+      "py": "bibeite-u",
+      "abbr": "bbt-u"
     },
-    "200019": {
-      "code": "200019",
-      "type": "深",
-      "market": "",
-      "name": "深粮B",
-      "py": "shenliangb",
-      "abbr": "slb"
+    "sh688758": {
+      "code": "688758",
+      "type": "科",
+      "market": "sh",
+      "name": "赛分科技",
+      "py": "saifenkeji",
+      "abbr": "sfkj"
     },
-    "200018": {
-      "code": "200018",
-      "type": "深",
-      "market": "",
-      "name": "神城B退",
-      "py": "shenchengbtui",
-      "abbr": "scbt"
+    "sh688757": {
+      "code": "688757",
+      "type": "科",
+      "market": "sh",
+      "name": "胜科纳米",
+      "py": "shengkenami",
+      "abbr": "sknm"
     },
-    "200017": {
-      "code": "200017",
-      "type": "深",
-      "market": "",
-      "name": "深中华B",
-      "py": "shenzhonghuab",
-      "abbr": "szhb"
+    "sh688755": {
+      "code": "688755",
+      "type": "科",
+      "market": "sh",
+      "name": "汉邦科技",
+      "py": "hanbangkeji",
+      "abbr": "hbkj"
     },
-    "200016": {
-      "code": "200016",
-      "type": "深",
-      "market": "",
-      "name": "*ST康佳B",
-      "py": "*stkangjiab",
-      "abbr": "*stkjb"
+    "sh688750": {
+      "code": "688750",
+      "type": "科",
+      "market": "sh",
+      "name": "金天钛业",
+      "py": "jintiantaiye",
+      "abbr": "jtty"
     },
-    "200015": {
-      "code": "200015",
-      "type": "深",
-      "market": "",
-      "name": "PT中浩B",
-      "py": "ptzhonghaob",
-      "abbr": "ptzhb"
+    "sh688739": {
+      "code": "688739",
+      "type": "科",
+      "market": "sh",
+      "name": "成大生物",
+      "py": "chengdashengwu",
+      "abbr": "cdsw"
     },
-    "200013": {
-      "code": "200013",
-      "type": "深",
-      "market": "",
-      "name": "*ST石化B",
-      "py": "*stshihuab",
-      "abbr": "*stshb"
+    "sh688737": {
+      "code": "688737",
+      "type": "科",
+      "market": "sh",
+      "name": "中自科技",
+      "py": "zhongzikeji",
+      "abbr": "zzkj"
     },
-    "200012": {
-      "code": "200012",
-      "type": "深",
-      "market": "",
-      "name": "南  玻B",
-      "py": "nanbob",
-      "abbr": "nbb"
+    "sh688733": {
+      "code": "688733",
+      "type": "科",
+      "market": "sh",
+      "name": "壹石通",
+      "py": "yishitong",
+      "abbr": "yst"
     },
-    "200011": {
-      "code": "200011",
-      "type": "深",
-      "market": "",
-      "name": "深物业B",
-      "py": "shenwuyeb",
-      "abbr": "swyb"
+    "sh688729": {
+      "code": "688729",
+      "type": "科",
+      "market": "sh",
+      "name": "屹唐股份",
+      "py": "yitanggufen",
+      "abbr": "ytgf"
     },
-    "200003": {
-      "code": "200003",
-      "type": "深",
-      "market": "",
-      "name": "PT金田B",
-      "py": "ptjintianb",
-      "abbr": "ptjtb"
+    "sh688728": {
+      "code": "688728",
+      "type": "科",
+      "market": "sh",
+      "name": "格科微",
+      "py": "gekewei",
+      "abbr": "gkw"
     },
-    "200002": {
-      "code": "200002",
-      "type": "深",
-      "market": "",
-      "name": "万科B",
-      "py": "wankeb",
-      "abbr": "wkb"
+    "sh688727": {
+      "code": "688727",
+      "type": "科",
+      "market": "sh",
+      "name": "恒坤新材",
+      "py": "hengkunxincai",
+      "abbr": "hkxc"
+    },
+    "sh688726": {
+      "code": "688726",
+      "type": "科",
+      "market": "sh",
+      "name": "拉普拉斯",
+      "py": "lapulasi",
+      "abbr": "lpls"
+    },
+    "sh688722": {
+      "code": "688722",
+      "type": "科",
+      "market": "sh",
+      "name": "同益中",
+      "py": "tongyizhong",
+      "abbr": "tyz"
+    },
+    "sh688721": {
+      "code": "688721",
+      "type": "科",
+      "market": "sh",
+      "name": "龙图光罩",
+      "py": "longtuguangzhao",
+      "abbr": "ltgz"
+    },
+    "sh688720": {
+      "code": "688720",
+      "type": "科",
+      "market": "sh",
+      "name": "艾森股份",
+      "py": "aisengufen",
+      "abbr": "asgf"
+    },
+    "sh688719": {
+      "code": "688719",
+      "type": "科",
+      "market": "sh",
+      "name": "爱科赛博",
+      "py": "aikesaibo",
+      "abbr": "aksb"
+    },
+    "sh688718": {
+      "code": "688718",
+      "type": "科",
+      "market": "sh",
+      "name": "唯赛勃",
+      "py": "weisaibo",
+      "abbr": "wsb"
+    },
+    "sh688717": {
+      "code": "688717",
+      "type": "科",
+      "market": "sh",
+      "name": "艾罗能源",
+      "py": "ailuonengyuan",
+      "abbr": "alny"
+    },
+    "sh688716": {
+      "code": "688716",
+      "type": "科",
+      "market": "sh",
+      "name": "中研股份",
+      "py": "zhongyangufen",
+      "abbr": "zygf"
+    },
+    "sh688712": {
+      "code": "688712",
+      "type": "科",
+      "market": "sh",
+      "name": "北芯生命",
+      "py": "beixinshengming",
+      "abbr": "bxsm"
+    },
+    "sh688711": {
+      "code": "688711",
+      "type": "科",
+      "market": "sh",
+      "name": "宏微科技",
+      "py": "hongweikeji",
+      "abbr": "hwkj"
+    },
+    "sh688710": {
+      "code": "688710",
+      "type": "科",
+      "market": "sh",
+      "name": "益诺思",
+      "py": "yinuosi",
+      "abbr": "yns"
+    },
+    "sh688709": {
+      "code": "688709",
+      "type": "科",
+      "market": "sh",
+      "name": "成都华微",
+      "py": "chengduhuawei",
+      "abbr": "cdhw"
+    },
+    "sh688708": {
+      "code": "688708",
+      "type": "科",
+      "market": "sh",
+      "name": "佳驰科技",
+      "py": "jiachikeji",
+      "abbr": "jckj"
+    },
+    "sh688707": {
+      "code": "688707",
+      "type": "科",
+      "market": "sh",
+      "name": "振华新材",
+      "py": "zhenhuaxincai",
+      "abbr": "zhxc"
+    },
+    "sh688702": {
+      "code": "688702",
+      "type": "科",
+      "market": "sh",
+      "name": "盛科通信-U",
+      "py": "shengketongxin-u",
+      "abbr": "sktx-u"
+    },
+    "sh688701": {
+      "code": "688701",
+      "type": "科",
+      "market": "sh",
+      "name": "卓锦股份",
+      "py": "zhuojingufen",
+      "abbr": "zjgf"
+    },
+    "sh688700": {
+      "code": "688700",
+      "type": "科",
+      "market": "sh",
+      "name": "东威科技",
+      "py": "dongweikeji",
+      "abbr": "dwkj"
+    },
+    "sh688699": {
+      "code": "688699",
+      "type": "科",
+      "market": "sh",
+      "name": "明微电子",
+      "py": "mingweidianzi",
+      "abbr": "mwdz"
+    },
+    "sh688698": {
+      "code": "688698",
+      "type": "科",
+      "market": "sh",
+      "name": "伟创电气",
+      "py": "weichuangdianqi",
+      "abbr": "wcdq"
+    },
+    "sh688697": {
+      "code": "688697",
+      "type": "科",
+      "market": "sh",
+      "name": "纽威数控",
+      "py": "niuweishukong",
+      "abbr": "nwsk"
+    },
+    "sh688696": {
+      "code": "688696",
+      "type": "科",
+      "market": "sh",
+      "name": "极米科技",
+      "py": "jimikeji",
+      "abbr": "jmkj"
+    },
+    "sh688695": {
+      "code": "688695",
+      "type": "科",
+      "market": "sh",
+      "name": "中创股份",
+      "py": "zhongchuanggufen",
+      "abbr": "zcgf"
+    },
+    "sh688693": {
+      "code": "688693",
+      "type": "科",
+      "market": "sh",
+      "name": "锴威特",
+      "py": "kaiweite",
+      "abbr": "kwt"
+    },
+    "sh688692": {
+      "code": "688692",
+      "type": "科",
+      "market": "sh",
+      "name": "达梦数据",
+      "py": "damengshuju",
+      "abbr": "dmsj"
+    },
+    "sh688691": {
+      "code": "688691",
+      "type": "科",
+      "market": "sh",
+      "name": "灿芯股份",
+      "py": "canxingufen",
+      "abbr": "cxgf"
+    },
+    "sh688690": {
+      "code": "688690",
+      "type": "科",
+      "market": "sh",
+      "name": "纳微科技",
+      "py": "naweikeji",
+      "abbr": "nwkj"
+    },
+    "sh688689": {
+      "code": "688689",
+      "type": "科",
+      "market": "sh",
+      "name": "银河微电",
+      "py": "yinheweidian",
+      "abbr": "yhwd"
+    },
+    "sh688687": {
+      "code": "688687",
+      "type": "科",
+      "market": "sh",
+      "name": "凯因科技",
+      "py": "kaiyinkeji",
+      "abbr": "kykj"
+    },
+    "sh688686": {
+      "code": "688686",
+      "type": "科",
+      "market": "sh",
+      "name": "奥普特",
+      "py": "aopute",
+      "abbr": "apt"
+    },
+    "sh688685": {
+      "code": "688685",
+      "type": "科",
+      "market": "sh",
+      "name": "迈信林",
+      "py": "maixinlin",
+      "abbr": "mxl"
+    },
+    "sh688683": {
+      "code": "688683",
+      "type": "科",
+      "market": "sh",
+      "name": "莱尔科技",
+      "py": "laierkeji",
+      "abbr": "lekj"
+    },
+    "sh688682": {
+      "code": "688682",
+      "type": "科",
+      "market": "sh",
+      "name": "霍莱沃",
+      "py": "huolaiwo",
+      "abbr": "hlw"
+    },
+    "sh688681": {
+      "code": "688681",
+      "type": "科",
+      "market": "sh",
+      "name": "科汇股份",
+      "py": "kehuigufen",
+      "abbr": "khgf"
+    },
+    "sh688680": {
+      "code": "688680",
+      "type": "科",
+      "market": "sh",
+      "name": "海优新材",
+      "py": "haiyouxincai",
+      "abbr": "hyxc"
+    },
+    "sh688679": {
+      "code": "688679",
+      "type": "科",
+      "market": "sh",
+      "name": "通源环境",
+      "py": "tongyuanhuanjing",
+      "abbr": "tyhj"
+    },
+    "sh688678": {
+      "code": "688678",
+      "type": "科",
+      "market": "sh",
+      "name": "福立旺",
+      "py": "fuliwang",
+      "abbr": "flw"
+    },
+    "sh688677": {
+      "code": "688677",
+      "type": "科",
+      "market": "sh",
+      "name": "海泰新光",
+      "py": "haitaixinguang",
+      "abbr": "htxg"
+    },
+    "sh688676": {
+      "code": "688676",
+      "type": "科",
+      "market": "sh",
+      "name": "金盘科技",
+      "py": "jinpankeji",
+      "abbr": "jpkj"
+    },
+    "sh688671": {
+      "code": "688671",
+      "type": "科",
+      "market": "sh",
+      "name": "碧兴物联",
+      "py": "bixingwulian",
+      "abbr": "bxwl"
+    },
+    "sh688670": {
+      "code": "688670",
+      "type": "科",
+      "market": "sh",
+      "name": "金迪克",
+      "py": "jindike",
+      "abbr": "jdk"
+    },
+    "sh688669": {
+      "code": "688669",
+      "type": "科",
+      "market": "sh",
+      "name": "聚石化学",
+      "py": "jushihuaxue",
+      "abbr": "jshx"
     },
     "hk00001": {
       "code": "00001",
@@ -4445,15 +10333,6 @@
       "py": "zhongguoguanye",
       "abbr": "zggy",
       "engname": "CHINA PIPE"
-    },
-    "hk00381": {
-      "code": "00381",
-      "type": "港",
-      "market": "hk",
-      "name": "权识国际",
-      "py": "quanshiguoji",
-      "abbr": "qsgj",
-      "engname": "AOM INT'L"
     },
     "hk00382": {
       "code": "00382",
@@ -11515,10 +17394,10 @@
       "code": "01489",
       "type": "港",
       "market": "hk",
-      "name": "GC CONSTRUCTION",
-      "py": "gcconstruction",
-      "abbr": "gcconstruction",
-      "engname": "GC CONSTRUCTION"
+      "name": "智盈科创",
+      "py": "zhiyingkechuang",
+      "abbr": "zykc",
+      "engname": "WISEWIN INNOTEC"
     },
     "hk01490": {
       "code": "01490",
@@ -17077,10 +22956,10 @@
       "code": "02369",
       "type": "港",
       "market": "hk",
-      "name": "酷派集团",
-      "py": "kupaijituan",
-      "abbr": "kpjt",
-      "engname": "COOLPAD GROUP"
+      "name": "酷派集团(五千)",
+      "py": "kupaijituan(wuqian)",
+      "abbr": "kpjt(wq)",
+      "engname": "COOLPAD GP-5K"
     },
     "hk02370": {
       "code": "02370",
@@ -19489,10 +25368,10 @@
       "code": "02899",
       "type": "港",
       "market": "hk",
-      "name": "紫金矿业",
-      "py": "zijinkuangye",
-      "abbr": "zjky",
-      "engname": "ZIJIN MINING"
+      "name": "紫金矿业(五百)",
+      "py": "zijinkuangye(wubai)",
+      "abbr": "zjky(wb)",
+      "engname": "ZIJIN MIN-500"
     },
     "hk02942": {
       "code": "02942",
@@ -19539,6 +25418,15 @@
       "abbr": "lsdnjtgq",
       "engname": "GREEN POWER RTS"
     },
+    "hk02951": {
+      "code": "02951",
+      "type": "港",
+      "market": "hk",
+      "name": "酷派集团(四千)",
+      "py": "kupaijituan(siqian)",
+      "abbr": "kpjt(sq)",
+      "engname": "COOLPAD GP-4K"
+    },
     "hk02952": {
       "code": "02952",
       "type": "港",
@@ -19565,6 +25453,33 @@
       "py": "huihuangmingtian",
       "abbr": "hhmt",
       "engname": "BRIGHT FUTURE"
+    },
+    "hk02957": {
+      "code": "02957",
+      "type": "港",
+      "market": "hk",
+      "name": "洛阳钼业(三千)",
+      "py": "luoyangmuye(sanqian)",
+      "abbr": "lymy(sq)",
+      "engname": "CMOC-3000"
+    },
+    "hk02958": {
+      "code": "02958",
+      "type": "港",
+      "market": "hk",
+      "name": "紫金矿业(二千)",
+      "py": "zijinkuangye(erqian)",
+      "abbr": "zjky(eq)",
+      "engname": "ZIJIN MIN-2K"
+    },
+    "hk02959": {
+      "code": "02959",
+      "type": "港",
+      "market": "hk",
+      "name": "权识国际",
+      "py": "quanshiguoji",
+      "abbr": "qsgj",
+      "engname": "AOM INT'L"
     },
     "hk02981": {
       "code": "02981",
@@ -21091,10 +27006,10 @@
       "code": "03993",
       "type": "港",
       "market": "hk",
-      "name": "洛阳钼业",
-      "py": "luoyangmuye",
-      "abbr": "lymy",
-      "engname": "CMOC"
+      "name": "洛阳钼业(五百)",
+      "py": "luoyangmuye(wubai)",
+      "abbr": "lymy(wb)",
+      "engname": "CMOC-500"
     },
     "hk03996": {
       "code": "03996",
@@ -22661,6 +28576,15 @@
       "py": "xinyukekonggu",
       "abbr": "xykkg",
       "engname": "SINO-ENTERTAIN"
+    },
+    "hk06935": {
+      "code": "06935",
+      "type": "港",
+      "market": "hk",
+      "name": "国星宇航",
+      "py": "guoxingyuhang",
+      "abbr": "gxyh",
+      "engname": "ADASPACE"
     },
     "hk06936": {
       "code": "06936",
@@ -25136,15 +31060,6 @@
       "py": "mimingshenghuobaihuo",
       "abbr": "mmshbh",
       "engname": "MI MING MART"
-    },
-    "hk08475": {
-      "code": "08475",
-      "type": "港",
-      "market": "hk",
-      "name": "易站绿色科技",
-      "py": "yizhanlvsekeji",
-      "abbr": "yzlskj",
-      "engname": "E-STATION GTECH"
     },
     "hk08480": {
       "code": "08480",
