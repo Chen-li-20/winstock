@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-11-17",
+  "last_update": "2026-11-18",
   "codes": {
     "sh605599": {
       "code": "605599",
@@ -661,9 +661,9 @@
       "code": "605100",
       "type": "沪",
       "market": "sh",
-      "name": "XD华丰股",
-      "py": "xdhuafenggu",
-      "abbr": "xdhfg"
+      "name": "华丰股份",
+      "py": "huafenggufen",
+      "abbr": "hfgf"
     },
     "sh605099": {
       "code": "605099",
@@ -677,9 +677,9 @@
       "code": "605098",
       "type": "沪",
       "market": "sh",
-      "name": "XD行动教",
-      "py": "xdxingdongjiao",
-      "abbr": "xdxdj"
+      "name": "行动教育",
+      "py": "xingdongjiaoyu",
+      "abbr": "xdjy"
     },
     "sh605090": {
       "code": "605090",
@@ -1949,9 +1949,9 @@
       "code": "603766",
       "type": "沪",
       "market": "sh",
-      "name": "XD隆鑫通",
-      "py": "xdlongxintong",
-      "abbr": "xdlxt"
+      "name": "隆鑫通用",
+      "py": "longxintongyong",
+      "abbr": "lxty"
     },
     "sh603759": {
       "code": "603759",
@@ -2749,9 +2749,9 @@
       "code": "603586",
       "type": "沪",
       "market": "sh",
-      "name": "金麒麟",
-      "py": "jinqilin",
-      "abbr": "jql"
+      "name": "XD金麒麟",
+      "py": "xdjinqilin",
+      "abbr": "xdjql"
     },
     "sh603585": {
       "code": "603585",
@@ -3365,9 +3365,9 @@
       "code": "603383",
       "type": "沪",
       "market": "sh",
-      "name": "XD顶点软",
-      "py": "xddingdianruan",
-      "abbr": "xdddr"
+      "name": "顶点软件",
+      "py": "dingdianruanjian",
+      "abbr": "ddrj"
     },
     "sh603382": {
       "code": "603382",
@@ -6605,9 +6605,9 @@
       "code": "601611",
       "type": "沪",
       "market": "sh",
-      "name": "中国核建",
-      "py": "zhongguohejian",
-      "abbr": "zghj"
+      "name": "XD中国核",
+      "py": "xdzhongguohe",
+      "abbr": "xdzgh"
     },
     "sh601609": {
       "code": "601609",
@@ -7037,9 +7037,9 @@
       "code": "601228",
       "type": "沪",
       "market": "sh",
-      "name": "广州港",
-      "py": "guangzhougang",
-      "abbr": "gzg"
+      "name": "XD广州港",
+      "py": "xdguangzhougang",
+      "abbr": "xdgzg"
     },
     "sh601226": {
       "code": "601226",
@@ -7461,9 +7461,9 @@
       "code": "601083",
       "type": "沪",
       "market": "sh",
-      "name": "锦江航运",
-      "py": "jinjianghangyun",
-      "abbr": "jjhy"
+      "name": "XD锦江航",
+      "py": "xdjinjianghang",
+      "abbr": "xdjjh"
     },
     "sh601077": {
       "code": "601077",
@@ -13909,9 +13909,9 @@
       "code": "600062",
       "type": "沪",
       "market": "sh",
-      "name": "XD华润双",
-      "py": "xdhuarunshuang",
-      "abbr": "xdhrs"
+      "name": "华润双鹤",
+      "py": "huarunshuanghe",
+      "abbr": "hrsh"
     },
     "sh600061": {
       "code": "600061",
@@ -18629,9 +18629,9 @@
       "code": "688150",
       "type": "科",
       "market": "sh",
-      "name": "XD莱特光",
-      "py": "xdlaiteguang",
-      "abbr": "xdltg"
+      "name": "莱特光电",
+      "py": "laiteguangdian",
+      "abbr": "ltgd"
     },
     "sh688148": {
       "code": "688148",
@@ -32985,6 +32985,14 @@
       "py": "honggongkeji",
       "abbr": "hgkj"
     },
+    "301661": {
+      "code": "301661",
+      "type": "创",
+      "market": "",
+      "name": "猎奇智能",
+      "py": "lieqizhineng",
+      "abbr": "lqzn"
+    },
     "301660": {
       "code": "301660",
       "type": "创",
@@ -46253,9 +46261,9 @@
       "code": "920309",
       "type": "京",
       "market": "bj",
-      "name": "N菊乐",
-      "py": "njule",
-      "abbr": "njl"
+      "name": "菊乐股份",
+      "py": "julegufen",
+      "abbr": "jlgf"
     },
     "bj920306": {
       "code": "920306",
@@ -48053,9 +48061,9 @@
       "code": "589450",
       "type": "基",
       "market": "sh",
-      "name": "N科创人工智能ETF兴业",
-      "py": "nkechuangrengongzhinengetfxingye",
-      "abbr": "nkcrgznetfxy"
+      "name": "科创人工智能ETF兴业",
+      "py": "kechuangrengongzhinengetfxingye",
+      "abbr": "kcrgznetfxy"
     },
     "sh589430": {
       "code": "589430",
@@ -50005,9 +50013,9 @@
       "code": "561870",
       "type": "基",
       "market": "sh",
-      "name": "现金流全指ETF华富",
-      "py": "xianjinliuquanzhietfhuafu",
-      "abbr": "xjlqzetfhf"
+      "name": "现金流ETF华富",
+      "py": "xianjinliuetfhuafu",
+      "abbr": "xjletfhf"
     },
     "sh561830": {
       "code": "561830",
@@ -64773,9 +64781,9 @@
       "code": "508099",
       "type": "基",
       "market": "sh",
-      "name": "建信中关村REIT",
-      "py": "jianxinzhongguancunreit",
-      "abbr": "jxzgcreit"
+      "name": "XD建信中关村REIT",
+      "py": "xdjianxinzhongguancunreit",
+      "abbr": "xdjxzgcreit"
     },
     "sh508098": {
       "code": "508098",
@@ -65069,9 +65077,9 @@
       "code": "508029",
       "type": "基",
       "market": "sh",
-      "name": "中信建投沈阳国际软件园REIT",
-      "py": "zhongxinjiantoushenyangguojiruanjianyuanreit",
-      "abbr": "zxjtsygjrjyreit"
+      "name": "XD中信建投沈阳国际软件园REIT",
+      "py": "xdzhongxinjiantoushenyangguojiruanjianyuanreit",
+      "abbr": "xdzxjtsygjrjyreit"
     },
     "sh508028": {
       "code": "508028",
@@ -93229,15 +93237,6 @@
       "abbr": "hhmtgq",
       "engname": "BRIGHT FUT RTS"
     },
-    "hk02955": {
-      "code": "02955",
-      "type": "港",
-      "market": "hk",
-      "name": "金浔资源(二百)",
-      "py": "jinxunziyuan(erbai)",
-      "abbr": "jxzy(eb)",
-      "engname": "JINXUN RES-200"
-    },
     "hk02956": {
       "code": "02956",
       "type": "港",
@@ -93917,10 +93916,10 @@
       "code": "03636",
       "type": "港",
       "market": "hk",
-      "name": "金浔资源(五百)",
-      "py": "jinxunziyuan(wubai)",
-      "abbr": "jxzy(wb)",
-      "engname": "JINXUN RES-500"
+      "name": "金浔资源",
+      "py": "jinxunziyuan",
+      "abbr": "jxzy",
+      "engname": "JINXUN RESOURCE"
     },
     "hk03638": {
       "code": "03638",
@@ -97661,10 +97660,10 @@
       "code": "08206",
       "type": "港",
       "market": "hk",
-      "name": "神通机器人(新)",
-      "py": "shentongjiqiren(xin)",
-      "abbr": "stjqr(x)",
-      "engname": "S ROBOT EDU-NEW"
+      "name": "神通机器人教育",
+      "py": "shentongjiqirenjiaoyu",
+      "abbr": "stjqrjy",
+      "engname": "S ROBOT EDU"
     },
     "hk08208": {
       "code": "08208",
@@ -99159,15 +99158,6 @@
       "py": "xinhualianhetouzi-jiu",
       "abbr": "xhlhtz-j",
       "engname": "CU VENTURE-OLD"
-    },
-    "hk08556": {
-      "code": "08556",
-      "type": "港",
-      "market": "hk",
-      "name": "神通机器人(旧)",
-      "py": "shentongjiqiren(jiu)",
-      "abbr": "stjqr(j)",
-      "engname": "S ROBOT EDU-OLD"
     },
     "hk08557": {
       "code": "08557",
